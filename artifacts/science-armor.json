@@ -1,0 +1,117 @@
+[
+  {
+    "id": "860547231722242048",
+    "author": "iDexy",
+    "sourceText": "🦾  ***__Armour__***  🦾 \n\n**Author:** `LoCr and iDexy`\n**Translator:** `Zivkovic`\n**Writer:** `iDexy`\n\nIn this channel we will explain you how armour works and some interesting facts about it\n\n***Category 1:*** 📖 `Basic things` 📖 \n\n`-` You can see an armour bar with `10` pieces of armour, `1` piece ≙ `2` points of armour so you can have a max of `20` armour defense points\n\n`-` Each armour point reduces the dmg taken by `4%`\n\n`-` Different kinds of armour (turtle helmet,leather, gold, chain, iron, diamond and netherite) give a different amount of armour defense points (diamond have toughness points and netherite have toughness and kb resistance points too)\n\n`-` They protect against all kinds of dmg excluding fire dmg, hunger dmg fall dmg, void dmg, drown dmg and magic dmg (all the effects like poison and harming)\n\n`-` A carved pumpkin can be worn in the helmet slot. It partially blocks the player's vision, but prevents enderman from becoming aggressive when the player looks at them\n\n`-` Certain items provide beneficial effects when worn, but provide no protection against damage\n\n`-` Mob heads can be worn in the helmet slot. They cut a player's detection range by `50%` for the corresponding mob type ‌a bonus that stacks with potions of Invisibility and sneaking\n\n`-` Elytra are worn in the chestplate slot, allowing the wearer to glide through the air\n."
+  },
+  {
+    "id": "860547234512633876",
+    "author": "iDexy",
+    "sourceText": "***Category 2*:** 🔢 `Defense Points` 🔢\n\nThe player current protection level is represented visually by the armour bar and the armour meter is affected by the particular pieces that are worn as well as the tier of the armour. The following table shows the number of defense points added by each individual piece of armour and the total full set points of armour for each material:\n\n**Defense Table:**"
+  },
+  {
+    "id": "860547238006882304",
+    "author": "iDexy",
+    "sourceText": ".\n🗒️ **__Table Notes__** 🗒️ \n\n`-` Different combinations of armour provide different levels of defense\n\n`-` The turtle helmet also gives you the water breathing effect for `10 seconds`\n\n`-` The netherite and diamond set have the same amount of defense points but netherite has special properties, which you will see in posteriors categories\n\n`-` If you wanna know how many full pieces of the armour bar a set gives, just divide the armour points by `2`\n\n📝 **__Example__** 📝 \n\n> Diamond armour has `20` points, if u divide it by `2`, you will get `10`, so `10` armour bar pieces"
+  },
+  {
+    "id": "860547239457062912",
+    "author": "iDexy",
+    "sourceText": "***Category 3:*** 🔨 `Armour Damage Types` 🔨 \n\nThe following types of damage are reduced by armour and, consequently, damage the armour itself:\n\n`-` Direct (melee) attacks from mobs and players. This includes the Strength and the Weakness effects and damage-increasing enchantments)\n`-` Getting hit with an arrow, a shulker bullet or a thrown trident. This includes extra damage from enchantments (except shulker bullets)\n`-` Getting hit with a fireball from a ghast or blaze, or a fire charge\n`-` Laser beam of a guardian or an elder guardian\n`-` Damage from Thorns enchantment, or spikes of guardians and elder guardians\n`-` Touching a damaging block (fire, lava, magma block, cactus or sweet berry bush)\n`-` Touching a puffer fish\n`-` Explosions\n`-` Fireworks with at least a firework star in the recipe\n`-` Lightning\n`-` Getting hit with a falling anvil\n`-` Getting hit with a snowball from a player or snow golem\n`-` Getting hit with a egg from a player‌\n\nThe following types of damage are not reduced by armour and have no effect on the armour itself:\n\n`-` Fall damage (including ender pearls, but Protection and Feather Falling enchantments reduce it)\nOngoing damage from being on fire\n`-` Suffocating inside a block or due to entity cramming (also includes the world border)\n`-` Drowning in water (partially for turtle shells)\n`-` Starvation\n`-` Colliding with a block while flying with elytra\n`-` Magic (Evoker fangs, status effects and instant damage from a potion of Harming or Dragon's Breath) (but Protection does reduce magical damage‌)\n`-` Falling into the void or `/kill` command\n."
+  },
+  {
+    "id": "860547243807342602",
+    "author": "iDexy",
+    "sourceText": "***Category 4:*** 🗡️ `Armour Penetration` 🗡️ \n\nEvery incoming hp dmg reduces the armour protection by `2%`, this means that stronger attacks have the ability to ignore some of the % protection of the armour\n\n📝 **__Example__** 📝\n\n> **Player A** has `10` armour points (that means `40%` dmg reduction, `4%` dmg reduced per points -> `4%*10=40%`), and **Player B** attacks him with a sharpness 5 diamond sword (`10` hp dmg)\n> Due to the armour penetration, `20%` (`10` hp incoming dmg * `2%` armour protection reduced) of the armour dmg reduction will be ignored and only `20%` ( originally `40%`) of the incoming dmg will be negated. That means from the `10` damage, __`8` damage will be dealt__\n\n**Look the example while you see the giphy:**"
+  },
+  {
+    "id": "860547246465482772",
+    "author": "iDexy",
+    "sourceText": ".\n(**<#861265185742651432> Category 4** to know the impact about this in the decision of armours)\n\n📜 **__Special Rule__** 📜 \n\n`-` To prevent very high dmg from ignoring armour completely, each armour point reduces a minimum of `0,8%` dmg, no matter how high the incoming dmg is. That means if we add this to our example, `10` armor points have a minimum of `8%` dmg reduction\n\n***Category 5:*** 💿 `Armour Toughness` 💿 \n\nArmour toughness is a special attribute for diamond and netherite armour. It reduces the amount that the armour gets ignored by armour penetration. By default, only diamond and netherite armor provide toughness, with each piece granting `+2` toughness for diamond and `+3` for netherite\n\n📝 **__Example__** 📝 \n\n> A full set of diamond which gives `8` armour toughness results in the armour getting ignored by only `1%` for each incoming hp dmg (usually `2%`). A **full netherite set with 12 armour toughness reduces it to 0,8% less, protection per damage point**\n> The formula to calculate how much % the armour penetration with armour toughness surpasses is: `16/(armour toughness + 8)`\n\n**Toughness Table:**"
+  },
+  {
+    "id": "860547275243257917",
+    "author": "iDexy",
+    "sourceText": ".\n(**<#861265185742651432> Category 5 and 6** to know more things about this)\n\n***Category 6:*** 🛡️ `Knockback Resistance (exclusive netherite set)` 🛡️ \n \n`1.` **Against Sprint hits and any hits with knockback enchanted swords:**\n\n`-` Each level reduces the horizontal knockback taken by `10%`. So full netherite, which has **4 knockback** reduction points, reduces your knockback by `40%`\n\n`-` The vertical knockback isn't affected.\n\n`2.` **Against crits, picks, sweephits, and normal hits without knockback enchanted swords, unenchnated bows, and bows with punch:**\n\n`-` Each level greatly reduces the horizontal and vertical knockback per knockback reduction point.\nFor example a full netherite set (**4 knockback** reduction Points) reduces the horizontal knockback by `73%` and the vertical knockback by `63%`.)\n\n⚠️ **__Warning__** ⚠️ \n\n**Theres no simple rule for how this works, so if you want a better look at how the knockback is affected (vertical and horizontal) take a look at <#846818310200754266> channel. All situations are covered there**\n\n`3.` **In both scenarios:**\n\n`-` You have a `10%` chance per point in both categories that you recieve no knockback\n."
+  },
+  {
+    "id": "860547276858458162",
+    "author": "iDexy",
+    "sourceText": "***Category 7:*** 📚 `Armour Enchants` 📚 \n\n`-` There are `15` different enchantments your armour pieces can have in __1.16.5.__ We can split them into 2 types: Normal Enchantments (`10`) and Protection Enchantments (`5`)\n\n**__Normal Enchantments__**\n\n`1.` **Unbreaking** - The unbreaking enchant reduces the chance of losing durability, the result of it is this:\n\n-> With unenchanted armour: `100%` chance you lose durability\n-> With unbreaking 1: `80%` chance you lose durability\n-> With unbreaking 2: `73%` chance you lose durability\n-> With unbreaking 3: `70%` chance you lose durability\n\n`2.` **Thorns** - With the Thorn enchantment, attackers get damaged by `1-4` hp when they attack you in melee or ranged combat. Each level of this enchantment increases the chance to deal damage by `15%`.\n\n❗ **__IMPORTANT__** ❗ \n\n`-` When the thorns damages the attacker, you lose `2` durability points from one of your armour pieces with the thorns enchantment"
+  },
+  {
+    "id": "860547281102176256",
+    "author": "iDexy",
+    "sourceText": ".\n`3.` **Frost Walker** - When walking over water, the water will be transformed to ice. It also makes you immune to damage from campfires and magma blocks. This enchantment is __only available for boots.__"
+  },
+  {
+    "id": "860547284021149706",
+    "author": "iDexy",
+    "sourceText": ".\n`4.` **Depth Strider** - A boot enchantment that increases underwater movement speed. Each level reduces the amount water slows the player by `⅓`, Including reducing the speed at which flowing water pushes the player when standing still. Frost walker and depth strider are mutually exclusive"
+  },
+  {
+    "id": "860547286525542410",
+    "author": "iDexy",
+    "sourceText": ".\n`5.` **Soul Speed** - An enchantment for boots which increases the walking speed on soul sand or soul soil, but damages the boots overtime. `It has 3 lvls:`\n\n-> Soul Speed 1: `40.5%` speed increase\n-> Soul Speed 2: `51%` speed increase\n-> Soul Speed 3: `61.5%` speed increase"
+  },
+  {
+    "id": "860547316943552532",
+    "author": "iDexy",
+    "sourceText": ".\n`6.` **Mending** - Is an enchantment that restores durability of an item using experience\n\n`7.` **Respiration** - Extends the underwater breathing time by `15 seconds` for each lvl, and also grants a chance of not taking drowning damage each second. __This enchantment is for helmets only.__"
+  },
+  {
+    "id": "860547318923001906",
+    "author": "iDexy",
+    "sourceText": ".\n`8.` **Aqua Affinity** - Removes the underwater mining debuff. __This enchantment is for helmets only.__"
+  },
+  {
+    "id": "860547325850812426",
+    "author": "iDexy",
+    "sourceText": ".\n**If you wanna know the max levels of each enchant, you can take a look at the table of below:**"
+  },
+  {
+    "id": "860547328061472768",
+    "author": "iDexy",
+    "sourceText": ".\n**If you wanna know the enchantability chance of each material, you can take a look at the table of below:**"
+  },
+  {
+    "id": "860547330141585438",
+    "author": "iDexy",
+    "sourceText": ".\n❗ **__IMPORTANT__** ❗ \n\n- There are `2` Curses that your armour can have:\n\n`1.` **Curse of Binding** - Is an enchantment that prevents removal of a cursed item from its armor slot\n\n`2.` **Curse of Vanishing** - Is an enchantment that causes the item to disappear on death\n\n**__Protection Echantments__**\n\n**Basic things:**\n\n`-` There are `5` different kinds of main protection enchantments (protection, fire protection, blast protection, projectile protection and feather falling)\n\n`-` Protection is against every kind of dmg (expect void dmg and hunger dmg) fire-,blast- and projectile protection are specific against certain kinds of dmg\n\n`-` Each level of **Protection** gives `4%` reduction of dmg. For example, one piece of protection `4` gives `16%` reduction\n\n`-` Each level of  **Projectile protection, Blast protection, or Fire protection** gives `8%` reduction against the dmg it works against\n\n`-` Each level of feather falling gives `12%` reduction against fall dmg\n\n`-` The amount of damage reduction depends on the Enchantment Protection Factor (EPF) provided by that enchantment\n."
+  },
+  {
+    "id": "860547330893414411",
+    "author": "iDexy",
+    "sourceText": "📝 **__Example__** 📝 \n\n> A complete protection 1 set gives a reduction of `16%` (`4%*4`). Two pieces of protection 2 and two pieces prot 1 together give 6 levels of protection, so it gives `24%` reduction\n> \n> You can have a max of `80%` reduction with the enchantments for a specific kind of dmg.__ Anything above is not counted. __if you give (with commands) yourself a protection 100 helmet, from these 100 prot points only 20 will work ≙ `80%` reduction\n> \n> Also, a **full blast protection 4 armor isn't efficient**, because 4 pieces of blast protection would give you `32 protection points` against blast dmg, but __because of the rule i wrote before, only a max of 20 will work, so 12 protection points will be ignored__\n\n❗ **__IMPORTANT__** ❗ \n\n`-` Feather falling is only available for boots\n`-` All protection enchantments except feather falling are mutually exclusive\n`-` Fire protection reduces the burn time\n`-` Blast protection reduces the knockback which is taken from explosions\n`-` When your armour is on its last durability point and you take a hit, the protection enchantments on the armour aren't counted, only the normal armour points work\n`-` The higher a material's enchantability, the greater the chances of getting multiple and high-level enchantments\n\n**If you wanna know the enchantment protection factor, you can take a look at the table of below:**"
+  },
+  {
+    "id": "860547360879149076",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 8:*** 💎 `Armour Durability` 💎 \n\n**Basic things:**\n\n`-` For every `4(♡♡)` damage dealt to the player, armour loses `1` durability point, rounded down, but every hit does at least `1` point of durability damage. With `12` dmg taken, `3` durability points will be lost. When you take `7` hp dmg, the armour will lose `1` durability point because you didn't take the `8` hp dmg needed to lose `2` points. However, you always lose at least `1` durability, no matter how low the damage is. This means even if you take less than `4` hp dmg, you will always lose `1` dura  point\n\n`-` Netherite armour doesnt lose durability from lava or fire damage\n\nThe following table displays how many hits each piece of armour can endure\n\n**Durability Table:**"
+  },
+  {
+    "id": "860547364297244684",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 9:*** 🧱 `Resistance Effect` 🧱 \n\nEvery level of the resistance effect will give a dmg reduction of `20%`. With resistance 5 you will receive a reduction of `100%`, so a higher resistance level is not necessary\n\n❓ **__IMPORTANT QUESTION__** ❓ \n\n*How do normal armour, protection enchantments, and the resistance effect work together?*\n\n`-` Basically, all 3 of them are calculated on their own. So if your armour protects you `40%`, the resistance `40%`, and your enchantments `40%`, **that does not mean you have an overall reduction of 120%.** To get the overall protection you need to multiply the incoming dmg of the specific parts, that means when `40%` is reduced `60%` dmg is taken. So you need to calculate:\n\n> `60%x60%x60%=21.6% incommig dmg which means your protection overall is 78.4%`\n\n**Don't forget to take armour penetration and armour toughness into account**\n."
+  },
+  {
+    "id": "860547365635227688",
+    "author": "iDexy",
+    "sourceText": "***Category 10:*** 💡 `Armour Tips` 💡\n\nHere you can see some tips about armour that can help you in some decisions and games:\n\n`-` The best way to be protected against a specific kind of dmg is to have 3 pieces of protection 4 and one piece with the specific protection enchantment\n\n`-` If your sword doesn’t have the knockback enchant and you want to deal vertical kb to netherite wearers so you can crystal them, you can only do it with sprint hits. Vertical kb from normal hits is reduced too much by the armour\n\n`-` Damage dealt by effects completely bypasses armour, making it a good way to deal with highly-armoured targets\n."
+  },
+  {
+    "id": "860547366607519784",
+    "author": "iDexy",
+    "sourceText": "`-` On cubecraft the critical hits are weaker because the armour penetration is disabled\n\n`-` Get protection enchantments on your armour to protect you from high dmg to compensate for armour penetration (normal armour can be bypassed with it, protection enchantments can't be reduced threw armour penetration)\n\n`-` Thorns is a pretty bad enchantment, as it makes your armour lose more durability when it gets activated\n\n`-` Carry xp bottles with you to repair mending armour\n\n`-` Netherite armour is useful for attacking, but for running, it can become deadly to you since hits wont knock you forward as much so the enemy can easily crit you out\n\n`-` If you are in a vanilla fight, check your armour durability from time to time so you can know what it’s at and if you need to repair it\n\n`-` Try to get unbreaking, protection, and mending on your armour since they are the best and most important armour enchants. The kind of protection depends on the situation\n\n`-` If you have 2 pieces of armour of the same material and type that are low on durability, try using a grindstone or anvil to repair it. Keep in mind a grindstone will also clear the items of their enchantments. The durability of the two armour pieces is added together, plus an extra `5%` (You can also use an anvil to keep and combine the enchantments on the items)\n\n`-` You can upgrade diamond to netherite at a smithing table, so you dont need  24 ingots to make the complete set\n."
+  },
+  {
+    "id": "860547368960131093",
+    "author": "iDexy",
+    "sourceText": "`-` Piglins are normally aggressive but if you wear a piece of gold armour they will be neutral instead\n\n`-` If you dont have frost walker and you need to walk on magma blocks, you can sneak so you don’t take damage\n\n`-` Max height you can fall with 20 EPF against fall damage is 103 blocks. In combination with resistance effects, you can survive even bigger falls\n\n`-` One enchanted armour piece is enough to gain the positive effect like burning time reduction from fire protection. For blast protection enchantments that should also work to reduce the explosion knockback but it doesn’t because of a rounding error\n\n`-` Leather boots make you immune to freezing damage"
+  },
+  {
+    "id": "950392588890943548",
+    "author": "iDexy",
+    "sourceText": "If you wanna read a specific point of this channel, remember go to <#842456527922790400> , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before if you lost it"
+  }
+]

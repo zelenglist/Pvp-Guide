@@ -1,0 +1,32 @@
+[
+  {
+    "id": "892162298427367494",
+    "author": "iDexy",
+    "sourceText": "🪲 ***__PvP Bugs__*** 🪲\n\n**Author:** `LoCr`\n**Translator:** `Zivkovic`\n**Writer:** `iDexy`\n\nIn this channel we will take a look at a few PvP related bugs in `1.9+`. even though some of them are already fixed they are still part of the new combat system so we decided to mention them\n\n***Category 1:*** 📙 `Enchantment Copying` 📙 \n\n**Affected Versions:** `1.0-1.17.1`\n\nThis bug allows you to use combat enchantments like knockback, fire aspect and sharpness to copy from one item to another item in your inventory for the next hit you do. Hit types which are exclusive for a special item can also be copied with this method\n\n📝 **__Example__** 📝 \n\n> You have a diamond sword with sharpness 5 and an unenchanted diamond axe. With this bug you can get the sharpness 5 on the diamond axe for the next hit. All you need to do is charge your axe and then switch in under 50ms (1 tick) to the sword and hit. The weapon damage will be calculated from the axe while the enchantments and the hit-type of the sword will be taken. So you deal the damage of a diamond axe with sharpness 5\n\nThis can be done with any item which can do a melee attack. So you can copy  knockback and fire aspect to axes even though this enchantment is exclusive for swords. You can also copy the axe ability to disable shields to swords, or the sweephit attack from the sword to the axe.\n\n**Durability counting:** \n\nThe durability points of the enchanted item will be removed so you can theoretically have an infinite amount of usages for the item, which can be used in some kit 1vs1 scenarios where some players think its funny to add weapons with just 1 durability point"
+  },
+  {
+    "id": "892162302835589120",
+    "author": "iDexy",
+    "sourceText": ".\n.\nThe enchantment copying bug is a problem for the armour breaker techniques described in <#842456718452719676> because when you want to reset your cooldown it resets the weapon damage delayed. So you always need to start this technique with a slot or item which deals only 1 hp damage and also without using enchantments. This is also the reason why you need a weapon which deals `5 hp (2.5 hearts)` or more to deal higher amounts damage with pickhits\n\n***Category 2:*** 🛡️ `Shield No Slowdown Bug` 🛡️ \n\nThere are `2` different shield no slowdown bugs, one of them was already fixed:\n\n***Blocking in front of an block to open***\n\n**Affected Versions:** `1.9-1.13.2`\n\nThis bug allows you to move fast while blocking and even to hit while your shield is up. To do it you need to block while looking at a block which can be opened (like crafting table) while something is hitting your shield. When the hit happens, the block will be opened and then press esc to move out. After this you can move around while your shield blocks attacks and you can even hit while your shield is still blocking. To disable this, press right click or someone needs to hit you with an axe"
+  },
+  {
+    "id": "892162307839393842",
+    "author": "iDexy",
+    "sourceText": ".\n***Blocking while running into the nether portal (added after the suggestion of <@!497882667879104542>)***\n\n**Affected Versions:** `1.10-1.17.1`\n\nThis bug allows you to move fast while blocking and even to hit while your shield is up. To do it you need to block while you moving into a nether portal. When your on the other side stop right clicking. You can move now around while your shield blocks attacks and you can even hit while your shield is still blocking. To disable this, press right click or someone needs to hit you with an axe"
+  },
+  {
+    "id": "892162312457310239",
+    "author": "iDexy",
+    "sourceText": ".\n❗ **__IMPORTANT__** ❗ \n\n`-` Because this bug is also possible with an illegal client you may get banned on the server where you use it. Also some anticheats for example on cubecraft will block your sword hits while doing it but you can still run around while blocking\n\n***Category 3:*** 🔫 `Aim Log Bug` 🔫 \n\n**Affected Versions:** `1.8-1.10.2`\n\nThis bug makes it so your real aim lags behind your crosshair. Its one of the reasons why many players hated `1.8` at the beginning and also why you shouldn't play with the versions `1.9-1.10.2` on servers\n\nBecause of the lag its much harder to aim and hit where you want\n\nThis bug is fixed in `1.8` clients like badlion and labymod so keep in mind when you play on vanilla you're at a disadvantage in the versions affected by this bug"
+  },
+  {
+    "id": "892162316987158598",
+    "author": "iDexy",
+    "sourceText": ".\nYou can see in this gif that the blocks will be surrounded delayed by a edge because of this bug\n\n***Category 4:*** ⛰️ `Sneak No Knockback Bug ` ⛰️ \n\n**Affected Versions:** `1.16-1.17.1`\n\nThis bug makes you take no knockback when you're sneaking on the edge of a block and your opponent is using sprinthits or a knockback enchanted sword against you. To counter it, just use crits, pick, or normal hits"
+  },
+  {
+    "id": "950142669491945542",
+    "author": "iDexy",
+    "sourceText": "If you wanna read a specific point of this channel, remember go to <#842456527922790400> , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before if you lost it"
+  }
+]

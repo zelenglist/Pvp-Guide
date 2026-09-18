@@ -1,0 +1,579 @@
+<!DOCTYPE html><html lang=en><head><title>[1.9+] PvP Guide - ✨┃effects</title><meta charset=utf-8><meta name=viewport content="width=device-width"><style>@font-face{src:url("assets/ggsans-normal-400-1456df5fd8a3372f.woff2");font-family:gg sans;font-weight:400;font-style:normal}@font-face{src:url("assets/ggsans-normal-500-89ce58cbe388d3f5.woff2");font-family:gg sans;font-weight:500;font-style:normal}@font-face{src:url("assets/ggsans-normal-600-c1ea83da37abfcb9.woff2");font-family:gg sans;font-weight:600;font-style:normal}@font-face{src:url("assets/ggsans-normal-700-1949a9489b28ae57.woff2");font-family:gg sans;font-weight:700;font-style:normal}@font-face{src:url("assets/ggsans-normal-800-58487ffb1afc539a.woff2");font-family:gg sans;font-weight:800;font-style:normal}@font-face{src:url("assets/ggsans-italic-400-e988be842e0752f2.woff2");font-family:gg sans;font-weight:400;font-style:italic}@font-face{src:url("assets/ggsans-italic-500-0777f2e76015ec7c.woff2");font-family:gg sans;font-weight:500;font-style:italic}@font-face{src:url("assets/ggsans-italic-600-cb411d58f5f0de09.woff2");font-family:gg sans;font-weight:600;font-style:italic}@font-face{src:url("assets/ggsans-italic-700-891acd90564bed54.woff2");font-family:gg sans;font-weight:700;font-style:italic}@font-face{src:url("assets/ggsans-italic-800-d36b02b92651d18d.woff2");font-family:gg sans;font-weight:800;font-style:italic}html,body{margin:0;padding:0;background-color:#36393e;color:#dcddde;font-family:"gg sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:17px;font-weight:400;scroll-behavior:smooth}a{color:#00aff4;text-decoration:none}a:hover{text-decoration:underline}img{object-fit:contain;image-rendering:high-quality;image-rendering:-webkit-optimize-contrast}.preamble{display:grid;grid-template-columns:auto 1fr;max-width:100%;padding:1rem}.preamble__guild-icon-container{grid-column:1}.preamble__guild-icon{max-width:88px;max-height:88px}.preamble__entries-container{grid-column:2;margin-left:1rem}.preamble__entry{margin-bottom:0.15rem;color:#ffffff;font-size:1.4rem}.preamble__entry--small{font-size:1rem}.chatlog{padding:1rem 0;width:100%;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1)}.chatlog__message-group{margin-bottom:1rem}.chatlog__message-container{background-color:transparent;transition:background-color 1s ease}.chatlog__message-container--highlighted{background-color:rgba(114,137,218,0.2)}.chatlog__message-container--pinned{background-color:rgba(249,168,37,0.05)}.chatlog__message{display:grid;grid-template-columns:auto 1fr;padding:0.15rem 0;direction:ltr;unicode-bidi:bidi-override}.chatlog__message:hover{background-color:#32353b}.chatlog__message:hover .chatlog__short-timestamp{display:block}.chatlog__message-aside{grid-column:1;width:72px;padding:0.15rem 0.15rem 0 0.15rem;text-align:center}.chatlog__reply-symbol{height:10px;margin:6px 4px 4px 36px;border-left:2px solid #4f545c;border-top:2px solid #4f545c;border-radius:8px 0 0 0}.chatlog__avatar{width:40px;height:40px;border-radius:50%}.chatlog__short-timestamp{display:none;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__message-primary{grid-column:2;min-width:0}.chatlog__reply{display:flex;margin-bottom:0.15rem;align-items:center;color:#b5b6b8;font-size:0.875rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chatlog__reply-avatar{width:16px;height:16px;margin-right:0.25rem;border-radius:50%}.chatlog__reply-author{margin-right:0.3rem;font-weight:600}.chatlog__reply-content{overflow:hidden;text-overflow:ellipsis}.chatlog__reply-link{cursor:pointer}.chatlog__reply-link *{display:inline;pointer-events:none}.chatlog__reply-link .chatlog__markdown-quote{display:inline}.chatlog__reply-link .chatlog__markdown-pre{display:inline}.chatlog__reply-link:hover{color:#ffffff}.chatlog__reply-link:hover *:not(.chatlog__markdown-spoiler){color:inherit}.chatlog__reply-edited-timestamp{margin-left:0.25rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__forwarded{display:flex;flex-direction:column;margin-bottom:0.15rem;padding:0.5rem;border-left:4px solid #4f545c;border-radius:4px;background-color:rgba(46,48,54,0.3)}.chatlog__forwarded-header{display:flex;align-items:center;margin-bottom:0.25rem;color:#b5b6b8;font-size:0.75rem;font-weight:600}.chatlog__forwarded-icon{width:16px;height:16px;margin-right:0.25rem}.chatlog__forwarded-content{color:#dcddde;font-size:0.95rem}.chatlog__forwarded-attachments{margin-top:0.3rem}.chatlog__forwarded-attachment{max-width:300px;max-height:200px;border-radius:3px}.chatlog__forwarded-timestamp{margin-top:0.25rem;color:#a3a6aa;font-size:0.75rem}.chatlog__system-notification-icon{width:18px;height:18px}.chatlog__system-notification-author{font-weight:500;color:#ffffff}.chatlog__system-notification-content{color:#96989d}.chatlog__system-notification-link{font-weight:500;color:#ffffff}.chatlog__system-notification-timestamp{margin-left:0.3rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__system-notification-timestamp a{color:inherit}.chatlog__header{margin-bottom:0.1rem}.chatlog__author{font-weight:500;color:#ffffff}.chatlog__author-tag{position:relative;top:-0.1rem;margin-left:0.3rem;padding:0.05rem 0.3rem;border-radius:3px;background-color:#5865F2;color:#ffffff;font-size:0.625rem;font-weight:500;line-height:1.3}.chatlog__timestamp{margin-left:0.3rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__timestamp a{color:inherit}.chatlog__content{padding-right:1rem;font-size:0.95rem;word-wrap:break-word}.chatlog__edited-timestamp{margin-left:0.15rem;color:#a3a6aa;font-size:0.75rem;font-weight:500}.chatlog__poll{box-sizing:border-box;width:100%;max-width:32rem;margin-top:0.35rem}.chatlog__poll-question{margin-bottom:0.6rem;color:#f2f3f5;font-size:1rem;font-weight:600;word-wrap:break-word}.chatlog__poll-answers{display:flex;flex-direction:column;gap:0.4rem}.chatlog__poll-answer{display:flex;position:relative;align-items:center;justify-content:space-between;min-height:2.25rem;padding:0.35rem 0.65rem;border:1px solid #4e5058;border-radius:0.5rem;background-color:#2b2d31;color:#dbdee1;overflow:hidden}.chatlog__poll-answer::before{position:absolute;inset:0 auto 0 0;width:var(--poll-answer-fill,0%);background-color:#3a3c42;content:""}.chatlog__poll-answer--winning{border-color:#23a559}.chatlog__poll-answer--winning::before{background-color:#2f5142}.chatlog__poll-answer--selected{border-color:#5865f2}.chatlog__poll-answer--selected::before{background-color:#3c4164}.chatlog__poll-answer-content{display:flex;position:relative;z-index:1;align-items:center;min-width:0}.chatlog__poll-answer-details{display:flex;position:relative;z-index:1;align-items:center;gap:0.5rem;margin-left:0.75rem}.chatlog__poll-answer-selected{display:inline-flex;align-items:center;justify-content:center;width:1.25rem;height:1.25rem;border-radius:50%;background-color:#f2f3f5;color:#313338;font-size:0.75rem;font-weight:700}.chatlog__poll-answer-emoji{width:1.25rem;height:1.25rem;margin-right:0.45rem;object-fit:contain}.chatlog__poll-answer-text{overflow-wrap:anywhere}.chatlog__poll-answer-count,.chatlog__poll-answer-percentage{color:#b5bac1;font-size:0.8rem;font-weight:600;white-space:nowrap}.chatlog__poll-answer-percentage{color:#f2f3f5;font-size:0.9rem}.chatlog__poll-footer{display:flex;flex-wrap:wrap;margin-top:0.45rem;color:#b5bac1;font-size:0.75rem}.chatlog__poll-footer-item + .chatlog__poll-footer-item::before{margin:0 0.35rem;content:"•"}.chatlog__poll-accessible-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;border:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.chatlog__poll-result{display:flex;box-sizing:border-box;align-items:center;justify-content:space-between;width:100%;max-width:25rem;min-height:3.5rem;margin-top:0.45rem;padding:0.45rem;border:1px solid #3f4147;border-radius:0.5rem;background-color:#2b2d31}.chatlog__poll-result-answer{display:flex;align-items:center;min-width:0}.chatlog__poll-result-emoji-container{display:flex;flex-shrink:0;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;margin-right:0.55rem;border-radius:0.4rem;background-color:#383a40}.chatlog__poll-result-emoji{width:1.65rem;height:1.65rem}.chatlog__poll-result-answer-info{min-width:0}.chatlog__poll-result-answer-text{color:#f2f3f5;font-size:0.9rem;font-weight:600;overflow-wrap:anywhere}.chatlog__poll-result-winner{display:inline-flex;align-items:center;justify-content:center;width:0.9rem;height:0.9rem;margin-left:0.15rem;border-radius:50%;background-color:#23a559;color:#ffffff;font-size:0.65rem;vertical-align:0.05rem}.chatlog__poll-result-answer-details{margin-top:0.1rem;color:#b5bac1;font-size:0.75rem}.chatlog__poll-result-button{flex-shrink:0;margin-left:0.75rem;padding:0.55rem 0.75rem;border-radius:0.25rem;background-color:#4e5058;color:#ffffff;font-size:0.8rem;font-weight:500}.chatlog__poll-result-button:hover{background-color:#6d6f78;text-decoration:none}.chatlog__attachment{position:relative;width:fit-content;margin-top:0.3rem;border-radius:3px;overflow:hidden}.chatlog__attachment--hidden{cursor:pointer;box-shadow:0 0 1px 1px rgba(0,0,0,0.1)}.chatlog__attachment--hidden *{pointer-events:none}.chatlog__attachment-spoiler-caption{display:none;position:absolute;left:50%;top:50%;z-index:999;padding:0.4rem 0.8rem;border-radius:20px;transform:translate(-50%,-50%);background-color:rgba(0,0,0,0.9);color:#dcddde;font-size:0.9rem;font-weight:600;letter-spacing:0.05rem}.chatlog__attachment--hidden .chatlog__attachment-spoiler-caption{display:block}.chatlog__attachment--hidden:hover .chatlog__attachment-spoiler-caption{color:#fff}.chatlog__attachment-media{max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__attachment--hidden .chatlog__attachment-media{filter:blur(44px)}.chatlog__attachment-generic{max-width:520px;width:100%;height:40px;padding:10px;border:1px solid #292b2f;border-radius:3px;background-color:#2f3136;overflow:hidden}.chatlog__attachment--hidden .chatlog__attachment-generic{filter:blur(44px)}.chatlog__attachment-generic-icon{float:left;width:30px;height:100%;margin-right:10px}.chatlog__attachment-generic-size{color:#72767d;font-size:12px}.chatlog__attachment-generic-name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.chatlog__embed{display:flex;margin-top:0.3rem;max-width:520px}.chatlog__embed-color-pill{flex-shrink:0;width:0.25rem;border-top-left-radius:3px;border-bottom-left-radius:3px}.chatlog__embed-color-pill--default{background-color:#202225}.chatlog__embed-content-container{display:flex;flex-direction:column;padding:0.5rem 0.6rem;border:1px solid rgba(46,48,54,0.6);border-top-right-radius:3px;border-bottom-right-radius:3px;background-color:rgba(46,48,54,0.3)}.chatlog__embed-content{display:flex;width:100%}.chatlog__embed-text{flex:1}.chatlog__embed-author-container{display:flex;margin-bottom:0.5rem;align-items:center}.chatlog__embed-author-icon{width:20px;height:20px;margin-right:0.5rem;border-radius:50%}.chatlog__embed-author{color:#ffffff;font-size:0.875rem;font-weight:600;direction:ltr;unicode-bidi:bidi-override}.chatlog__embed-author-link{color:#ffffff}.chatlog__embed-title{margin-bottom:0.5rem;color:#ffffff;font-size:0.875rem;font-weight:600}.chatlog__embed-description{color:#dcddde;font-weight:500;font-size:0.85rem}.chatlog__embed-fields{display:flex;flex-wrap:wrap;gap:0 0.5rem}.chatlog__embed-field{flex:0;min-width:100%;max-width:506px;padding-top:0.6rem;font-size:0.875rem}.chatlog__embed-field--inline{flex:1;flex-basis:auto;min-width:50px}.chatlog__embed-field-name{margin-bottom:0.2rem;color:#ffffff;font-weight:600}.chatlog__embed-field-value{color:#dcddde;font-weight:500}.chatlog__embed-thumbnail{flex:0;max-width:80px;max-height:80px;margin-left:1.2rem;border-radius:3px}.chatlog__embed-images{display:grid;margin-top:0.6rem;grid-template-columns:repeat(2,1fr);gap:0.25rem}.chatlog__embed-images--single{display:block}.chatlog__embed-image{object-fit:cover;object-position:center;max-width:500px;max-height:400px;width:100%;height:100%;border-radius:3px}.chatlog__embed-footer{margin-top:0.6rem;color:#dcddde}.chatlog__embed-footer-icon{width:20px;height:20px;margin-right:0.2rem;border-radius:50%;vertical-align:middle}.chatlog__embed-footer-text{vertical-align:middle;font-size:0.75rem;font-weight:500}.chatlog__embed-invite-container{min-width:320px;padding:0.6rem 0.7rem;border:1px solid rgba(46,48,54,0.6);border-radius:3px;background-color:rgba(46,48,54,0.3)}.chatlog__embed-invite-title{margin:0 0 0.8rem 0;color:#b9bbbe;font-size:0.75rem;font-weight:700;text-transform:uppercase}.chatlog__embed-invite{display:flex}.chatlog__embed-invite-guild-icon{width:50px;height:50px;border-radius:0.85rem}.chatlog__embed-invite-info{margin-left:1rem}.chatlog__embed-invite-guild-name{color:#ffffff;font-weight:600}.chatlog__embed-invite-guild-name a{color:inherit}.chatlog__embed-invite-channel-icon{width:18px;height:18px;vertical-align:bottom}.chatlog__embed-invite-channel-name{font-size:0.9rem;font-weight:600}.chatlog__embed-generic-image{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-generic-video{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-generic-gifv{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-spotify{border:0}.chatlog__embed-twitch{border:0}.chatlog__embed-youtube-container{margin-top:0.6rem}.chatlog__embed-youtube-thumbnail{max-width:400px;max-height:225px;border-radius:3px;cursor:pointer}.chatlog__sticker{width:180px;height:180px}.chatlog__sticker--media{max-width:100%;max-height:100%}.chatlog__reactions{display:flex}.chatlog__reaction{display:flex;margin:0.35rem 0.1rem 0.1rem 0;padding:0.125rem 0.375rem;border:1px solid transparent;border-radius:8px;background-color:#2f3136;align-items:center}.chatlog__reaction:hover{border:1px solid hsla(0,0%,100%,.2);background-color:transparent}.chatlog__reaction-count{min-width:9px;margin-left:0.35rem;color:#b9bbbe;font-size:0.875rem}.chatlog__reaction:hover .chatlog__reaction-count{color:#dcddde}.chatlog__markdown{max-width:100%;line-height:1.3;overflow-wrap:break-word}.chatlog__markdown h1{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1.5rem;line-height:1}.chatlog__markdown h2{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1.25rem;line-height:1}.chatlog__markdown h3{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1rem;line-height:1}.chatlog__markdown h1:first-child,h2:first-child,h3:first-child{margin-top:0.5rem}.chatlog__markdown ul,ol{margin:0 0 0 1rem;padding:0}.chatlog__markdown-preserve{white-space:pre-wrap}.chatlog__markdown-spoiler{background-color:rgba(255,255,255,0.1);padding:0 2px;border-radius:3px}.chatlog__markdown-spoiler--hidden{cursor:pointer;background-color:#202225;color:rgba(0,0,0,0)}.chatlog__markdown-spoiler--hidden:hover{background-color:rgba(32,34,37,0.8)}.chatlog__markdown-spoiler--hidden::selection{color:rgba(0,0,0,0)}.chatlog__markdown-quote{display:flex;margin:0.05rem 0}.chatlog__markdown-quote-border{margin-right:0.5rem;border:2px solid #4f545c;border-radius:3px}.chatlog__markdown-pre{background-color:#2f3136;font-family:"Consolas","Courier New",Courier,monospace;font-size:0.85rem;text-decoration:inherit}.chatlog__markdown-pre--multiline{display:block;margin-top:0.25rem;padding:0.5rem;border:2px solid #282b30;border-radius:5px;color:#b9bbbe}.chatlog__markdown-pre--multiline.hljs{background-color:#2f3136;color:#b9bbbe}.chatlog__markdown-pre--inline{display:inline-block;padding:2px;border-radius:3px}.chatlog__markdown-mention{border-radius:3px;padding:0 2px;background-color:rgba(88,101,242,.3);color:#dee0fc;font-weight:500}.chatlog__markdown-mention:hover{background-color:#5865f2;color:#ffffff}.chatlog__markdown-timestamp{background-color:rgba(255,255,255,0.1);padding:0 2px;border-radius:3px}.chatlog__emoji{width:1.325rem;height:1.325rem;margin:0 0.06rem;vertical-align:-0.4rem}.chatlog__emoji--small{width:1rem;height:1rem}.chatlog__emoji--large{width:2.8rem;height:2.8rem}.postamble{padding:1.25rem}.postamble__entry{color:#ffffff}</style><link rel=stylesheet href=assets/solarized-dark.min-ba98fae080003555.css><script src=assets/highlight.min-d8d2767d207e79d9.js></script><script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.chatlog__markdown-pre--multiline').forEach(e=>hljs.highlightBlock(e));});</script><script src=assets/lottie.min-996575f9aeee11ac.js></script><script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.chatlog__sticker--media[data-source]').forEach(e=>{const anim=lottie.loadAnimation({container:e,renderer:'svg',loop:true,autoplay:true,path:e.getAttribute('data-source')});anim.addEventListener('data_failed',()=>e.innerHTML='<strong>[Sticker cannot be rendered]</strong>');});});</script><script>function scrollToMessage(event,id){const element=document.getElementById('chatlog__message-container-'+id);if(!element)
+return;event.preventDefault();element.classList.add('chatlog__message-container--highlighted');window.scrollTo({top:element.getBoundingClientRect().top-document.body.getBoundingClientRect().top-(window.innerHeight/2),behavior:'smooth'});window.setTimeout(()=>element.classList.remove('chatlog__message-container--highlighted'),2000);}
+function showSpoiler(event,element){if(!element)
+return;if(element.classList.contains('chatlog__attachment--hidden')){event.preventDefault();element.classList.remove('chatlog__attachment--hidden');}
+if(element.classList.contains('chatlog__markdown-spoiler--hidden')){event.preventDefault();element.classList.remove('chatlog__markdown-spoiler--hidden');}}</script><svg style=display:none xmlns=http://www.w3.org/2000/svg><defs><symbol id=attachment-icon viewBox="0 0 720 960"><path fill=#f4f5fb d=M50,935a25,25,0,0,1-25-25V50A25,25,0,0,1,50,25H519.6L695,201.32V910a25,25,0,0,1-25,25Z /><path fill=#7789c4 d=M509.21,50,670,211.63V910H50V50H509.21M530,0H50A50,50,0,0,0,0,50V910a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50h0V191Z /><path fill=#f4f5fb d=M530,215a25,25,0,0,1-25-25V50a25,25,0,0,1,16.23-23.41L693.41,198.77A25,25,0,0,1,670,215Z /><path fill=#7789c4 d=M530,70.71,649.29,190H530V70.71M530,0a50,50,0,0,0-50,50V190a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50Z /></symbol><symbol id=join-icon viewBox="0 0 18 18"><path fill=#3ba55c d="m0 8h14.2l-3.6-3.6 1.4-1.4 6 6-6 6-1.4-1.4 3.6-3.6h-14.2" /></symbol><symbol id=leave-icon viewBox="0 0 18 18"><path fill=#ed4245 d="m3.8 8 3.6-3.6-1.4-1.4-6 6 6 6 1.4-1.4-3.6-3.6h14.2v-2" /></symbol><symbol id=call-icon viewBox="0 0 18 18"><path fill=#3ba55c fill-rule=evenodd d="M17.7163041 15.36645368c-.0190957.02699568-1.9039523 2.6680735-2.9957762 2.63320406-3.0676659-.09785935-6.6733809-3.07188394-9.15694343-5.548738C3.08002193 9.9740657.09772497 6.3791404 0 3.3061316v-.024746C0 2.2060575 2.61386252.3152347 2.64082114.2972376c.7110335-.4971705 1.4917101-.3149497 1.80959713.1372281.19320342.2744561 2.19712724 3.2811005 2.42290565 3.6489167.09884826.1608492.14714912.3554431.14714912.5702838 0 .2744561-.07975258.5770327-.23701117.8751101-.1527655.2902036-.65262318 1.1664385-.89862055 1.594995.2673396.3768148.94804468 1.26429792 2.351016 2.66357424 1.39173858 1.39027775 2.28923588 2.07641807 2.67002628 2.34187563.4302146-.2452108 1.3086162-.74238132 1.5972981-.89423205.5447887-.28682915 1.0907006-.31944893 1.4568885-.08661115.3459689.2182151 3.3383754 2.21027167 3.6225641 2.41611376.2695862.19234426.4144887.5399137.4144887.91672846 0 .2969525-.089862.61190215-.2808189.88523346" /></symbol><symbol id=pencil-icon viewBox="0 0 18 18"><path fill=#99aab5 d="m0 14.25v3.75h3.75l11.06-11.06-3.75-3.75zm17.71-10.21c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75z" /></symbol><symbol id=pin-icon viewBox="0 0 18 18"><path fill=#b9bbbe d="m16.908 8.39684-8.29587-8.295827-1.18584 1.184157 1.18584 1.18584-4.14834 4.1475v.00167l-1.18583-1.18583-1.185 1.18583 3.55583 3.55502-4.740831 4.74 1.185001 1.185 4.74083-4.74 3.55581 3.555 1.185-1.185-1.185-1.185 4.1475-4.14836h.0009l1.185 1.185z" /></symbol><symbol id=poll-icon viewBox="0 0 18 18"><path fill=#b9bbbe d="M2 3h2v2H2V3Zm4 0h10v2H6V3ZM2 8h2v2H2V8Zm4 0h10v2H6V8ZM2 13h2v2H2v-2Zm4 0h10v2H6v-2Z" /></symbol><symbol id=channel-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511C2.28449 17 2.04905 16.7198 2.10259 16.4138L2.27759 15.4138C2.31946 15.1746 2.52722 15 2.77011 15H6.35001L7.41001 9H4.00511C3.69449 9 3.45905 8.71977 3.51259 8.41381L3.68759 7.41381C3.72946 7.17456 3.93722 7 4.18011 7H7.76001L8.39677 3.41262C8.43914 3.17391 8.64664 3 8.88907 3H9.87344C10.1845 3 10.4201 3.28107 10.3657 3.58738L9.76001 7H15.76L16.3968 3.41262C16.4391 3.17391 16.6466 3 16.8891 3H17.8734C18.1845 3 18.4201 3.28107 18.3657 3.58738L17.76 7H21.1649C21.4755 7 21.711 7.28023 21.6574 7.58619L21.4824 8.58619C21.4406 8.82544 21.2328 9 20.9899 9H17.41L16.35 15H19.7549C20.0655 15 20.301 15.2802 20.2474 15.5862L20.0724 16.5862C20.0306 16.8254 19.8228 17 19.5799 17H16L15.3632 20.5874C15.3209 20.8261 15.1134 21 14.8709 21H13.8866C13.5755 21 13.3399 20.7189 13.3943 20.4126L14 17H8.00001L7.36325 20.5874C7.32088 20.8261 7.11337 21 6.87094 21H5.88657ZM9.41045 9L8.35045 15H14.3504L15.4104 9H9.41045Z" /></symbol><symbol id=thread-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z" /><path fill=#b9bbbe d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z" /></symbol><symbol id=forward-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M13 4L21 12L13 20V15C8 15 4 17 1 22C2 16 6 10 13 9V4Z" /></symbol></defs></svg><body><div class=preamble><div class=preamble__guild-icon-container><img class=preamble__guild-icon src=assets/8a5d2d39e70e3ed3a4b63eecf427d486-fbbce6fc90d07960.png alt="Guild icon" loading=lazy></div><div class=preamble__entries-container><div class=preamble__entry>[1.9+] PvP Guide</div><div class=preamble__entry>📊 PvP Science Guide / ✨┃effects</div></div></div>
+<div class="chatlog">
+
+<div class=chatlog__message-group><div id=chatlog__message-container-859904072717697054 class=chatlog__message-container data-message-id=859904072717697054><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src=assets/c733d8f9d93a061fe348970640379753-a7749646a9a651f7.png alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(255,159,104) title=__moi_ data-user-id=307877369337872387>iDexy</span> <span class=chatlog__timestamp title="2021년 7월 1일 목요일 오전 6:11"><a href=#chatlog__message-container-859904072717697054>2021-07-01 오전 6:11</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🧪 ***__Effects__*** 🧪
+
+**Author:** `iDexy`
+**Translator:** `Zivkovic`
+**Writer:** `iDexy`
+
+In this channel all effects of the game are listed and explained how they influence the player
+
+***Category 1:*** 📖 `Basic Things` 📖 
+
+`-` An effect is a helpful or harmful condition that affects an entity. Effects can be inflicted in various ways throughout the game, including consuming potions and some food items, being in the range of beacons and conduits, and being attacked by or close to certain mobs
+
+`-` The `/effect` command allows players to inflict effects upon themselves and other entities
+
+`-` You can get them with Normal potions, splash potions lingering potions and tipped arrows
+
+`-` To use normal potions, you just drink the potion. To use splash potions, throw the potion to the ground to get the effect of the potion. To use lingering potions, throw the potion to the ground or a block to create an effect cloud with the effect of that potion
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` If you have splash potions, throw the potion up in the air to get the maximum power of the potion (the effect will last longer)
+
+`-` When a creeper has an effect and explodes, it leaves an area effect cloud for each effect that it had before it died
+
+`-` Players can open their inventory to see any current effects afflicted upon them, as well as its level and duration
+
+`-` However, it is not possible to apply the same effect multiple times, even if they are of different levels (e.g. Strength and Strength 2)
+
+`-` Positive effects have blue text in potion information, and in are displayed on the upper row of effects in the heads up display, while negative effects have red potion text and are displayed in the bottom row. Neutral effects have the blue potion text and are listed with the negative effects in the bottom row in the heads up display
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 7:26">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904074420846602 class=chatlog__message-container data-message-id=859904074420846602><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 2:*** 🩺 `Behaviour` 🩺 
+
+**Basic Things:**
+
+`-` Any entities inflicted by an effect are affected in various ways for an amount of time
+
+`-` During the effect, spiral-shaped particles emanate from the position of the inflicted entity
+
+`-` For most effects, higher levels increase the strength of the effect
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Note that even with commands, effects cannot be made to last forever. If an effect is set to last a time greater than `32766 (215−2) ticks, 27 minutes and 18 seconds, or 1638 seconds`, it displays as `^^.^^`, but still continues ticking down and eventually expires
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 8일 목요일 오전 2:17">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904076183633931 class=chatlog__message-container data-message-id=859904076183633931><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>`-` Any number of different effects, including opposing effects such as Strength and Weakness, can be simultaneously active on a player
+
+`-` When the stronger effect then overrides the weaker effect, the weaker effect remains, but is hidden. It returns after the stronger effect expires, if the weaker effect has a higher duration than the stronger effect. This change makes it impossible to create custom potion antidotes by applying an amplified effect with a one tick duration
+
+`-` All effects can be removed by drinking milk, dying, being saved from death by a totem of undying, or traveling through the return portal in the End
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 2:25">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904077861093436 class=chatlog__message-container data-message-id=859904077861093436><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 3:*** 📋 `Summary Of Effects` 📋 
+
+Here&#x27;s a table showing all the effects, if they&#x27;re positive or negative. Look at the next category for an in depth explanation: (**`32` total effects**)
+
+**Summary Effects Table:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:17">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904079252815882 class=chatlog__message-container data-message-id=859904079252815882><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:14">(edited)</span></div><div class=chatlog__embed><a href=assets/15LQ9Zy-c394752c19866b1f.png> <img class=chatlog__embed-generic-image src=assets/15LQ9Zy-c394752c19866b1f.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/15LQ9Zy.png> </a></div></div></div></div><div id=chatlog__message-container-859904080758702090 class=chatlog__message-container data-message-id=859904080758702090><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+***Category 4:*** 📖 🧪 `Explanation Of Effects` 🧪 📖 
+
+In this category we will explain the effects in more detail by following the following points:
+
+`1.` **Description**
+
+`2.` **Causes**
+
+__Let&#x27;s follow the order of the summary effects:__
+
+🥾 `Speed` 🥾 
+
+`1.` **Description** - Speed is a status effect that increases an entity&#x27;s walking speed by `+20%` multiplied by the effect level. It expands a player&#x27;s field of view (`FOV`) accordingly. You can find `2` levels:
+
+**Level 1-&gt;** `+20%` Speed
+**Level 2-&gt;** `+40%` Speed
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Moving with speed `2` takes less exhaustion on the same distance because you don&#x27;t need to jump
+`-` Your FOV increases when you have speed effect but you can disable in the accessibility settings
+
+`2.` **Causes** - Table with the causes:
+
+**Speed Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 10:27">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904082230771769 class=chatlog__message-container data-message-id=859904082230771769><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:17">(edited)</span></div><div class=chatlog__embed><a href=assets/dT8KteF-dea6cb83ce13e823.png> <img class=chatlog__embed-generic-image src=assets/dT8KteF-dea6cb83ce13e823.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/dT8KteF.png> </a></div></div></div></div><div id=chatlog__message-container-859904083716079657 class=chatlog__message-container data-message-id=859904083716079657><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` With speed 1 your faster while jumping and with speed 2 your faster without jumps
+
+`-` Witches drink the Potion of Swiftness if their target is over `11` blocks away
+
+`-` The cause of ¨Spawning within the world¨ lasts for __`3 years, 4 months, 25 days, 6 hours, 45 minutes, and 42.4 seconds, or (2^31)-1 ticks`__. **Only spiders can have this**
+
+`-` With a beacon set to Speed, your speed effect replenishes when in range. Getting 2 effects at once requires beacon pyramid level 4
+
+🐢 `Slowness` 🐢 
+
+`1.` **Description** - Slowness decreases walking speed by `-15% × level` and contracts the player&#x27;s field of view accordingly. Negative levels of Slowness increase walking speed. However, sprinting and jumping is barely affected. You can find `6` levels:
+
+**Level 1-&gt;** `-15%` Walking Speed
+**Level 2-&gt;** `-30%` Walking Speed
+**Level 3-&gt;** `-45%` Walking Speed
+**Level 4-&gt;** `-60%` Walking Speed
+**Level 5-&gt;** `-75%` Walking Speed
+**Level 6-&gt;** `-90%` Walking Speed
+
+`2.` **Causes** - Table with the causes:
+
+**Slowness Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 10:27">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904085167702046 class=chatlog__message-container data-message-id=859904085167702046><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:18">(edited)</span></div><div class=chatlog__embed><a href=assets/ny9kFvF-ea6924c516401576.png> <img class=chatlog__embed-generic-image src=assets/ny9kFvF-ea6924c516401576.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/ny9kFvF.png> </a></div></div></div></div><div id=chatlog__message-container-859904086895099934 class=chatlog__message-container data-message-id=859904086895099934><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Witches may throw Splash Potion of Slowness if their target is at least `8` blocks away
+
+`-` The Arrows of Slowness have `50%` chance of being dropped by Strays
+
+`-` The Arrows of Slowness (extended) are fired by Strays
+
+⛏️ `Haste` ⛏️ 
+
+`1.` **Description** - Haste is a status effect that increases attack speed by `+10% x level` and increases mining speed by `+20% x level`. Negative levels decrease mining and attack speed, similar to Mining Fatigue. However, the attack speed increases are purely visual. You can find `2` levels:
+
+**Level 1-&gt;** `+10%` Attack Speed. `+20%` Mining Speed
+**Level 2-&gt;** `+20%` Attack Speed. `+40%` Mining Speed
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Keep in mind that Mining Fatigue `3` inflicted by elder guardians prevents the player from instant mining most blocks regardless of the Haste effect, along with a huge decrease of mining speed. However, lower levels of Mining Fatigue can be overcome by Haste of level III or greater, with a resultant reduced Haste effect
+
+`2.` **Causes** -  Table with the causes:
+
+**Haste Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:19">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904115031146517 class=chatlog__message-container data-message-id=859904115031146517><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:19">(edited)</span></div><div class=chatlog__embed><a href=assets/pSwUaoi-4aa422cec180a85d.png> <img class=chatlog__embed-generic-image src=assets/pSwUaoi-4aa422cec180a85d.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/pSwUaoi.png> </a></div></div></div></div><div id=chatlog__message-container-859904116196769793 class=chatlog__message-container data-message-id=859904116196769793><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` With a beacon set to Haste, your haste effect replenishes when in range. Getting `2` effects at once requires beacon pyramid level `4`
+
+🥄 `Mining Fatigue` 🥄 
+
+`1.` **Description** - The effect decreases attack speed by `-10% × level`, equivalent to the attack speed cooldown attribute decreasing by `-0.2 × level`. For the in-game default level 3, attack speed decreases by `-30%` (attack speed cooldown attribute decreases by `-0.6`), and it takes `~370` times longer than usual to break a block with the proper tool for that block. It decreases also the mining speed. You can find `4` levels:
+
+**Level 1-&gt;** `-10%` Attack Speed. `-70%` Mining Speed
+**Level 2-&gt;** `-20%` Attack Speed. `-91%` Mining Speed 
+**Level 3-&gt;** `-30%` Attack Speed. `-99.73%` Mining Speed
+**Level 4-&gt;** `-40%` Attack Speed. `-99.919%` Mining Speed
+
+While afflicted, a player can still craft and ride entities as usual, but cannot remove most vehicles due to how slowly the vehicle can be broken
+
+The affliction is cured by drinking milk, although milk does not prevent a subsequent affliction by an elder guardian, which can happen within a few seconds. Axolotls can also remove this effect
+
+`2.` **Causes** - The only natural cause of Mining Fatigue is from affliction by an elder guardian, and the only natural effect level is `3`. __Other levels can be achieved via commands__
+
+Once per minute, elder guardians in the vicinity search for any player within `50` blocks to afflict with Mining Fatigue `3`. A player cannot defend from this attack. Concealment behind blocks, underground, or by a potion of Invisibility offers no defense. The length of this effect is `5:00 minutes`
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:17">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904117493334036 class=chatlog__message-container data-message-id=859904117493334036><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🩸 `Strength` 🩸 
+
+`1.` **Description** - Increases melee damage by `+3 hp (+1.5 hearts) × level`. You can find `2` levels:
+
+**Level 1-&gt;** `+3 hp (+1.5 hearts)` Melee Damage
+**Level 2-&gt;** `+6 hp (+3 hearts)` Melee Damage
+
+`2.` **Causes** - Table with the causes:
+
+**Strength Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:18">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904120390942760 class=chatlog__message-container data-message-id=859904120390942760><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:22">(edited)</span></div><div class=chatlog__embed><a href=assets/tox5Fs9-3f22e1fb7ece8487.png> <img class=chatlog__embed-generic-image src=assets/tox5Fs9-3f22e1fb7ece8487.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/tox5Fs9.png> </a></div></div></div></div><div id=chatlog__message-container-859904121955287090 class=chatlog__message-container data-message-id=859904121955287090><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` All Lingering Potions of Strength cloud lasts `30 seconds` at most
+
+`-` With a beacon set to Strength, your strength effect replenishes when in range. Getting `2` effects at once requires beacon pyramid level `4`
+
+`-` In Being a Zombie Villager, this mob can get the effect when being cured and the difficulty is normal while the level 2 is the same but the difficulty is hard
+
+`-` The cause of ¨Spawning within the world¨ lasts for __`3 years, 4 months, 25 days, 6 hours, 45 minutes, and 42.4 seconds, or (2^31)-1 ticks`__. **Only spiders can have this**
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 2:27">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904123826733106 class=chatlog__message-container data-message-id=859904123826733106><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🤕 `Weakness` 🤕 
+
+`1.` **Description** - Weakness decreases attack power. Melee damage inflicted by the affected entity is reduced by `-4 hp (-2 hearts) × level`. This effect is also used to cure zombie villagers, preceding the golden apple. The effect can be removed by drinking milk. You can find `1` level:
+
+**Level 1-&gt;** `-4 hp (-2 hearts)` Melee Damage
+
+`2.` **Causes** - Table with the causes:
+
+**Weakness Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 6일 화요일 오전 4:29">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904125373644831 class=chatlog__message-container data-message-id=859904125373644831><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:11">오전 6:11</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:23">(edited)</span></div><div class=chatlog__embed><a href=assets/624Sq3K-f5ab24b2149872aa.png> <img class=chatlog__embed-generic-image src=assets/624Sq3K-f5ab24b2149872aa.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/624Sq3K.png> </a></div></div></div></div><div id=chatlog__message-container-859904127117951016 class=chatlog__message-container data-message-id=859904127117951016><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Witches throw the Splash Potion of Weakness if their target is within `3` blocks
+
+`-` The Suspicious Stew (Tulip) must be crafted from a tulip. (**&lt;#859911045887557633&gt; Category 9** to get more information about suspicious stew)
+
+`-` The Suspicious Stew (Expert Farmer Villagers) is traded from expert farmer villagers. (**&lt;#852244533705965599&gt; Category 4** to get more information about trades)
+
+`-` The Suspicious Stew of Weakness can be found in shipwreck supply chests
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:56">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904128908918784 class=chatlog__message-container data-message-id=859904128908918784><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>❤️ `Instant Health` ❤️ 
+
+`1.` **Description** -  Instant Health is an instant status effect that increases health for living mobs and damages the undead. Instantly heals `+4 hp (+2 hearts) × level`. When applied using a lingering potion, the entity is healed every second. You can find `2` levels:
+
+**Level 1-&gt;** `+4 hp (+2 hearts)`. Undead Mobs-&gt; `-6 hp (-3 hearts)`
+**Level 2-&gt;** `+8 hp (+4 hearts)`. Undead Mobs-&gt; `-12 hp (-6 hearts)`
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Undead mobs (including the wither) are damaged as if with Instant Damage, instead
+
+`2.` **Causes** - Table with the causes:
+
+**Instant Health Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:18">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904130705653770 class=chatlog__message-container data-message-id=859904130705653770><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:24">(edited)</span></div><div class=chatlog__embed><a href=assets/wOPWq6A-0f0c390cbf182452.png> <img class=chatlog__embed-generic-image src=assets/wOPWq6A-0f0c390cbf182452.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/wOPWq6A.png> </a></div></div></div></div><div id=chatlog__message-container-859904157716971571 class=chatlog__message-container data-message-id=859904157716971571><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Witches drink the Potion of Healing when damaged
+
+`-` The Potion of Healing `1` and `2` can be found on a brewing stand in end ships
+
+`-` Witches throw Splash Potion of Healing `1` or `2` during raids. (**&lt;#852244533705965599&gt; Category 5** to get more information about raids)
+
+☠️ `Instant Damage` ☠️ 
+
+`1.` **Description** - Instant Damage is an instant status effect that decreases health for living mobs and heals the undead. Inflicts magic damage of `-6 hp (-3 hearts) x level`. When applied using a lingering potion, damage is inflicted every second. As this is magic damage, **it can be decreased only via Resistance and Protection**. You can find `2` levels:
+
+**Level 1-&gt;** `-6 hp (-3 hearts)`. Undead Mobs-&gt; `+6 hp (+3 hearts)`
+**Level 2-&gt;** `-12 hp (-6 hearts)`. Undead Mobs-&gt; `+12 hp (+6 hearts)`
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Undead mobs (including the wither) are healed as if with Instant Health instead
+`-` An Instant Damage `4` potion is powerful enough to kill a player instantly
+
+`2.` **Causes** - Table with the causes:
+
+**Instant Damage Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:56">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904158726225980 class=chatlog__message-container data-message-id=859904158726225980><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:25">(edited)</span></div><div class=chatlog__embed><a href=assets/OkHUBGg-2e0757c9246a3efb.png> <img class=chatlog__embed-generic-image src=assets/OkHUBGg-2e0757c9246a3efb.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/OkHUBGg.png> </a></div></div></div></div><div id=chatlog__message-container-859904161697103912 class=chatlog__message-container data-message-id=859904161697103912><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Remember that damage is for live mobs and heals for undead mobs
+
+`-` Witches throw the Splash Potion of Harming at their targets
+
+⬆️ `Jump Boost` ⬆️ 
+
+`1.` **Description** - Jump Boost allows the player to jump higher than the normal `+1 1⁄4 blocks`. Each level adds `+50%` to the jump height. It also reduces fall damage by `-1 hp (-0.5 heart)` each level. You can find `2` levels:
+
+**Level 1-&gt;** `+50%` Jump Height. `-1 hp (-0.5 heart)` Fall Damage Reduction
+**Level 2-&gt;** `+100%` Jump Height. `-2 hp (-1 heart)` Fall Damage Reduction
+
+Arbitrary levels can be set via commands
+
+`2.` **Causes** - Table with the causes:
+
+**Jump Boost Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:19">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904163198664744 class=chatlog__message-container data-message-id=859904163198664744><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:26">(edited)</span></div><div class=chatlog__embed><a href=assets/36MdyUe-fb255b8000e6bd22.png> <img class=chatlog__embed-generic-image src=assets/36MdyUe-fb255b8000e6bd22.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/36MdyUe.png> </a></div></div></div></div><div id=chatlog__message-container-859904164888838174 class=chatlog__message-container data-message-id=859904164888838174><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Jump boost level 1 increases jump height to `+1 13⁄16 blocks`
+
+`-` Jump boost level 2 increases jump height to `+2 1⁄2 blocks`
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 2:27">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904166608896070 class=chatlog__message-container data-message-id=859904166608896070><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🤢 `Nausea` 🤢 
+
+`1.` **Description** - Nausea is an effect that warps and wobbles the player&#x27;s vision similar to a nether portal. The effect does not change its power as its potency changes. It can be obtained only from eating a pufferfish. Drinking milk removes the effect
+
+`2.` **Causes** - Table with the causes:
+
+**Nausea Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:26">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904168109277194 class=chatlog__message-container data-message-id=859904168109277194><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:27">(edited)</span></div><div class=chatlog__embed><a href=assets/7shLdZk-4f655d22c62e34f4.png> <img class=chatlog__embed-generic-image src=assets/7shLdZk-4f655d22c62e34f4.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/7shLdZk.png> </a></div></div></div></div><div id=chatlog__message-container-859904169653043230 class=chatlog__message-container data-message-id=859904169653043230><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+💓 `Regeneration` 💓 
+
+`1.` **Description** - Regeneration is a status effect that restores a player&#x27;s (or mob&#x27;s) health over time. The amount of health healed over time is shown here:
+
+**Level 1-&gt;** `heals 1 hp each 2.5 seconds`
+
+**Level 2-&gt;** `heals 1 hp each 1.25 seconds`
+
+**Level 3-&gt;** `heals 1 hp each 0.6 seconds`
+
+**Level 4-&gt;** `heals 1 hp each 0.3 seconds`
+
+**Level 5-&gt;** `heals 1 hp each 0.15 seconds`
+
+**Level 6-&gt;** `heals 1 hp each 0.05 seconds`
+
+`2.` **Causes **- Table with the causes:
+
+**Regeneration Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 7일 수요일 오전 9:18">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904172522340382 class=chatlog__message-container data-message-id=859904172522340382><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:27">(edited)</span></div><div class=chatlog__embed><a href=assets/p7YAE4N-1ed04cbf722e2e18.png> <img class=chatlog__embed-generic-image src=assets/p7YAE4N-1ed04cbf722e2e18.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/p7YAE4N.png> </a></div></div></div></div><div id=chatlog__message-container-859904173608665108 class=chatlog__message-container data-message-id=859904173608665108><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` The cause of ¨Spawning within the world¨ `lasts for 3 years, 4 months, 25 days, 6 hours, 45 minutes, and 42.4 seconds, or (2^31)-1 ticks`. Only spiders can have this
+
+`-` The unlocking trades only applies to villagers. Regenerates `+4 hp (+2 hearts)`
+
+`-` Having low health only applies to Axolotls
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:19">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904200619720744 class=chatlog__message-container data-message-id=859904200619720744><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🛡️ `Resistance` 🛡️ 
+
+`1.` **Description** -  Resistance is a status effect that reduces incoming damage from all sources (except starvation, the void, and `/kill`) by `+20% × level`. You can find `4` levels:
+
+**Level 1-&gt;** `+20%` Reduction
+**Level 2-&gt;** `+40%` Reduction
+**Level 3-&gt;** `+60%` Reduction
+**Level 4-&gt;** `+80%` Reduction
+
+`2.` **Causes** - Table with the causes:
+
+**Resistance Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:28">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904201366962197 class=chatlog__message-container data-message-id=859904201366962197><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:28">(edited)</span></div><div class=chatlog__embed><a href=assets/nJ8Ygf3-44d9ebecc8339e4a.png> <img class=chatlog__embed-generic-image src=assets/nJ8Ygf3-44d9ebecc8339e4a.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/nJ8Ygf3.png> </a></div></div></div></div><div id=chatlog__message-container-859904202750689322 class=chatlog__message-container data-message-id=859904202750689322><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Beacon set to Resistance replenishes your effect when in range and it requires beacon pyramid level `2`. The Beacon set to Resistance 2 requires beacon pyramid level `4`
+
+🛡️ 🔥 `Fire Resistance` 🔥 🛡️ 
+
+`1.` **Description**- Fire Resistance nullifies most fire-based damage. Fire Resistance is a status effect that does not change its power as its potency changes. Grants immunity to damage from fire, blaze fireballs, fire charges, magma blocks, and lava, but not ghast fireballs and blaze touch attacks. Negates the fire damage from bows enchanted with Flame and swords enchanted with Fire Aspect, but does not affect the attacks themselves. The fog effect under lava is also mitigated somewhat. Players also see better under lava when they have the Fire Resistance effect
+
+`2.` **Causes** - Table with the causes:
+
+**Fire Resistance Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 2:29">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904207011446834 class=chatlog__message-container data-message-id=859904207011446834><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:29">(edited)</span></div><div class=chatlog__embed><a href=assets/Muzob9a-0f66e7774e8a53ee.png> <img class=chatlog__embed-generic-image src=assets/Muzob9a-0f66e7774e8a53ee.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/Muzob9a.png> </a></div></div></div></div><div id=chatlog__message-container-859904208160555008 class=chatlog__message-container data-message-id=859904208160555008><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Witches drink the Potion of Fire Resistance when set on fire or in lava
+
+`-` The Suspicious Stew (Allium) must be crafted with Allium
+
+💧 `Water Breathing` 💧 
+
+`1.` **Description** - Water Breathing is a status effect that prevents or delays drowning
+
+`2.` **Causes** - Table with the causes:
+
+**Water Breathing Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:58">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904209871568896 class=chatlog__message-container data-message-id=859904209871568896><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:29">(edited)</span></div><div class=chatlog__embed><a href=assets/f5HtQKd-cf0ce23ee5752346.png> <img class=chatlog__embed-generic-image src=assets/f5HtQKd-cf0ce23ee5752346.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/f5HtQKd.png> </a></div></div></div></div><div id=chatlog__message-container-859904211755991075 class=chatlog__message-container data-message-id=859904211755991075><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Witches drink Potion of Water Breathing when underwater
+
+`-` In Turtle Shell, the effect only counts down underwater. Instantly replenishes in air
+
+🪞 `Invisibility` 🪞 
+
+`1.` **Description** - Invisibility is a status effect that turns entities invisible. It has one potency level (active), but its duration can be extended. Invisibility causes the affected mob to disappear from view although it is still present. Boss mobs are immune to invisibility. Certain features of entities are not affected by invisibility:
+
+`-` Any armour worn (including horse armour worn by horses)
+`-` Held items
+`-` Any arrows stuck in players ‌[Java Edition only]
+`-` Any particles being emitted
+`-` A shulker head
+`-` A llama&#x27;s carpet decoration
+`-` A pig&#x27;s and strider&#x27;s saddle
+`-` The aura of a charged creeper
+`-` The eyes of cave spiders, spiders, enderman, and phantoms
+
+`2.` **Causes** - Table with the causes:
+
+**Invisibility Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:30">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904214087761970 class=chatlog__message-container data-message-id=859904214087761970><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:30">(edited)</span></div><div class=chatlog__embed><a href=assets/dz41nwH-aef73649945a27ea.png> <img class=chatlog__embed-generic-image src=assets/dz41nwH-aef73649945a27ea.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/dz41nwH.png> </a></div></div></div></div><div id=chatlog__message-container-859904218403176500 class=chatlog__message-container data-message-id=859904218403176500><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️
+
+`-` Wandering Traders drink the Potion of Invisibility if the time is between `12000` and `18000`
+
+`-` Illusioner applies only to illusioners when casting the invisibility spell
+
+`-` The cause of ¨Spawning within the world¨ lasts for __`3 years, 4 months, 25 days, 6 hours, 45 minutes, and 42.4 seconds, or (2^31)-1 ticks`__. **Only spiders can have this**
+
+👁️ ❌ `Blindness` ❌ 👁️ 
+
+`1.` **Description** - Blindness impairs the player&#x27;s vision as if a thick black fog were surrounding them, with only the immediate area being visible (this means that only a few blocks directly around the player are visible to them). However, the sun and moon can be seen as normal. **Additionally, liquids do not fade into the fog perfectly**. The effect also prevents the player from sprinting or inflicting critical hits. If combined with Night Vision, the screen appears completely black aside from the sun and moon. In `1.16`, combining with night visions renders the HUD text black (this also happens on the title screen)
+
+`2.` **Causes** - Table with the causes:
+
+**Blindness Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:58">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904219510865961 class=chatlog__message-container data-message-id=859904219510865961><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:30">(edited)</span></div><div class=chatlog__embed><a href=assets/KpWoHMJ-2b9c6b75329fad50.png> <img class=chatlog__embed-generic-image src=assets/KpWoHMJ-2b9c6b75329fad50.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/KpWoHMJ.png> </a></div></div></div></div><div id=chatlog__message-container-859904242868944946 class=chatlog__message-container data-message-id=859904242868944946><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` The Suspicious Stew (Azure Bluet) mus be crafted with Azure Bluet
+
+`-` The Suspicious Stew of Blindness can be found in shipwreck supply chests and traded from expert farmer villagers
+
+🌖 `Night Vision` 🌖 
+
+`1.` **Description** -  Night vision greatly increases the brightness, so the player can easily see in a light level of `0`. However, it is not as bright as a light level of `15` (e.g. with the &quot;Moody&quot; brightness setting, it is similar to sky light level `12–14` with the &quot;Bright&quot; brightness setting), and as such the player can distinguish between light levels
+
+`2.` **Causes** - Table with the causes:
+
+**Night Vision Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:58">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904244261191690 class=chatlog__message-container data-message-id=859904244261191690><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:30">(edited)</span></div><div class=chatlog__embed><a href=assets/ru0dzYq-3a458abf463b3f64.png> <img class=chatlog__embed-generic-image src=assets/ru0dzYq-3a458abf463b3f64.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/ru0dzYq.png> </a></div></div></div></div><div id=chatlog__message-container-859904247617683496 class=chatlog__message-container data-message-id=859904247617683496><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Conduit Power only can be obtained on Bedrock
+
+`-` The Suspicious Stew (Poppy) must be made with Poppy
+
+`-` The Suspicious Stew of Night Vision can be found in shipwreck and traded by expert farmers
+
+🍗 `Hunger` 🍗 
+
+`1.` **Description** - Hunger increases food exhaustion by `-0.005 × level per game tick`. It also turns the hunger bar a yellow-green colour.  The status effect does not decrease hunger level on Peaceful mode, although it does re-colour the hunger bar. An example of how eating rotten flesh can cause the hunger status effect:
+
+📝 **__Example__** 📝 
+
+&gt; Hunger inflicted by eating rotten flesh, raw chicken or by being attacked by a husk adds `+3` to the player&#x27;s exhaustion level over the course of `30 seconds`, draining `3/4` of a saturation point. When a pufferfish is eaten, `+4.5` exhaustion points are added over the course of `15 seconds`, draining `1` and `1⁄8 (0.125)` saturation points
+
+`2.` **Causes** - Table with the causes:
+
+**Hunger Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:19">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904249159745536 class=chatlog__message-container data-message-id=859904249159745536><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:31">(edited)</span></div><div class=chatlog__embed><a href=assets/8KK33hw-557ab77fb4375fa2.png> <img class=chatlog__embed-generic-image src=assets/8KK33hw-557ab77fb4375fa2.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/8KK33hw.png> </a></div></div></div></div><div id=chatlog__message-container-859904250901823518 class=chatlog__message-container data-message-id=859904250901823518><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` In Husk, **Regional difficulty or local difficulty** is a value between `0.00` and `6.75` that the game calculates by considering not just the world difficulty setting, but also the inhabited time of a chunk, the total daytime in the world, and the phase of the moon. You get this effect by one attack of them
+
+`-` The Rotten Flesh have `80%` chance of receiving. Does not apply to Wolves when fed rotten flesh
+
+`-` The Raw Chicken have `30%` chance of receiving. Does not apply to Wolves when fed raw chicken
+
+☢️ `Poison` ☢️ 
+
+`1.` **Description** - Poison inflicts damage over time, reducing the player&#x27;s health to `-1 hp (-0.5 heart)`, but can resume if healing occurs and the effected entity is at more than `-1 hp (-0.5 heart)` before the effect expires, but __cannot kill__. It can be received from various mobs and items. It can be cured by drinking milk and honey bottle. The amount of damage inflicted to the affected entity is shown here:
+
+**Level 1-&gt;** `damages 1 hp each 1.25 seconds`
+
+**Level 2-&gt;** `damages 1 hp each 0.6 seconds`
+
+**Level 3-&gt;** `damages 1 hp each 0.5 seconds`
+
+Because of the redphase rules there can&#x27;t be higher damage values even with higher levels
+
+`2.` **Causes** - Table with the causes:
+
+**Poison Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:20">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904252280832051 class=chatlog__message-container data-message-id=859904252280832051><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:31">(edited)</span></div><div class=chatlog__embed><a href=assets/abLnnAS-bf3fd8712a1849a9.png> <img class=chatlog__embed-generic-image src=assets/abLnnAS-bf3fd8712a1849a9.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/abLnnAS.png> </a></div></div></div></div><div id=chatlog__message-container-859904254093295647 class=chatlog__message-container data-message-id=859904254093295647><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` Witches throw the Splash Potion of Poison if their target has `8 hp (4 hearts)` or more health
+
+`-` In Cookie, affects only parrots.‌ Has no effect other than the particles as the parrot is killed instantly
+
+`-` The Poisonous Potato has `60%` chance
+
+`-` The Suspicious Stew (Lily of the Valley) must be crafted from a Lily of the Valley
+
+`-` The Suspicious Stew (Expert Farmers Villagers) can be traded by expert farmers villagers
+
+`-` The Spider Eye is dropped from spiders and apply poison when eaten
+
+`-` The length of the effect given by the cave spider depends the difficulty, as you see in the table, `0:07 seconds` (normal difficulty) - `0:15 seconds` (hard difficulty) when it attacks an entity
+
+`-` The length of the effect given by the pufferfish depends how inflated  the mob is, partially is `0:03 seconds` and fully `0:06 seconds`. Only when touched
+
+`-` The length of the effect given by bee is the same as that of the cave spider, `0:10 seconds` on normal difficulty and `0:18 seconds` on hard difficulty
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:59">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904255842582588 class=chatlog__message-container data-message-id=859904255842582588><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🖤 `Wither` 🖤 
+
+`1.` **Description** - Wither effect is a status effect that inflicts damage over time. Unlike Poison, it can affect undead mobs, and can kill. It is usually difficult for the player to see how much health they have left, as it turns the player&#x27;s health bar black. The player&#x27;s hearts turn black on Survival mode or on Hardcore‌ mode, making it more difficult, but still possible, for the player to see their health. The amount of damage inflicted to the affected entity is shown here:
+
+**Level 1-&gt;** `damages 1 hp each 2 seconds`
+
+**Level 2-&gt;** `damages 1 hp each 1 seconds`
+
+**Level 3-&gt;** `damages 1 hp each 0.5 seconds`
+
+Because of the redphase rules there can&#x27;t be higher damage values even with higher levels
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Due to damage immunity, the effective rate is `10 ticks (-2 hp (-1 heart) per second)` at levels `4` and up
+
+`2.` **Causes** - Table with the causes:
+
+**Wither Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 11:00">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904257917714472 class=chatlog__message-container data-message-id=859904257917714472><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:32">(edited)</span></div><div class=chatlog__embed><a href=assets/g6bnfSb-35009e364655a645.png> <img class=chatlog__embed-generic-image src=assets/g6bnfSb-35009e364655a645.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/g6bnfSb.png> </a></div></div></div></div><div id=chatlog__message-container-859904260170186773 class=chatlog__message-container data-message-id=859904260170186773><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🗒️ **__Table Notes__** 🗒️ 
+
+`-` The length of the effect and the lifetime damage given by the wither depends the difficulty, as you see in the table: Length - `0:10 seconds` (normal difficulty) - `0:40 seconds` (hard difficulty) and Lifetime Damage - `-10 hp (-5 hearts)` (normal difficulty) - `-40 hp (-20 hearts)` (hard difficulty). When wither skulls make a direct hit on the target, you have wither effect. Normal and Hard difficulty only
+
+`-` In Wither Skeletons the effect is given melee attack only
+
+`-` In Wither Rose the effect is given only when in range (within the block)
+
+`-` The Suspicious Stew (Wither Rose) must be made with Wither Rose
+
+❤️‍🔥 `Health Boost` ❤️‍🔥 
+
+`1.` **Description** - Health Boost is an unused status effect that increases a player&#x27;s (or mob&#x27;s) maximum health. Adds `+4 hp (+2 hearts)` maximum health per level. Unlike Absorption, the added hearts are empty at first, but can be healed through the usual methods (such as natural regeneration and the Regeneration and Instant Health effects). When the effect ends, any extra health is lost. Actual health may be above the base value after the effect ends and are not capped, unless the entity is healed. Extra hearts of a mounted mob can be seen while riding it
+
+`2.` **Causes** - __There are no causes__
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 11:00">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904285927407658 class=chatlog__message-container data-message-id=859904285927407658><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>💛 `Absorption` 💛 
+
+`1.` **Description** - Absorption is a status effect that pads the health bar with extra hearts. Absorption adds `+4 hp (+2 hearts)` additional health points per level to the player, displayed as yellow hearts above the normal health bar. If the player takes damage while under this effect, the absorption health points are depleted first, followed by the standard health points. Absorption health cannot be replenished by natural regeneration or other effects, and vanishes when the effect ends. Negative absorption levels do not appear to have an immediate effect when applied, but give `+4 hp (+2 hearts)` additional health points per level to the player when the status effect ends. You can find 4 levels:
+
+**Level 1-&gt;** `+4 hp (+2 hearts)` additional health
+**Level 2-&gt;** `+8 hp (+4 hearts)` additional health
+**Level 3-&gt;** `+12 hp (+6 hearts)` additional health
+**Level 4-&gt;** `+16 hp (+8 hearts)` additional health
+
+`2.` **Causes** - Table with the causes:
+
+**Absorption Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:33">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904287128027166 class=chatlog__message-container data-message-id=859904287128027166><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:34">(edited)</span></div><div class=chatlog__embed><a href=assets/PYkLK9I-a96f74d4ea735ee7.png> <img class=chatlog__embed-generic-image src=assets/PYkLK9I-a96f74d4ea735ee7.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/PYkLK9I.png> </a></div></div></div></div><div id=chatlog__message-container-859904289543028737 class=chatlog__message-container data-message-id=859904289543028737><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+💗 `Saturation` 💗 
+
+`1.` **Description** - Saturation is an instant status effect that replenishes Hunger and Saturation Points. 
+The Saturation effect replenishes `+2 hunger points (+1 drumstick) × level and +2 × level points of saturation for the first tick`. If the effect lasts longer than one tick, the player continues gaining hunger and saturation points `+1 hunger point (+0.5 drumstick) and +2 saturation points on each tick`.
+
+`2.` **Causes** - There are only 1 cause, eating a Suspicious Stew made with a Blue Orchid or Dandelion, the potency is 1 and length `0.35 seconds which is 7 ticks`
+
+🔮 `Glowing` 🔮 
+
+`1.` **Description** - Glowing causes entities to glow with an outline that can be seen through blocks and entities. This outline is white by default, but can be set to display other colours if the entity is part of a team. The outline displays around any holes in a mob&#x27;s texture or model, though only when that part of the model can be seen all the way through. If multiple entities with glowing are near each other, the outlines merge to prevent overlapping
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` This does not affect mob models as seen in the inventory, of either the player or ridden mobs
+
+`2.` **Causes** - There are `2` causes:
+
+`-` Spectral Arrow, potency `1` and length `0:10 seconds`
+
+`-` Bell, potency `1` and length `0:03 seconds` (If an illager is within `32` blocks, hitting a bell applies the effect to any illagers within `32` blocks) (**&lt;#852244533705965599&gt; Category 3** to get more information about the variants of villagers)
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:20">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904291362701322 class=chatlog__message-container data-message-id=859904291362701322><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>☁️ `Levitation` ☁️ 
+
+`1.` **Description** - Levitation causes the affected entity to float upwards at a rate of `+0.9 × level blocks per second`. This does not affect swimming or flying. An affected entity does not take fall damage until the effect wears off, after which the entity falls and takes damage as usual from falling. Levitation has no effect on players riding entities. It also has no effect on entities that are in water or lava
+
+`2.` **Causes** -There are `1` cause:
+
+`-` Shulker, potency `1` and length `0:10 seconds`
+
+🍀 `Luck` 🍀 
+
+`1.` **Description** - Luck is a status effect that makes it more likely to receive better loot from certain loot tables in generated structures
+
+`2.` **Causes** - Table with the causes:
+
+**Luck Causes:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 6일 화요일 오전 4:36">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904292769366086 class=chatlog__message-container data-message-id=859904292769366086><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:34">(edited)</span></div><div class=chatlog__embed><a href=assets/5BJimMk-3acb679f717aa95c.png> <img class=chatlog__embed-generic-image src=assets/5BJimMk-3acb679f717aa95c.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/5BJimMk.png> </a></div></div></div></div><div id=chatlog__message-container-859904294207225866 class=chatlog__message-container data-message-id=859904294207225866><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🪶 `Slow Falling` 🪶 
+
+`1.` **Description** - Slow Falling is a status effect that causes the affected mob to fall slower and take no fall damage, but does not prevent ender pearl damage. The affected entity falls at a much slower rate than normal, and is immune to fall damage. However, the entity still takes damage from using an ender pearl. In addition, the entity cannot turn farmland into dirt by jumping on it
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Higher levels do not decrease fall speed further
+
+`2.` **Causes** - Table with the causes:
+
+**Slow Falling:**</span> <span class=chatlog__edited-timestamp title="2021년 7월 6일 화요일 오전 4:35">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904295801323520 class=chatlog__message-container data-message-id=859904295801323520><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 1일 목요일 오전 6:35">(edited)</span></div><div class=chatlog__embed><a href=assets/3WFLosh-33433e798b54a2bc.png> <img class=chatlog__embed-generic-image src=assets/3WFLosh-33433e798b54a2bc.png alt="Embedded image" loading=lazy data-canonical-url=https://i.imgur.com/3WFLosh.png> </a></div></div></div></div><div id=chatlog__message-container-859904297399222272 class=chatlog__message-container data-message-id=859904297399222272><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+🐬 `Dolphin´s Grace` 🐬 
+
+`1.` **Description** - Is a status effect that increases the player&#x27;s swimming speed when a dolphin is nearby and following the player, decreases the amount of &quot;friction&quot; from moving through water. This causes the player to swim significantly faster and lose speed at a slower rate, but also makes changing directions slower. This effect allows you to travel `+9.8 blocks/second` underwater without Depth Strider, making it faster than a boat. Combining it with Depth Strider, players are able to travel at much higher speeds, adding `+8.983 blocks/second x level`. Potentially higher speeds are possible by adding Soul Soil underwater and using Soul Speed-enchanted boots, along with Speed 2
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Dolphins dont give this effect to players with the Invisibility effect but dolphins do apply the effect to invisible players with any armour piece or headgear equipped
+
+`2.` **Causes** - The player must swim near a dolphin to achieve this effect, the potency is random and the length is `0:05 seconds`
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:21">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904299005902888 class=chatlog__message-container data-message-id=859904299005902888><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🪓 `Bad Omen` 🪓 
+
+`1.` **Description** - Bad Omen is a status effect that causes a raid to appear when an afflicted player enters a village. Bad Omen&#x27;s potency determines the chance for illagers to be equipped with enchanted weapons when the player triggers a raid by entering a certain radius around a bed that a villager has claimed. __If the raid results in player victory, the Hero of the Village&#x27;s potency equals the Bad Omen&#x27;s potency__ (capped at level `5`). Bad Omen levels past the first will also give a single extra raid wave, given the difficulty level
+
+📝 **__Example__** 📝 
+
+&gt; Bad Omen `2-5` , Easy will have `4` waves instead of `3`, Normal will have `6` waves instead of `5`, and Hard will have `8` waves instead of `7`
+
+`2.` **Causes** - There are `2` causes:
+
+`-` Raid Captain, potency `1` and length `1:40:00 hours` (If the outpost captain is killed by a player or tamed wolf)
+
+`-` Raid Captain, potency `1-5` and length `1:40:00 hours` (If the patrol captain is killed by a player or tamed wolf)
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 11:01">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904300624904232 class=chatlog__message-container data-message-id=859904300624904232><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>💸 `Hero Of The Village` 💸 
+
+`1.` **Description** - Hero Of The Village is a status effect granted to the player upon defeating a raid. Players receive gifts (&lt;#852244533705965599&gt; To see that gifts!)‌ and discounts from villager trades while under the effect. Level `1` Hero of the Village decreases the cost of the first item in a trade by `-30%`; each additional level decreases the price by an additional `-1⁄16 (-6.25%)`. __In Survival, the maximum level is `5`__, giving discounts of `-55%` and `-30%`, respectively. Nevertheless, one can use commands to give higher levels of the effect. Hero of the Village `12` gives a discount of `-98.75%`, decreasing all prices to `1`. No matter how large the discount is, the final item count in the trade is always at least one, never zero. In other cases, the decrement is the discount ratio multiplied by the original count rounded down or rounded up if the decrement is less than `1`
+
+📝 **__Example__** 📝 
+
+&gt; Level `3` would give a `-42.5%` discount. For trade with `14` emeralds as the cost, the discount would be `5` emeralds (rounded down from `5.95` emeralds), for a final price of `9` emeralds
+
+`2.` **Causes** - There are `1` cause:
+
+`-` All illagers in the final wave of a raid are killed, potency `1-5` and length `40 minutes` shown as `^^.^^` (The player must have killed at least one raider. The level is the same as the level of Bad Omen the raid was started with)
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 10:30">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904328470757456 class=chatlog__message-container data-message-id=859904328470757456><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:12">오전 6:12</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 5:*** 💡 `Effects Tips` 💡 
+
+Here you can see some tips about effects that can help you in some decisions and games:
+
+`-` Use slow falling arrows or potions to prevent your opponent from doing critical hits
+
+`-` When the damage lost from weakness is higher than the damage of your weapon,  the attacks are completely useless and you can&#x27;t deal any kind of damage (not even a hit)
+
+`-` While you have slowness you can still move fast when doing sprint jumps
+
+`-` With jump boost 2 you can stack yourself up pretty fast (2 blocks per jump)
+
+`-` Use instant damage pots or arrows against unenchanted or low level enchanted armour as a surprise attack to finish your opponent quickly
+
+`-` Poison can be used to prevent opponents from running away because they are slowed every time it damages them
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 10일 토요일 오전 10:33">(edited)</span></div></div></div></div><div id=chatlog__message-container-859904415321554956 class=chatlog__message-container data-message-id=859904415321554956><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 1일 목요일 오전 6:13">오전 6:13</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>`-` Because of the bonus or deduction of armour penetration from strength and weakness, they are an even stronger influence
+
+`-` When you&#x27;re poisoned or burning, time your jump so that the damage happens when you&#x27;re on the ground to do critical hits
+
+`-` When you eat an enchanted golden apple first, normal golden apples don&#x27;t give the absorption effect as long the absorption of the enchanted golden apple is active
+
+`-` Use tipped arrows to shoot yourself in long fights to gain effects like speed and strength , you can carry 64 in one slot while you can only carry one potion in a slot</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 12:40">(edited)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-950392648861122630 class=chatlog__message-container data-message-id=950392648861122630><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src=assets/c733d8f9d93a061fe348970640379753-a7749646a9a651f7.png alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(255,159,104) title=__moi_ data-user-id=307877369337872387>iDexy</span> <span class=chatlog__timestamp title="2022년 3월 7일 월요일 오후 11:01"><a href=#chatlog__message-container-950392648861122630>2022-03-07 오후 11:01</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>If you wanna read a specific point of this channel, remember go to &lt;#842456527922790400&gt;  , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before if you lost it</span> <span class=chatlog__edited-timestamp title="2022년 3월 7일 월요일 오후 11:02">(edited)</span></div></div></div></div></div>
+
+</div>
+<div class=postamble><div class=postamble__entry>Exported 63 message(s)</div><div class=postamble__entry>Timezone: UTC+9</div></div>

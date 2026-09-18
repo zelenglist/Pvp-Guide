@@ -1,0 +1,167 @@
+[
+  {
+    "id": "864899416837980180",
+    "author": "iDexy",
+    "sourceText": "⚔️ ***__Combat Science__*** ⚔️\n\n**Author:** `LoCr`\n**Translator:** `Zivkovic`\n**Writer:** `iDexy`\n\nIn this part of the PvP Science guide we mostly describe some uncommon knowledge about combat in general which can help you to improve in being a better PvPer and give you advantages in some situations\n\n***Category 1:*** 📖 `Basic Things` 📖 \n\n`Charging System`\n\nThe minecraft melee system works with a charging system for weapons. That means every weapon has a cooldown which is determined by the attack speed. The attackspeed from swords which is `1.6` means that the weapon charges `1.6` times in a second so it takes `0.625 seconds` to charge the sword fully. You can hit before a weapon is fully charged but you will deal less damage. The system behind this is a bit complex and also varies if you have the sharpness enchantment or not. To give you an idea of how much damage your weapon does, here are some examples:\n\nIf you don't charge and spam your weapon a hit will deal around `20%` damage\nIf you charge your weapon `25%` a hit will deal around `27%` damage\nIf you charge your weapon `50%` a hit will deal around `40%` damage\nIf you charge your weapon `75%` a hit will deal around `66%` damage\nIf you charge your weapon `90%` a hit will deal around `90%` damage\nIf you charge your weapon `100%` a hit will deal `100%` damage\n\nIf you have sharpness on the weapon the sharpness bonus will be linear\n."
+  },
+  {
+    "id": "864899418410975292",
+    "author": "iDexy",
+    "sourceText": "***Category 2:*** 🔪 `Hit Types` 🔪 \n\nYou can perform `5` different hits in minecraft. Its important to know how to use them and their specific advantages. For each hit except the pick hit you need a charge of at least `84.8%`. Hits which aren't fully loaded deal less damage, as explained in hit-system\n\n`1.` **Normal Hit**\n\nThe normal hit deals weapon damage and normal knockback `(1.989 blocks)`. You can do them while hitting when standing or walking or as a second hit while sprinting after your sprinthit is gone with any item except swords. To do them with swords you need to hit while jumping up\n\n`2.` **Sweep Hit**\n\nThe sweephit is a special sword attack. You can do them with the sword like you do normal hits with other weapons. Its special ability is to knock back multiple opponents in front of the player. The player you hit will take weapon damage and normal knockback `(1.989 blocks)` while the other targets will take `2.98 blocks` knockback and 1 hp damage. The damage of the sweephit to the other targets can be increased with the enchantment \"sweeping edge\"\n\n`3.` **Sprint Hit**\n\nThe sprinthit can be only performed while sprinting and only the first hit while sprinting will be a sprinthit. It deals weapon damage and extra knockback `(3.615 blocks)`. It can be used for combos and to control your opponent with them\n\n`4.` **Critical Hit**\n\nThe critical hit deals `1.5 x weapon damage` and does normal knockback `(1.989 blocks)`. You can do them while falling when standing or walking or while falling as a second hit while sprinting after your sprinthit is gone. Because of the extra damage, they are mainly used in PvP\n\n`5.` **Pick Hit**\n\nThe pick hit is a hit which isn't fully charged `0-84.7%`. It deals less damage (spammed it deals `20% `damage) and normal knockback `(1.989 blocks)`. They can be used to control opponents after a missed a hit so they don't combo you\n."
+  },
+  {
+    "id": "864899419979907072",
+    "author": "iDexy",
+    "sourceText": "Heres a video with all the hit types and their sounds, pay attention to the sounds!\nhttps://streamable.com/slkisj"
+  },
+  {
+    "id": "864899421246455808",
+    "author": "iDexy",
+    "sourceText": "**For more information about techniques and how to use the hits, take a look at the sword guide, where all these things are covered <#436136321585512448>/<#436136910709325834>/<#436765885089185792>  **\n\n***Category 3:*** ✨ `Critical Hits` ✨ \n\nA critical hit is a melee attack and one of the `5` hit types, it has the ability to do `+50% `more weapon damage. When doing them critical hit particles appear around the target. We will take a look about how the calculation works and how different kits and scenarios change the crit damage\n\n**The requirements for a melee critical hit are:**\n\nA player must be falling\nA player must not be on the ground\nA player must not be on a ladder or any type of vine\nA player must not be affected by blindness\nA player must not be affected by Slow Falling\nA player must not be riding an entity\nA cooldown charge of at least `84.8%` or higher is needed\n\n`+50% isn't always +50%`\n\nFor unarmoured scenarios the `+50% stays`, but due to the `1.9+` armour system, the bonus damage of critical hits ignores some armour points so it rises to around `+70%`. **For more about this, take a look at <#861265185742651432>, it is explained better there**\n\n❗ **__IMPORTANT__** ❗ \n\n`-` The sharpness enchantment doesn't get multiplied with the critical bonus. So the higher the sharpness damage gets, the lower the bonus damage of a critical hit is\n\n**__Critical hit in limited situations__**\n\n`Criticals in water:`\n\nYou can only do them in Water when swimming on the surface. To do them you need a good timing. When moving down after you swam up, release your w key and hit to perform a crit"
+  },
+  {
+    "id": "864899423431426098",
+    "author": "iDexy",
+    "sourceText": ".\n`Criticals in caves/mines:`\n\nWhen you have less space the jump will be stopped by blocks so the timespan when falling is pretty small. There are two ways of doing them in mines, you can sneak which makes your hitbox shorter so you have more time while falling but with the cost of mobility. The harder method is to jump normally, your timespan is pretty short. It will give you more mobility but it needs some practice. Make sure you release your w key to stop your sprint for the 2nd method"
+  },
+  {
+    "id": "864899427109830707",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 4:*** 🩸 `Sharpness` 🩸 \n\nSharpness is an enchantment for weapons to increase their damage. Level 1 adds 1 hp damage, each following level adds another `0.5 hp (0.25 heart)` damage on your weapon. So a maximum enchanted sword with sharpness 5 deals `+3 hp (1.5 hearts) damage`\n\nWhat is special about it is that it gets added after the bonus damage of critical hits. That means the `+3 hp (1.5 hearts) damage` from sharpness 5 doesn't get multiplied with the critical hit bonus.\n\n`Calculation of a critical hit with sharpness:`\n\nw= damage of the weapon\ns= sharpness damage\n\n`Incoming damage=(w * 1.5) + s`\n\n❗ **__IMPORTANT__** ❗ \n\nThe strength effect bonus is counted as weapon damage. That means too that strength level 1 is stronger than sharpness 5 even when both deal `+3 hp (1.5 hearts) damage` because it gets multiplied with the critical hit bonus.\n\n***So how do you use that knowledge to your advantage?***\n\nThis means for example that a sharp 1 iron sword is weaker than a diamond sword, even though both do the same normal damage `(7 hp (3.5 hearts))`\n\n📝 **__Example__** 📝 \n\n> **Damage of iron sword sharpness 1:**\n> \n> `Normal hit: 7 hp (3.5 hearts)`\n> `Critical hit: 10 hp (5 hearts)`\n> \n> **Damage of diamond sword unenchanted:**\n> \n> `Normal hit: 7 hp (3.5 hearts)`\n> `Critical hit: 10.5 hp (5.25 hearts)`\n> \n> **--> So in game modes where you have different swords with enchants and need to decide, when they both do the same damage always choose the unenchanted sword**"
+  },
+  {
+    "id": "864899428389486622",
+    "author": "iDexy",
+    "sourceText": "📜 **__Special Cases__** 📜 \n\nThere are cases where one sword does higher critical hit damage and the other sword does higher normal hit damage\n\nFor example when you have a sharpness 4 wood sword `(6.5 hp (3.25 hearts) damage)` and an iron sword `(6 damage)` in your inventory, the iron sword does `9 hp (4.5 hearts) critical hit damage `and the wood sword does `8.5 hp (4.25 hearts) critical hit damage`\n\nSo in this case the unenchanted iron sword is better for critical hits while the wood sword deals more normal hit damage. If youre fast you can switch between them in those situations, or take the sword which fits your playstyle\n\n`Sharpness and the weakness effect:`\n\nAnother special ability of sharpness is that it isn't affected by the weakness effect\n\nSo even when the weakness is higher than your weapon damage, you can still deal damage with the sharpness, no matter how strong the weakness effect is\n\nThis ability leads to interesting scenarios. When a player has the weakness effect, their critical hit bonus is reduced because less weapon damage gets multiplied with it\n\nFor example a diamond sword sharpness 5 deals `10 hp (5 hearts) damage` and weakness level 1 reduces it `-4` which leads to a normal hit damage of `6 hp (3 hearts)`\n\nBecause of the critical hit calculation explained above, only the remaining `3 hp (1.5 hearts) damage` from the weapon gets multiplied by `1.5`\n\nSo we have `4.5 hp (2.25 hearts) + the 3 hp (1.5 hearts) bonus damage` from sharpness which leads to a final damage value of `7.5 hp (3.75 hearts)`\n\nSo a normal hit does `6 hp` and a critical hit does `7.5 hp (3.75 hearts) damage` which is `25%` more. Without sharpness and weakness it would be `+50%`, which means weakness reduces the critical hit damage when you use weapons which are enchanted with sharpness\n."
+  },
+  {
+    "id": "864899429625626624",
+    "author": "iDexy",
+    "sourceText": "***What we can learn from this?***\n\nFights with sharpness have less critical hit damage and fights with sharpness and weakness combined have even less crit damage. So you can use that to your advantage in those scenarios if you prefer combos over critical hits. If you want to troll people in kit 1vs1, you can create for example a kit with a wood sword sharpness 5 and weakness level 1. In this kit critical hits don't deal extra damage at all because the weakness removes the 4 attack points of the wood sword and only sharpness gets calculated(but sharpness isn't multiplied for crits). So a normal hit does `3 hp (1.5 hearts) damage` while a critical hit also deals `3 hp (1.5 hearts) damage`"
+  },
+  {
+    "id": "864899465595715624",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 5:*** 🤺 `Melee Range` 🤺 \n\nWhen it comes to the melee range you will hear a lot of stuff, things like \"it varies depending on which direction you move\" but that is false. The programmed range is constant and doesn't change (at least in vanilla). The reasons why the range can look different has to do with the data transfer between clients and with the tick system\n\n***So how far is the range?***\n\nThe vanilla range is `3 blocks` from your head to opponents head. But its not that easy, because this number measures the distance  which starts in the center of your own hitbox and ends at the edge of the opponents hit box. That means if we want to know the maximum distance between both hit boxes, we need to do  `3 blocks` minus a half hit box. A players hit box is `0.6 blocks` long so we must do `3 blocks - 0.3 blocks and we get 2.7 blocks` which is the real distance between your hitbox and the opponents hitbox.  That range is what you will see in fights\n\n`Differences:`\n\nThe range to the opponents chest is `2.967 blocks` and a bit less compared to when you aim at the head. The reason for this is that your range starts at your head and is a straight line so when you change your angle you cover less distance. That's also the reason why you have a range advantage with low ground, because the distance from the player on the ground to the player who is above is less to the opponents hitbox compared to the player who is looking down"
+  },
+  {
+    "id": "864899468268142623",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 6:*** 💨 `Knockback` 💨 \n\n**In the <#846818310200754266>  we posted some raw data about the knockback of different weapons and enchantments, if you are interested check it out**\n\n***Category 7:*** 🛡️ `Shield Durability` 🛡️ \n\nThe shield has `336 durability points`. When the shield blocks an attack of `4 hp (2 hearts)` or stronger, it takes durability damage equal to the strength of the attack rounded up. That means for every incoming hp damage one durability point is taken away from the shield. Because of that the shield can be broken in a relatively short amount of time. Especially in long fights with limited resources like in kit 1vs1 scenarios it can be a strategy to break the shield if they only have one\n\n**Unbreaking enchantment on the shield:**\n\n`-> With unbreaking 1: 50% chance you lose a durability point`\n`-> With unbreaking 2: 33.33% chance you lose a durability point`\n`-> With unbreaking 3: 25% chance you lose a durability point`\n\nWhen a shield has unbreaking they are really hard to break, so the strategy mentioned above doesn't work\n\n**If you are interested in techniques which contain shields, take a look at the UHC guide**"
+  },
+  {
+    "id": "864899470839775303",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 8:*** 🎮 `Game Difficulty` 🎮 \n\nThe game difficulty has an influence on PvP. Item drop chances change, spawning and strength of mobs is changed, and a lot of other stuff. If we focus on PvP, these are the major influences:\n\n**Starvation:**\n\n`Peaceful: no starvation`\n`Easy: starvation up to 10 hp (5 hearts)`\n`Normal: starvation up to 1 hp (0.5 hearts)`\n`Hard: starvation until death`\n\nExplosions, the explosion damage of all explosion types like crystals, respawn anchors, creepers, tnt, etc.. changes with the difficulty\n\n**Maximum damage values when you get hit at the perfect angle:**\n\n**Crystal:**\n \n`Peaceful: 0 hp / 0 full hearts`\n`Easy: 43.5 hp/  21.75 full hearts`\n`Normal: 85 hp / 42.5 full hearts`\n`Hard: 127.5 hp / 63.75 full hearts`\n\n**Respawn anchor and bed:**\n\n`Peaceful: 0 hp / 0 full hearts`\n`Easy: 33.5 hp/  16.75 full hearts`\n`Normal: 65 hp / 32.5 full hearts`\n`Hard: 97.5 hp / 48.75 full hearts`\n."
+  },
+  {
+    "id": "864899472215638066",
+    "author": "iDexy",
+    "sourceText": "***Category 9:*** ⌚ `The time in Minecraft: Ticks` ⌚ \n\n**This part is in maintenance and it gets outsourced to a new channel about ping**\n."
+  },
+  {
+    "id": "864899473632395305",
+    "author": "iDexy",
+    "sourceText": "***Category 10:*** 📏 `Players Movement Influences Their Shoot/Throw` 📏 \n\nSince version `1.9` the movement of a player influences projectiles you can shoot or throw like arrows, potions, and pearls. This means the player’s speed can influence their direction and make them move long or short distances\n\nattention: When an opponent deals knockback this also influences your movement which can lead to weird flight curves of the thing you threw. To avoid this keep control of your movement and try to throw when you’re not being knocked back or change the angle to counteract your movement\n\nSo when you want to throw an item to its maximum range, look at an angle of `45 degrees`, jump, and throw it shortly before you reach the highest point of the jump to give a maximum speed boost to it. Combine it with a short forward sprint to gain even more distance"
+  },
+  {
+    "id": "864899501877231628",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 11:*** 💢 `The Red Phase` 💢 \n\nThe red phase is what happens when a player takes damage, the skin turns red for `0.5 seconds`. When this happens, three things take place:\n\n`1.` As long as you are in the red phase you are invincible, which means you can't take damage in this period `(0.5 seconds)` if the new damage source does the same or less damage than what caused the red phase\n\n`2.` The damage can be updated. This means that if while in the red phase you are hit with a damage source higher than the one that caused the red phase, the damage you take will be replaced with the new higher damage\n\n📝 **__Example__** 📝 \n\n> After a player takes `7 hp (3.5 hearts) damage` (diamond sword normal hit) he is in the red phase.  A second player attacks him while he still is in the red phase with a diamond axe which does `9 hp (4.5 hearts) damage`. the health bar which at the moment shows `13 hp (6.5 hearts)` after the diamond sword hit gets updated to `11 hp (5.5 hearts)` because the axe damage replaced the sword damage, so the axe hit technically does `2 hp (1 heart) damage` in this case\n\n`3.` The knockback will be always calculated with the hit that started the red phase. This means as long as you are in the red phase you can't take knockback from any other sources except explosions"
+  },
+  {
+    "id": "864899509275197462",
+    "author": "iDexy",
+    "sourceText": ".\nSome interesting things can occur ingame resulting from these `3` rules:\n\n`1.` **Knockback resistance due to fire or poison damage**\n\nWe all know that when burning or poisoned you sometimes don't take knockback. That's because the fire/poison is what activates the redphase. So when a hit gets detected after you took fire/poison damage, the knockback will be calculated with the fire/poison damage, which is 0. After that the damage gets updated by the hit, but it deals no knockback because its the second damage source and not the one that activated the red phase.\n\n`2.` **Quick dropping in Crystal PvP**\n\nThis describes a phenomenon where a player which has a totem gets killed by exploding crystals in under `0.5 seconds` (before the red phase ends)\n\nIt happens because the first exploding crystal starts the red phase which activates the totem, and then a second crystal explodes but this time the crystal does more damage because its closer to the player so the damage gets updated to the new damage source. When the new damage source leads to over `6 hp damage (3 full hearts)` to remove the absorption and health boost from the totem, the player dies\n\nHowever, when the second damage source isn't higher than the first one, the red phase will protect you because the second damage source doesn’t get counted\n\nThe following gif's shows two examples, in both two crystals get exploded but only in one the player gets saved by the red phase invincibility"
+  },
+  {
+    "id": "864899513817497630",
+    "author": "iDexy",
+    "sourceText": ".\n`3.` **Arrows with effects**\n\nFirst the projectile damage of the arrow gets counted and then the effect will get counted. This is important for instant health and harming damage arrows\n\n**Instant health arrows:**\n\nThis means that you can kill someone with this arrow even when the healing is higher than to the damage it deals\n\nThis can be important for some custom kit 1vs1 scenarios\n\n**Harming arrows:**\n\n**How do they work?**\n\nThe same rule applies to harming arrows but the red phase rules play a big role\n\nInstant damage is a magical effect which does 6 hp (3 full hearts) damage for each level. This means an harming arrow level 2 can deal 12 hp (6 hearts) damage due to the level of the effect\n\n📝 **__Example__** 📝 \n\n> When a harming arrow (level 2) hits an opponent, first the projectile damage from the shot registers and the player moves into the red phase. The projectile damage of the shot is calculated by the enchantment (power) and charge of the bow. In this example, lets say the projectile damage is `8 hp (4 hearts)`. So this amount gets taken away from the player’s health\n> \n> After the projectile damage is calculated the `12 hp (6 hearts) damage` from the harming 2 effect gets added. But the red phase is still active which means damage can only be upgraded. So the difference between both incoming damage values will get added, which is `12hp - 8hp= 4hp`. So this `4 hp (2 hearts)` is the remaining magical damage which gets updated to the target. So overall they lose `12 hp (6 hearts)` but from two different sources, which plays a big role\n."
+  },
+  {
+    "id": "864899515080376341",
+    "author": "iDexy",
+    "sourceText": "**How can i use this knowledge to my advantage?**\n\nAs explained in the <#861265185742651432> channel, there are different damage types and normal armour reacts differently to them\n\nFor the instant damage effect which is magical damage this means normal armour can't protect you against this damage while projectile damage gets reduced due armour\n\nFor the harming arrows, this means we want to deal as little projectile damage as possible so we gain more effect damage which ignores armour and deals a lot of damage\n\n**How can this be done?**\n\n`First` of all you should charge the bow as little as possible so it does less projectile damage and more effect damage\n\n`Second` if you use harming arrows your bow should **NOT HAVE** any power enchantments, because they increase the projectile damage of your bow, which leads to the instant damage effect usually being ignored because the projectile damage is higher than `12 hp (6 hearts)`. The more charged the shots are, the more effect damage the unenchanted bow deals with harming arrows level 2, compared to a power enchanted bow\n\n**To show you the difference, here are some gifs:**"
+  },
+  {
+    "id": "864899537490542622",
+    "author": "iDexy",
+    "sourceText": ".\nThis gif shows an unenchanted bow using harming 2 arrows shooting spammed shots to deal the highest damage which is possible with instant damage arrows against full netherite"
+  },
+  {
+    "id": "864899544969510922",
+    "author": "iDexy",
+    "sourceText": ".\nThis gif shows an unenchanted bow using harming 2 arrows with full charged shots against full netherite. You can clearly see the difference, the projectile damage is now higher so the effect damage is lower which leads to less damage is dealt"
+  },
+  {
+    "id": "864899552444416000",
+    "author": "iDexy",
+    "sourceText": "This gif shows an power 5 bow with harming level 2 arrows. There you can see 3 full charged shots and 3 spammed shots against full netherite full projectile protection 4. You can spot that the full charged shoots with its high projectile damage blocks the instant damage 2 effect from dealing damage"
+  },
+  {
+    "id": "864899556188356630",
+    "author": "iDexy",
+    "sourceText": ".\nThis gif shows an unenchanted bow with harming level 2 arrows shooting an player with a maximum reduction against blast protection `(3x protection 4, 1x blast protection 4)` which is mainly used in high end PvP fights, to show you how strong the harming arrows can bypass even this armour\n\n***How do i use this?***\n\nAs explained in <#860547038729732096>, protection enchantments reduce magical damage but even with enchantments the instant damage effect is pretty strong. Due to its ability to ignore normal armour, a spammed shot with a harming arrow from an unenchanted bow deals more taken damage to a full netherite full protection 4 player than a sharp 5, strength 2 critical hit or a full charged shot of a power 5 bow\n\nIn fights you can use them to shoot players when they camp or spam crystals and anchors while hiding in caves and cliffs and waiting for you to attack\n\nKeep in mind you shouldn’t use punch on your bow so you can pressure your opponent better\n\n❗ **__IMPORTANT__** ❗ \n\n`-` Due to the fact that armour doesn't reduce this kind of damage, it doesn't lose any durability points when the player is damaged by the effect. Only projectile damage lowers the armour durability\n."
+  },
+  {
+    "id": "864899558520651796",
+    "author": "iDexy",
+    "sourceText": "`4.` **Armour breaker techniques**\n\n❗ **__IMPORTANT__** ❗ \n\n`-` These things work theoretically but its pretty hard to use them in actual fights to your advantage.\n\nNow lets take a look at how armour durability is calculated in the red phase\n\nFor every `4 hp (2 Hearts)` incoming damage, 1 durability point is lost from the armour rounded down, but it will always get rounded up to 1 durability point no matter how weak the hit is\n\nYou can use the red phase mechanics to your advantage. All you need to do is to upgrade your first damage which starts the red phase with slightly higher damage values. You can do this for example while spam clicking but timed, meaning you switch to an item to reset your cooldown and deal less damage. When the red phase gets enabled for the first hit, your armour loses 1 durability point. All you need to do now is to time your spam hits while the red phase is going on to deal slightly higher damage values and with every hit another durability point is gone. Make sure you start the item switch with an item which deals no weapon damage (like blocks) or an empty slot (with a hand)\n."
+  },
+  {
+    "id": "864899559951695923",
+    "author": "iDexy",
+    "sourceText": "If you do this with one tool you can make your opponents armour lose around up to `8 durability` a second. To do this even better, you can spam click timed with different tools so you dont need to wait longer for a hit each time, you just need to switch fast and time your hits with the items. Just make sure that the first hit which starts the redphase is the weakest weapon and start with an item switch to reset your cooldown. You can make your opponents armour lose around `14 durability` per second when doing this correctly (but you need to learn drag click to perform it because every durability point is one click and high click speeds are necessary for this)\n\n❗ **__IMPORTANT__** ❗ \n\nTo do this you need a weapon which does at least `5 damage`, because of a delayed calculation. The reason is that you need a pick hit which does over 1 hp damage when spammed. Also, doing this with sharpness on your sword is a bit more complex. How the delay works for weapon damage will be explained more in depth in <#842456884492369920>"
+  },
+  {
+    "id": "864899563483299850",
+    "author": "iDexy",
+    "sourceText": ".\nThis gif shows a stone sword vs full leather. A normal attack with a stone sword would remove 1 durability point, but because of the technique it can remove up to `4 durability points`"
+  },
+  {
+    "id": "864899587259891733",
+    "author": "iDexy",
+    "sourceText": ".\nTo show that this works with every tool over `5 hp (2.5 hearts)` damage here is an example with a diamond pickaxe"
+  },
+  {
+    "id": "864899592381792306",
+    "author": "iDexy",
+    "sourceText": ".\nThis example shows the technique with multiple items which deal different amounts of damage so its easier to do and remove higher amounts of durability points\n\n***Category 12:*** 💡 `Combat Science Tips` 💡 \n\nHere you can see some tips about combat science that can help you in some decisions and games:\n\n`-` Hearts are visually shown rounded up, for example `17.16 hp shows 18 hp ingame`, which means you have less hp than you think. This means if you have half a heart, all values between `0-1 hp` are possible and that your health is likely less than half a heart\n\n`-` When you want to gain distance from your opponent using a water bucket, make sure you place it on a flat area, otherwise the water just flows in one direction and your opponent can easily avoid it\n\n`-` Horses have knockback resistance when a rider is on them\n\n`-` Throw a potion with the invisibility effect on your dogs to get a surprise advantage\n."
+  },
+  {
+    "id": "864899593380560918",
+    "author": "iDexy",
+    "sourceText": "`-` You can use the second hand button to sort your inventory while running\n\n`-` If you want to knock back burning or poisoned players, time your hits according to the redphase, hit them when they aren't red\n\n`-` A hit with an axe against a blocking player can disable the shield for `4 seconds`\n\n`-` Strength pots and sharpness make the difference between axe and sword smaller --> dps buff due to faster hit speed of the sword compared to axe --> axe is nearly useless in high end PvP\n."
+  },
+  {
+    "id": "864899594278273025",
+    "author": "iDexy",
+    "sourceText": "`-` Shields have a start up of 5 ticks until they can block `(250ms)`\n\n`-` To get a feel for how you need to throw your potion to get a maximum effect take a look at <#846818310200754266> \n\n`-` You can shoot firework rockets with crossbows which do splash/area damage to opponents\n\n`-` If you need more arrows you can craft spectral arrows with glowstone, with this  you can create 2 arrows from 1 arrow\n\n`-` You can catch running opponents with rods and pull them to you\n\n`-` If you pull back something with a rod, the weapon cooldown will be reset even if you didn't swing with your weapon\n\n`-` Enderchests are a good method for compressing obsidian, you get 8 obsidian from 1 ender chest\n\n`-` In free fall, Ender pearls accelerate slower than the player, but take their speed with them when they are released. In order to not hit the ground before the Ender pearl, you should throw it at the ground when you are just about to land.\n\n`-` When you're stuck in a cobweb, place water under you to get out of it. If you are in multiple cobwebs it can help to look a bit to the side and then hit the right click so it will be automatically placed sideways and the cobwebs get removed\n."
+  },
+  {
+    "id": "864899595981160478",
+    "author": "iDexy",
+    "sourceText": "`-` If you want to make a 1vs1 kit with blocks but opponents keep stacking up, use gravel and add a torch to your kit. If they stack up, destroy the block at the bottom and place the torch. The Gravel will be broken by the torch and your opponent will fall\n\n`-` You can use a snow bucket to stop yourself burning in the nether\n\n`-` You can explode anchors in the overworld and end, and beds in the nether and end to deal massive amounts of damage\n\n`-` If you're under pressure and have feather falling on your boots and a lot of ender pearls you can start throwing them in different directions at the same time to confuse your opponent and escape or recover\n\n`-` `1.9+` has smaller hitboxes compared to `1.8` so its a disadvantage when joining `1.8` servers with `1.9+` versions. Clients like labymod fix this issue if the server allows it\n."
+  },
+  {
+    "id": "864899597406437437",
+    "author": "iDexy",
+    "sourceText": "`-` Players need to be on same y level or above where the crystal is placed to take a lot of damage\n\n`-` Crossbows can be kept charged in the hotbar or inventory\n\n`-` When you’re in a shield fight and want to play aggressive, do an axe hit to break the opponents shield, switch to sword, tank your opponent’s crit, and use the knockback they gave you to punish crit and then jump again for another crit. After that, switch to axe\n\n`-` Try to get a feel for how much damage your opponent took by paying attention to the armour they wear so you know when its time to finish them or use specific items\n\n`-` In kit 1vs1 fights before the fight starts, always look in your inventory to spot hidden enchantments or items\n\n`-` You can tp your angle too, `/tp [player name] 0 64 0 0 0` to tp to an angle of 0 0\n."
+  },
+  {
+    "id": "864899598887026698",
+    "author": "iDexy",
+    "sourceText": "`-` With the command `/data get entity [player name]` you can get every players data like health or saturation.  For example, for Health `/data get entity [player name] Health` to get the exact Health\n\n`-` Axes are mostly better for chasing and water fights because the knockback you deal hits them forward out of your range so you can’t chain hits, so always use the strongest weapon.  Do critical hits while chasing to deal less knockback and maximum damage.\n\n`-` If you have multiple crossbows in your hotbar and are switching between them to rapidly fire a few arrows at once, wait about half a second between each shot, if you do it too quickly the arrows will be blocked by the red phase and bounce off the opponent’s hitbox\n\n`-` Most annoying playstyles depend on you to attack, don't let them bait you and stay away. Wait for some small errors in their playstyle and only then attack\n."
+  },
+  {
+    "id": "864899600817061948",
+    "author": "iDexy",
+    "sourceText": "`-` Arrow usage, when you have multiple types of arrows in your inventory take a look at the prioritisation of usage. It goes like this: first off hand, then hotbar from left to right, then the inventory slots at the top from left to right, the middle slot from left to right, and the bottom slot from left to right"
+  },
+  {
+    "id": "950142601363849226",
+    "author": "iDexy",
+    "sourceText": "If you wanna read a specific point of this channel, remember go to <#842456527922790400> , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before if you lost it"
+  }
+]

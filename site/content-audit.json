@@ -1,0 +1,2543 @@
+{
+  "stats": {
+    "articles": 32,
+    "messages": 366,
+    "textMessages": 277,
+    "videos": 133,
+    "images": 62,
+    "files": 1,
+    "media": 196,
+    "localAssets": 192,
+    "headings": 278,
+    "sourceCharacters": 239076,
+    "categories": {
+      "sword": 18,
+      "science": 14
+    },
+    "translatedMessages": 206,
+    "translatedArticles": 25
+  },
+  "sourceEncoding": "UTF-8",
+  "originalFilesModified": false,
+  "missingLocalReferences": [],
+  "unresolvedInternalReferences": [],
+  "externalDiscordReferences": [
+    "https://discord.com/channels/436125808138911784/1201179277891215550",
+    "https://discord.com/channels/436125808138911784/436136321585512448",
+    "https://discord.com/channels/436125808138911784/436136910709325834",
+    "https://discord.com/channels/436125808138911784/436138841493995531",
+    "https://discord.com/channels/436125808138911784/436765885089185792",
+    "https://discord.com/channels/436125808138911784/811735313088118805",
+    "https://discord.com/channels/436125808138911784/903766351259246662"
+  ],
+  "externalMedia": [
+    {
+      "type": "video",
+      "src": "https://images-ext-1.discordapp.net/external/DUAfXdklURr4bFdihOBxWf3j2KmLfzmOChrW0Hejgfg/%3FExpires%3D1626539400%26Signature%3DMay8ZHCdTarx65Vjmv8MPD5Ov5W4tsEODXzZTO3GTyLyhtITSk5weN-G3e8loSdZCbkjKvyknZdYbiE9JhSb0D2pDDYs1O5RMYQ-aYuSU3LiwDP0zhzCXtNIQ8o5iWyZjJqBgOKNTVW2f3subniOVBuiif4wcJQhAOpK7WUkra0Ax1ZQEzE8LGiOvmoPDmTJLJu2nPBAbeeGa4x0BQGekYHLZO1W9bl637~~mc5Jze-I81kmYJ2XHgd89dwqH9lMP-ZTQ2am3DmakrSnUwmdzn81g1swdGlCmkkKfZLN~Gsp0jUwvIhNIxrXyxqfV-tE3g2p1NyP7e~jZEnQk8Lcnw__%26Key-Pair-Id%3DAPKAIEYUVEN4EVB2OKEQ/https/cdn-cf-east.streamable.com/video/mp4/slkisj.mp4",
+      "caption": "Heres a video with all the hit types and their sounds, pay attention to the sounds! https://streamable.com/slkisj",
+      "messageId": "864899419979907072",
+      "external": true
+    }
+  ],
+  "emptySourceArticles": [
+    "science-range-and-ping"
+  ],
+  "articles": [
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - ✅┃extras [1370523822863945870].html",
+      "sha256": "3ce2870739b7e2fb421b018e705903f2a2840345f836a2371128a5f2f5c70558",
+      "slug": "sword-extras",
+      "sourceMessageCount": 3,
+      "outputMessageCount": 3,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 3,
+      "outputBodyCount": 3,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1370523851993120851",
+          "sourceCharacters": 1561,
+          "renderedCharacters": 1526,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1370523994993852546",
+          "sourceCharacters": 1050,
+          "renderedCharacters": 1025,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1370524056771887226",
+          "sourceCharacters": 1982,
+          "renderedCharacters": 1930,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🌟┃skills [1360587600410316971].html",
+      "sha256": "23f29ed6732188fe25dc98b2c88dfda1e4c0ec11f2186c4982e39b9a5a285e63",
+      "slug": "sword-skills",
+      "sourceMessageCount": 2,
+      "outputMessageCount": 2,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 2,
+      "outputBodyCount": 2,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1362101745206956172",
+          "sourceCharacters": 1404,
+          "renderedCharacters": 1276,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1362101800567574650",
+          "sourceCharacters": 1299,
+          "renderedCharacters": 1253,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🎌┃begin-sword [1360587183442104321].html",
+      "sha256": "529f9b3906f29d0b18557b920a2b1ac15a49a4dd01f9f6b965ac9f9215cc90af",
+      "slug": "sword-begin-sword",
+      "sourceMessageCount": 2,
+      "outputMessageCount": 2,
+      "sourceResourceCount": 3,
+      "outputResourceCount": 3,
+      "sourceMediaCount": 3,
+      "outputMediaCount": 3,
+      "sourceBodyCount": 2,
+      "outputBodyCount": 2,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1389111820534415392",
+          "sourceCharacters": 615,
+          "renderedCharacters": 562,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1389111835302563990",
+          "sourceCharacters": 1304,
+          "renderedCharacters": 1216,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🎥┃gameplay-settings [1360587666651091135].html",
+      "sha256": "ca07c62a653b6eed73e3b1c12ea5241d104610f6e40fa9c53808effac9fe6123",
+      "slug": "sword-gameplay-settings",
+      "sourceMessageCount": 1,
+      "outputMessageCount": 1,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 1,
+      "outputBodyCount": 1,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1362371715664969849",
+          "sourceCharacters": 985,
+          "renderedCharacters": 917,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🎥┃sword-gameplay-footage [1431743476340490481].html",
+      "sha256": "6de117929a7770fdefb1858d5f9153fb1bc882d5575055e3e9b15d65a9676179",
+      "slug": "sword-sword-gameplay-footage",
+      "sourceMessageCount": 1,
+      "outputMessageCount": 1,
+      "sourceResourceCount": 5,
+      "outputResourceCount": 5,
+      "sourceMediaCount": 5,
+      "outputMediaCount": 5,
+      "sourceBodyCount": 1,
+      "outputBodyCount": 1,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1431744822787575859",
+          "sourceCharacters": 3184,
+          "renderedCharacters": 3138,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🎯┃counters [1360587475403280636].html",
+      "sha256": "c8b743897cd31a5f93dcc8fa3174f392952a32ab249545f89be04789f2aea4d6",
+      "slug": "sword-counters",
+      "sourceMessageCount": 4,
+      "outputMessageCount": 4,
+      "sourceResourceCount": 3,
+      "outputResourceCount": 3,
+      "sourceMediaCount": 3,
+      "outputMediaCount": 3,
+      "sourceBodyCount": 1,
+      "outputBodyCount": 1,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1368013330802806914",
+          "sourceCharacters": 611,
+          "renderedCharacters": 558,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 📌┃index [1374343647189012550].html",
+      "sha256": "f030add870984817398b3023b7fc62efa5606328c59a7cc3affdae328ea29ec9",
+      "slug": "sword-index",
+      "sourceMessageCount": 2,
+      "outputMessageCount": 2,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 2,
+      "outputBodyCount": 2,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1389125951497179186",
+          "sourceCharacters": 1701,
+          "renderedCharacters": 1622,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1389125958916640848",
+          "sourceCharacters": 555,
+          "renderedCharacters": 528,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 📖┃fight-analysis [1276140121426628649].html",
+      "sha256": "870af3479bac2b7b2fcc9beefee88a711eca5c346972e6ea108afae9bdd228f3",
+      "slug": "sword-fight-analysis",
+      "sourceMessageCount": 11,
+      "outputMessageCount": 11,
+      "sourceResourceCount": 9,
+      "outputResourceCount": 9,
+      "sourceMediaCount": 9,
+      "outputMediaCount": 9,
+      "sourceBodyCount": 4,
+      "outputBodyCount": 4,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1276142063142047828",
+          "sourceCharacters": 371,
+          "renderedCharacters": 356,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1276142418961502243",
+          "sourceCharacters": 876,
+          "renderedCharacters": 795,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1278337593435492474",
+          "sourceCharacters": 43,
+          "renderedCharacters": 35,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1278337977969545311",
+          "sourceCharacters": 399,
+          "renderedCharacters": 397,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🔊┃core-techniques [1360587306779803659].html",
+      "sha256": "bf4149ebd772c45e94f8c7a6efe1a054cf9440c1e97457f26e22aae2e83e1097",
+      "slug": "sword-core-techniques",
+      "sourceMessageCount": 6,
+      "outputMessageCount": 6,
+      "sourceResourceCount": 12,
+      "outputResourceCount": 12,
+      "sourceMediaCount": 12,
+      "outputMediaCount": 12,
+      "sourceBodyCount": 6,
+      "outputBodyCount": 6,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1364709383791050956",
+          "sourceCharacters": 1988,
+          "renderedCharacters": 1836,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1364709871441678456",
+          "sourceCharacters": 859,
+          "renderedCharacters": 741,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1364710191337181287",
+          "sourceCharacters": 478,
+          "renderedCharacters": 370,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1364710546481352756",
+          "sourceCharacters": 552,
+          "renderedCharacters": 430,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1364710996261863616",
+          "sourceCharacters": 1607,
+          "renderedCharacters": 1518,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1364711475184406590",
+          "sourceCharacters": 917,
+          "renderedCharacters": 801,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🔊┃intermediate-techniques [1360587361833980057].html",
+      "sha256": "a960bfeba6926e11729be7e4c683a9037a7ea17fe4ac28910f89307dc896115e",
+      "slug": "sword-intermediate-techniques",
+      "sourceMessageCount": 9,
+      "outputMessageCount": 9,
+      "sourceResourceCount": 28,
+      "outputResourceCount": 28,
+      "sourceMediaCount": 28,
+      "outputMediaCount": 28,
+      "sourceBodyCount": 9,
+      "outputBodyCount": 9,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1368991334924554362",
+          "sourceCharacters": 981,
+          "renderedCharacters": 906,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368991569717497937",
+          "sourceCharacters": 1287,
+          "renderedCharacters": 1176,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368993460220203039",
+          "sourceCharacters": 839,
+          "renderedCharacters": 768,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368993667322216459",
+          "sourceCharacters": 964,
+          "renderedCharacters": 865,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368996164787114005",
+          "sourceCharacters": 657,
+          "renderedCharacters": 579,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368996737338970173",
+          "sourceCharacters": 728,
+          "renderedCharacters": 650,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368997598043705457",
+          "sourceCharacters": 1535,
+          "renderedCharacters": 1406,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368998039083159653",
+          "sourceCharacters": 1092,
+          "renderedCharacters": 979,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368998496514084957",
+          "sourceCharacters": 1469,
+          "renderedCharacters": 1387,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🔰┃basic-knowledge [1369056229120282694].html",
+      "sha256": "0b8bdb325b1f1c0b346ba3ecd3ac35470e43d438560cd39c614bcbfdefea2ac8",
+      "slug": "sword-basic-knowledge",
+      "sourceMessageCount": 2,
+      "outputMessageCount": 2,
+      "sourceResourceCount": 1,
+      "outputResourceCount": 1,
+      "sourceMediaCount": 1,
+      "outputMediaCount": 1,
+      "sourceBodyCount": 2,
+      "outputBodyCount": 2,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1369056952671539232",
+          "sourceCharacters": 690,
+          "renderedCharacters": 621,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1369056981779877992",
+          "sourceCharacters": 1293,
+          "renderedCharacters": 1164,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🤖┃combo-set-up [1360587504192979104].html",
+      "sha256": "f3a629e81f662aeb1d23a40e65bc8dd7c8cb925ad2b08bbdd94d0762187572e3",
+      "slug": "sword-combo-set-up",
+      "sourceMessageCount": 12,
+      "outputMessageCount": 12,
+      "sourceResourceCount": 12,
+      "outputResourceCount": 12,
+      "sourceMediaCount": 12,
+      "outputMediaCount": 12,
+      "sourceBodyCount": 12,
+      "outputBodyCount": 12,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1368979071245095002",
+          "sourceCharacters": 1056,
+          "renderedCharacters": 996,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368981801577480355",
+          "sourceCharacters": 132,
+          "renderedCharacters": 123,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368981926249234465",
+          "sourceCharacters": 25,
+          "renderedCharacters": 19,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368982025712963766",
+          "sourceCharacters": 27,
+          "renderedCharacters": 21,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368983630101348433",
+          "sourceCharacters": 43,
+          "renderedCharacters": 37,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368983789237174483",
+          "sourceCharacters": 100,
+          "renderedCharacters": 92,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368983893419757701",
+          "sourceCharacters": 54,
+          "renderedCharacters": 46,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368983939288399885",
+          "sourceCharacters": 20,
+          "renderedCharacters": 14,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368984057991401492",
+          "sourceCharacters": 34,
+          "renderedCharacters": 26,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368988096984518657",
+          "sourceCharacters": 122,
+          "renderedCharacters": 113,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368988180623265824",
+          "sourceCharacters": 40,
+          "renderedCharacters": 32,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368988234041917610",
+          "sourceCharacters": 209,
+          "renderedCharacters": 209,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🥇┃playstyle [1362181340304375960].html",
+      "sha256": "e68f3e584286ee58ce69c40c84b24f6351263b7a18747549f44129f9d1cc898e",
+      "slug": "sword-playstyle",
+      "sourceMessageCount": 4,
+      "outputMessageCount": 4,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 4,
+      "outputBodyCount": 4,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1362183864864342258",
+          "sourceCharacters": 1050,
+          "renderedCharacters": 1029,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1362183887777693876",
+          "sourceCharacters": 1914,
+          "renderedCharacters": 1779,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1362183923207110877",
+          "sourceCharacters": 1929,
+          "renderedCharacters": 1807,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1362183991582789853",
+          "sourceCharacters": 1996,
+          "renderedCharacters": 1927,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🥊┃techniques-intro [1360587414594388039].html",
+      "sha256": "6b50e838e705c3b9cf5f3ac35c4a5e1a71f64927db960d30ff8415de7a26cd34",
+      "slug": "sword-techniques-intro",
+      "sourceMessageCount": 2,
+      "outputMessageCount": 2,
+      "sourceResourceCount": 4,
+      "outputResourceCount": 4,
+      "sourceMediaCount": 4,
+      "outputMediaCount": 4,
+      "sourceBodyCount": 1,
+      "outputBodyCount": 1,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1369000668248936604",
+          "sourceCharacters": 753,
+          "renderedCharacters": 659,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🥷┃important-figures [1389099414244692028].html",
+      "sha256": "1941bec26fad11012a7e4458f03f9f9b7d3d3dca93eb6046fd636d3d2cd61745",
+      "slug": "sword-important-figures",
+      "sourceMessageCount": 2,
+      "outputMessageCount": 2,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 2,
+      "outputBodyCount": 2,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1389101948778582097",
+          "sourceCharacters": 1690,
+          "renderedCharacters": 1675,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1389102031192723531",
+          "sourceCharacters": 1520,
+          "renderedCharacters": 1457,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🦾┃defensive-tactics [1369037862766514387].html",
+      "sha256": "404d9b55df0e36ae6b7d5b838310ba0655fbf58109dc2c87c7f74aabc8b665e7",
+      "slug": "sword-defensive-tactics",
+      "sourceMessageCount": 4,
+      "outputMessageCount": 4,
+      "sourceResourceCount": 8,
+      "outputResourceCount": 8,
+      "sourceMediaCount": 8,
+      "outputMediaCount": 8,
+      "sourceBodyCount": 4,
+      "outputBodyCount": 4,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1369053764681597240",
+          "sourceCharacters": 1467,
+          "renderedCharacters": 1396,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1369054166709702777",
+          "sourceCharacters": 684,
+          "renderedCharacters": 653,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1369054256082194443",
+          "sourceCharacters": 760,
+          "renderedCharacters": 724,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1369054313812332664",
+          "sourceCharacters": 987,
+          "renderedCharacters": 946,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🧬┃advanced-techniques [1368967335444090981].html",
+      "sha256": "a60b39d321e7af6864ce2340e9ee582c9c561be67cc944052c0780cb9b9f65f3",
+      "slug": "sword-advanced-techniques",
+      "sourceMessageCount": 5,
+      "outputMessageCount": 5,
+      "sourceResourceCount": 10,
+      "outputResourceCount": 10,
+      "sourceMediaCount": 10,
+      "outputMediaCount": 10,
+      "sourceBodyCount": 5,
+      "outputBodyCount": 5,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1368974700222480506",
+          "sourceCharacters": 1814,
+          "renderedCharacters": 1677,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368974886994706482",
+          "sourceCharacters": 1930,
+          "renderedCharacters": 1823,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368974976740491427",
+          "sourceCharacters": 1270,
+          "renderedCharacters": 1169,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368975039315312770",
+          "sourceCharacters": 1610,
+          "renderedCharacters": 1468,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368975118365360148",
+          "sourceCharacters": 840,
+          "renderedCharacters": 692,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - ⚔️ Sword Guide - 🪃┃advanced-sweeps [1368704036114792558].html",
+      "sha256": "431252d28ecb58ac13182e6458876315b6f2ac498c3f87113dcc20a8b2bf01be",
+      "slug": "sword-advanced-sweeps",
+      "sourceMessageCount": 8,
+      "outputMessageCount": 8,
+      "sourceResourceCount": 19,
+      "outputResourceCount": 19,
+      "sourceMediaCount": 19,
+      "outputMediaCount": 19,
+      "sourceBodyCount": 8,
+      "outputBodyCount": 8,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "1368704332702154772",
+          "sourceCharacters": 773,
+          "renderedCharacters": 725,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368704447936729260",
+          "sourceCharacters": 564,
+          "renderedCharacters": 469,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368704515251110039",
+          "sourceCharacters": 1160,
+          "renderedCharacters": 1062,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368704589037310103",
+          "sourceCharacters": 1041,
+          "renderedCharacters": 916,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368704718305755208",
+          "sourceCharacters": 526,
+          "renderedCharacters": 403,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368704931522941091",
+          "sourceCharacters": 924,
+          "renderedCharacters": 798,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368705237048754188",
+          "sourceCharacters": 1001,
+          "renderedCharacters": 905,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "1368966773344567419",
+          "sourceCharacters": 1218,
+          "renderedCharacters": 1117,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - ⚔️┃combat-science [842456718452719676].html",
+      "sha256": "601f4b79e821a2430882b3896ef726f92ba054734b430ab1740bc5a6d6973b63",
+      "slug": "science-combat-science",
+      "sourceMessageCount": 50,
+      "outputMessageCount": 50,
+      "sourceResourceCount": 18,
+      "outputResourceCount": 18,
+      "sourceMediaCount": 18,
+      "outputMediaCount": 18,
+      "sourceBodyCount": 33,
+      "outputBodyCount": 33,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "864899416837980180",
+          "sourceCharacters": 1406,
+          "renderedCharacters": 1332,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899418410975292",
+          "sourceCharacters": 1895,
+          "renderedCharacters": 1822,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899419979907072",
+          "sourceCharacters": 113,
+          "renderedCharacters": 113,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899421246455808",
+          "sourceCharacters": 1611,
+          "renderedCharacters": 1538,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899423431426098",
+          "sourceCharacters": 493,
+          "renderedCharacters": 490,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899427109830707",
+          "sourceCharacters": 1496,
+          "renderedCharacters": 1396,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899428389486622",
+          "sourceCharacters": 1807,
+          "renderedCharacters": 1755,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899429625626624",
+          "sourceCharacters": 696,
+          "renderedCharacters": 685,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899465595715624",
+          "sourceCharacters": 1455,
+          "renderedCharacters": 1423,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899468268142623",
+          "sourceCharacters": 1163,
+          "renderedCharacters": 1100,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899470839775303",
+          "sourceCharacters": 929,
+          "renderedCharacters": 870,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899472215638066",
+          "sourceCharacters": 139,
+          "renderedCharacters": 125,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899473632395305",
+          "sourceCharacters": 854,
+          "renderedCharacters": 838,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899501877231628",
+          "sourceCharacters": 1305,
+          "renderedCharacters": 1262,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899509275197462",
+          "sourceCharacters": 1462,
+          "renderedCharacters": 1437,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899513817497630",
+          "sourceCharacters": 1570,
+          "renderedCharacters": 1519,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899515080376341",
+          "sourceCharacters": 1133,
+          "renderedCharacters": 1100,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899537490542622",
+          "sourceCharacters": 176,
+          "renderedCharacters": 176,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899544969510922",
+          "sourceCharacters": 244,
+          "renderedCharacters": 244,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899552444416000",
+          "sourceCharacters": 299,
+          "renderedCharacters": 299,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899556188356630",
+          "sourceCharacters": 1196,
+          "renderedCharacters": 1157,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899558520651796",
+          "sourceCharacters": 1120,
+          "renderedCharacters": 1097,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899559951695923",
+          "sourceCharacters": 1032,
+          "renderedCharacters": 1004,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899563483299850",
+          "sourceCharacters": 186,
+          "renderedCharacters": 184,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899587259891733",
+          "sourceCharacters": 115,
+          "renderedCharacters": 113,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899592381792306",
+          "sourceCharacters": 922,
+          "renderedCharacters": 895,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899593380560918",
+          "sourceCharacters": 488,
+          "renderedCharacters": 475,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899594278273025",
+          "sourceCharacters": 1182,
+          "renderedCharacters": 1138,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899595981160478",
+          "sourceCharacters": 841,
+          "renderedCharacters": 819,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899597406437437",
+          "sourceCharacters": 804,
+          "renderedCharacters": 785,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899598887026698",
+          "sourceCharacters": 893,
+          "renderedCharacters": 878,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864899600817061948",
+          "sourceCharacters": 315,
+          "renderedCharacters": 313,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950142601363849226",
+          "sourceCharacters": 227,
+          "renderedCharacters": 212,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - ⚙️┃settings [854016320911310858].html",
+      "sha256": "b526b9289c60f144f57233271317e45777cb52fbc0aed688de500fabb86bdd53",
+      "slug": "science-settings",
+      "sourceMessageCount": 9,
+      "outputMessageCount": 9,
+      "sourceResourceCount": 2,
+      "outputResourceCount": 2,
+      "sourceMediaCount": 2,
+      "outputMediaCount": 2,
+      "sourceBodyCount": 7,
+      "outputBodyCount": 7,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "859948521369370634",
+          "sourceCharacters": 923,
+          "renderedCharacters": 872,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859948522631856140",
+          "sourceCharacters": 356,
+          "renderedCharacters": 334,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859948526356135947",
+          "sourceCharacters": 111,
+          "renderedCharacters": 107,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859948530420809738",
+          "sourceCharacters": 209,
+          "renderedCharacters": 199,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859948532679835669",
+          "sourceCharacters": 1317,
+          "renderedCharacters": 1275,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859948534223994901",
+          "sourceCharacters": 322,
+          "renderedCharacters": 315,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950142676953624626",
+          "sourceCharacters": 229,
+          "renderedCharacters": 214,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - ✨┃effects [859903976422244392].html",
+      "sha256": "d81d4bf4f2b99cceb2bba2b28a6c1fcfd4bd41902eb4819de7772321de9f5189",
+      "slug": "science-effects",
+      "sourceMessageCount": 63,
+      "outputMessageCount": 63,
+      "sourceResourceCount": 23,
+      "outputResourceCount": 23,
+      "sourceMediaCount": 23,
+      "outputMediaCount": 23,
+      "sourceBodyCount": 40,
+      "outputBodyCount": 40,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "859904072717697054",
+          "sourceCharacters": 1839,
+          "renderedCharacters": 1761,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904074420846602",
+          "sourceCharacters": 612,
+          "renderedCharacters": 573,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904076183633931",
+          "sourceCharacters": 634,
+          "renderedCharacters": 626,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904077861093436",
+          "sourceCharacters": 225,
+          "renderedCharacters": 204,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904080758702090",
+          "sourceCharacters": 809,
+          "renderedCharacters": 723,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904083716079657",
+          "sourceCharacters": 1063,
+          "renderedCharacters": 968,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904086895099934",
+          "sourceCharacters": 1091,
+          "renderedCharacters": 1011,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904116196769793",
+          "sourceCharacters": 1693,
+          "renderedCharacters": 1601,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904117493334036",
+          "sourceCharacters": 282,
+          "renderedCharacters": 244,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904121955287090",
+          "sourceCharacters": 591,
+          "renderedCharacters": 555,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904123826733106",
+          "sourceCharacters": 420,
+          "renderedCharacters": 388,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904127117951016",
+          "sourceCharacters": 508,
+          "renderedCharacters": 451,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904128908918784",
+          "sourceCharacters": 618,
+          "renderedCharacters": 564,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904157716971571",
+          "sourceCharacters": 1098,
+          "renderedCharacters": 995,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904161697103912",
+          "sourceCharacters": 678,
+          "renderedCharacters": 616,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904164888838174",
+          "sourceCharacters": 162,
+          "renderedCharacters": 144,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904166608896070",
+          "sourceCharacters": 334,
+          "renderedCharacters": 313,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904169653043230",
+          "sourceCharacters": 525,
+          "renderedCharacters": 462,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904173608665108",
+          "sourceCharacters": 334,
+          "renderedCharacters": 313,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904200619720744",
+          "sourceCharacters": 398,
+          "renderedCharacters": 346,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904202750689322",
+          "sourceCharacters": 877,
+          "renderedCharacters": 840,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904208160555008",
+          "sourceCharacters": 354,
+          "renderedCharacters": 318,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904211755991075",
+          "sourceCharacters": 957,
+          "renderedCharacters": 902,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904218403176500",
+          "sourceCharacters": 1104,
+          "renderedCharacters": 1045,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904242868944946",
+          "sourceCharacters": 669,
+          "renderedCharacters": 627,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904247617683496",
+          "sourceCharacters": 1006,
+          "renderedCharacters": 941,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904250901823518",
+          "sourceCharacters": 1277,
+          "renderedCharacters": 1196,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904254093295647",
+          "sourceCharacters": 1056,
+          "renderedCharacters": 1005,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904255842582588",
+          "sourceCharacters": 927,
+          "renderedCharacters": 868,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904260170186773",
+          "sourceCharacters": 1293,
+          "renderedCharacters": 1242,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904285927407658",
+          "sourceCharacters": 1005,
+          "renderedCharacters": 955,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904289543028737",
+          "sourceCharacters": 1557,
+          "renderedCharacters": 1471,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904291362701322",
+          "sourceCharacters": 751,
+          "renderedCharacters": 702,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904294207225866",
+          "sourceCharacters": 555,
+          "renderedCharacters": 522,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904297399222272",
+          "sourceCharacters": 1051,
+          "renderedCharacters": 1017,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904299005902888",
+          "sourceCharacters": 1015,
+          "renderedCharacters": 953,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904300624904232",
+          "sourceCharacters": 1426,
+          "renderedCharacters": 1342,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904328470757456",
+          "sourceCharacters": 805,
+          "renderedCharacters": 777,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859904415321554956",
+          "sourceCharacters": 590,
+          "renderedCharacters": 579,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950392648861122630",
+          "sourceCharacters": 228,
+          "renderedCharacters": 213,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - ❇️┃armour-decisions [861265185742651432].html",
+      "sha256": "79c8783b292ef7cbbba8461dc7be292dc49d9ab5457c1b4217ce7289a6dfffd4",
+      "slug": "science-armour-decisions",
+      "sourceMessageCount": 25,
+      "outputMessageCount": 25,
+      "sourceResourceCount": 4,
+      "outputResourceCount": 4,
+      "sourceMediaCount": 3,
+      "outputMediaCount": 3,
+      "sourceBodyCount": 21,
+      "outputBodyCount": 21,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "861265607403372555",
+          "sourceCharacters": 1813,
+          "renderedCharacters": 1678,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265610179608577",
+          "sourceCharacters": 1392,
+          "renderedCharacters": 1352,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265611602133003",
+          "sourceCharacters": 1127,
+          "renderedCharacters": 1101,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265612822020116",
+          "sourceCharacters": 1555,
+          "renderedCharacters": 1449,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265613548552193",
+          "sourceCharacters": 1461,
+          "renderedCharacters": 1298,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265614709456896",
+          "sourceCharacters": 1036,
+          "renderedCharacters": 1012,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265615624339526",
+          "sourceCharacters": 1525,
+          "renderedCharacters": 1316,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265616459399228",
+          "sourceCharacters": 1570,
+          "renderedCharacters": 1466,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265617222631445",
+          "sourceCharacters": 826,
+          "renderedCharacters": 771,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265618103697439",
+          "sourceCharacters": 1285,
+          "renderedCharacters": 1244,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265650018418699",
+          "sourceCharacters": 1175,
+          "renderedCharacters": 1125,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265650826346527",
+          "sourceCharacters": 1635,
+          "renderedCharacters": 1460,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265652190806016",
+          "sourceCharacters": 191,
+          "renderedCharacters": 181,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265654970318868",
+          "sourceCharacters": 871,
+          "renderedCharacters": 863,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265657760317450",
+          "sourceCharacters": 570,
+          "renderedCharacters": 557,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265660574302229",
+          "sourceCharacters": 1676,
+          "renderedCharacters": 1528,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265661316825099",
+          "sourceCharacters": 1570,
+          "renderedCharacters": 1504,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265693046865920",
+          "sourceCharacters": 438,
+          "renderedCharacters": 427,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265694032920576",
+          "sourceCharacters": 1057,
+          "renderedCharacters": 1023,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861265694959075328",
+          "sourceCharacters": 265,
+          "renderedCharacters": 255,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "973231260342321173",
+          "sourceCharacters": 228,
+          "renderedCharacters": 226,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - ❓┃pvp-bugs [842456884492369920].html",
+      "sha256": "beac69cf5a4c788ae02aa3784f5cf24e1c3e5560d16502e7d29e43954f6286a1",
+      "slug": "science-pvp-bugs",
+      "sourceMessageCount": 11,
+      "outputMessageCount": 11,
+      "sourceResourceCount": 5,
+      "outputResourceCount": 5,
+      "sourceMediaCount": 5,
+      "outputMediaCount": 5,
+      "sourceBodyCount": 6,
+      "outputBodyCount": 6,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "892162298427367494",
+          "sourceCharacters": 1637,
+          "renderedCharacters": 1570,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "892162302835589120",
+          "sourceCharacters": 1168,
+          "renderedCharacters": 1132,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "892162307839393842",
+          "sourceCharacters": 541,
+          "renderedCharacters": 527,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "892162312457310239",
+          "sourceCharacters": 781,
+          "renderedCharacters": 744,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "892162316987158598",
+          "sourceCharacters": 404,
+          "renderedCharacters": 385,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950142669491945542",
+          "sourceCharacters": 227,
+          "renderedCharacters": 212,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 🍎┃food [859911045887557633].html",
+      "sha256": "eea6a549ec0d302445e14555fbfd42a252c98d93b4b12873b869510d3eadd41b",
+      "slug": "science-food",
+      "sourceMessageCount": 28,
+      "outputMessageCount": 28,
+      "sourceResourceCount": 8,
+      "outputResourceCount": 8,
+      "sourceMediaCount": 8,
+      "outputMediaCount": 8,
+      "sourceBodyCount": 20,
+      "outputBodyCount": 20,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "859911160480661545",
+          "sourceCharacters": 969,
+          "renderedCharacters": 908,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911162397065227",
+          "sourceCharacters": 1251,
+          "renderedCharacters": 1197,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911164212412426",
+          "sourceCharacters": 621,
+          "renderedCharacters": 595,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911165294936066",
+          "sourceCharacters": 1699,
+          "renderedCharacters": 1666,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911166812618773",
+          "sourceCharacters": 402,
+          "renderedCharacters": 379,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911168357695538",
+          "sourceCharacters": 1129,
+          "renderedCharacters": 1065,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911169795817472",
+          "sourceCharacters": 391,
+          "renderedCharacters": 376,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911172215799848",
+          "sourceCharacters": 265,
+          "renderedCharacters": 247,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911204386766879",
+          "sourceCharacters": 969,
+          "renderedCharacters": 931,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911205332975687",
+          "sourceCharacters": 963,
+          "renderedCharacters": 854,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911207712849921",
+          "sourceCharacters": 1258,
+          "renderedCharacters": 1125,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911212510740499",
+          "sourceCharacters": 1336,
+          "renderedCharacters": 1292,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911215802875916",
+          "sourceCharacters": 1027,
+          "renderedCharacters": 968,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911217438261268",
+          "sourceCharacters": 295,
+          "renderedCharacters": 285,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911246089945118",
+          "sourceCharacters": 1798,
+          "renderedCharacters": 1756,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911253518057513",
+          "sourceCharacters": 1382,
+          "renderedCharacters": 1341,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911254521151510",
+          "sourceCharacters": 1585,
+          "renderedCharacters": 1557,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911256450138132",
+          "sourceCharacters": 1659,
+          "renderedCharacters": 1609,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "859911258110033970",
+          "sourceCharacters": 415,
+          "renderedCharacters": 404,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950392629223374938",
+          "sourceCharacters": 228,
+          "renderedCharacters": 213,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 🎌┃begin-pvp-science [842456502229008454].html",
+      "sha256": "2031cf8d5772d6069f4e63895654fc68d321ff4340734a5230e6682c9d107642",
+      "slug": "science-begin-pvp-science",
+      "sourceMessageCount": 1,
+      "outputMessageCount": 1,
+      "sourceResourceCount": 1,
+      "outputResourceCount": 1,
+      "sourceMediaCount": 1,
+      "outputMediaCount": 1,
+      "sourceBodyCount": 1,
+      "outputBodyCount": 1,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "843293226781376542",
+          "sourceCharacters": 1036,
+          "renderedCharacters": 926,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 🏃‍♂️‍➡️┃movement-speed [842456839526678528].html",
+      "sha256": "4a123ec69ae35ae18a299569a3cbd7bf1b3c5414d19156e3918c2d3f24f4da3f",
+      "slug": "science-movement-speed",
+      "sourceMessageCount": 12,
+      "outputMessageCount": 12,
+      "sourceResourceCount": 5,
+      "outputResourceCount": 5,
+      "sourceMediaCount": 5,
+      "outputMediaCount": 5,
+      "sourceBodyCount": 7,
+      "outputBodyCount": 7,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "852182357884272680",
+          "sourceCharacters": 1787,
+          "renderedCharacters": 1667,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "852182359629365259",
+          "sourceCharacters": 1307,
+          "renderedCharacters": 1255,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "852182363009974313",
+          "sourceCharacters": 1199,
+          "renderedCharacters": 1065,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "852182365082222642",
+          "sourceCharacters": 863,
+          "renderedCharacters": 803,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "852182371586801684",
+          "sourceCharacters": 479,
+          "renderedCharacters": 457,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "852182400729481226",
+          "sourceCharacters": 796,
+          "renderedCharacters": 769,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950142661015248976",
+          "sourceCharacters": 228,
+          "renderedCharacters": 213,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 💎┃villagers [852244533705965599].html",
+      "sha256": "eeecf531fc5785166be68fceeda8d6495bb59fb0bb9061a9b153268c395a72a3",
+      "slug": "science-villagers",
+      "sourceMessageCount": 17,
+      "outputMessageCount": 17,
+      "sourceResourceCount": 1,
+      "outputResourceCount": 1,
+      "sourceMediaCount": 1,
+      "outputMediaCount": 1,
+      "sourceBodyCount": 16,
+      "outputBodyCount": 16,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "861633167500771379",
+          "sourceCharacters": 1939,
+          "renderedCharacters": 1864,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633169363304478",
+          "sourceCharacters": 1346,
+          "renderedCharacters": 1300,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633170943377438",
+          "sourceCharacters": 1793,
+          "renderedCharacters": 1775,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633172054736946",
+          "sourceCharacters": 965,
+          "renderedCharacters": 943,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633173225472041",
+          "sourceCharacters": 594,
+          "renderedCharacters": 504,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633174647341087",
+          "sourceCharacters": 1313,
+          "renderedCharacters": 1284,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633176321130547",
+          "sourceCharacters": 1872,
+          "renderedCharacters": 1801,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633182352670761",
+          "sourceCharacters": 1465,
+          "renderedCharacters": 1447,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633188698390558",
+          "sourceCharacters": 527,
+          "renderedCharacters": 516,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633189814730782",
+          "sourceCharacters": 1779,
+          "renderedCharacters": 1723,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633190938804254",
+          "sourceCharacters": 586,
+          "renderedCharacters": 562,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633205434187796",
+          "sourceCharacters": 971,
+          "renderedCharacters": 934,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633208068341791",
+          "sourceCharacters": 81,
+          "renderedCharacters": 81,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633209997066241",
+          "sourceCharacters": 1085,
+          "renderedCharacters": 1059,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "861633211394162748",
+          "sourceCharacters": 417,
+          "renderedCharacters": 412,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950142652827963402",
+          "sourceCharacters": 228,
+          "renderedCharacters": 213,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 💿┃data [846818310200754266].html",
+      "sha256": "a6fe4d1b44f5042252ec8c2238fcec3e47d30fc6c88fdaa38ec34d1ee9671025",
+      "slug": "science-data",
+      "sourceMessageCount": 22,
+      "outputMessageCount": 22,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 22,
+      "outputBodyCount": 22,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "864882368980844595",
+          "sourceCharacters": 564,
+          "renderedCharacters": 511,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882371534520381",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882373429297212",
+          "sourceCharacters": 230,
+          "renderedCharacters": 219,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882374692438046",
+          "sourceCharacters": 164,
+          "renderedCharacters": 162,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882376371077150",
+          "sourceCharacters": 176,
+          "renderedCharacters": 161,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882377948266526",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882379063164949",
+          "sourceCharacters": 172,
+          "renderedCharacters": 157,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882380175048705",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882381688930344",
+          "sourceCharacters": 172,
+          "renderedCharacters": 162,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882397161455616",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882398172020736",
+          "sourceCharacters": 139,
+          "renderedCharacters": 122,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882399367266355",
+          "sourceCharacters": 336,
+          "renderedCharacters": 317,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882400437469194",
+          "sourceCharacters": 400,
+          "renderedCharacters": 391,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882401775452160",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882403058384896",
+          "sourceCharacters": 192,
+          "renderedCharacters": 177,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882409925378108",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882412534366219",
+          "sourceCharacters": 189,
+          "renderedCharacters": 174,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882413733675049",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882439990280222",
+          "sourceCharacters": 1267,
+          "renderedCharacters": 1207,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882441227337761",
+          "sourceCharacters": 1,
+          "renderedCharacters": 1,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "864882443826888714",
+          "sourceCharacters": 1384,
+          "renderedCharacters": 1190,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950142690874523669",
+          "sourceCharacters": 228,
+          "renderedCharacters": 213,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 📌┃index [842456527922790400].html",
+      "sha256": "5f4d9b3ad728d5cbd90ff8e26233018f92c194029d38c221a53be82a609fc951",
+      "slug": "science-index",
+      "sourceMessageCount": 8,
+      "outputMessageCount": 8,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 8,
+      "outputBodyCount": 8,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "898979535440191499",
+          "sourceCharacters": 1872,
+          "renderedCharacters": 1738,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979537914826793",
+          "sourceCharacters": 1418,
+          "renderedCharacters": 1301,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979539856785469",
+          "sourceCharacters": 1902,
+          "renderedCharacters": 1774,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979542406955078",
+          "sourceCharacters": 1743,
+          "renderedCharacters": 1612,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979544948690954",
+          "sourceCharacters": 1685,
+          "renderedCharacters": 1532,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979547066810399",
+          "sourceCharacters": 1338,
+          "renderedCharacters": 1215,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979549352689705",
+          "sourceCharacters": 1244,
+          "renderedCharacters": 1117,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "898979551487619092",
+          "sourceCharacters": 84,
+          "renderedCharacters": 63,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 🔗┃references [853305346663776296].html",
+      "sha256": "262955c3aa1f07bbd95d5e6d4df2f7c1f2919ac28a4ac60d0d8cf9bbdd337733",
+      "slug": "science-references",
+      "sourceMessageCount": 4,
+      "outputMessageCount": 4,
+      "sourceResourceCount": 3,
+      "outputResourceCount": 3,
+      "sourceMediaCount": 2,
+      "outputMediaCount": 2,
+      "sourceBodyCount": 4,
+      "outputBodyCount": 4,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "853308297930997760",
+          "sourceCharacters": 24,
+          "renderedCharacters": 16,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "853308299754602517",
+          "sourceCharacters": 614,
+          "renderedCharacters": 549,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "853308302288355348",
+          "sourceCharacters": 86,
+          "renderedCharacters": 77,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "853308303441657877",
+          "sourceCharacters": 102,
+          "renderedCharacters": 93,
+          "nonEmpty": true
+        }
+      ]
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 🛜┃range-and-ping [913444741830570035].html",
+      "sha256": "40095f5071c8acf4ceff1f7de09b8485bdd56e699a0d2114fefc770357db47b4",
+      "slug": "science-range-and-ping",
+      "sourceMessageCount": 0,
+      "outputMessageCount": 0,
+      "sourceResourceCount": 0,
+      "outputResourceCount": 0,
+      "sourceMediaCount": 0,
+      "outputMediaCount": 0,
+      "sourceBodyCount": 0,
+      "outputBodyCount": 0,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": []
+    },
+    {
+      "source": "[1.9+] PvP Guide - 📊 PvP Science Guide - 🪖┃armor [860547038729732096].html",
+      "sha256": "360d1a5771216d4feef83fb06ca1ae6f7ff72e176e29d39953dbb07b701085eb",
+      "slug": "science-armor",
+      "sourceMessageCount": 36,
+      "outputMessageCount": 36,
+      "sourceResourceCount": 13,
+      "outputResourceCount": 13,
+      "sourceMediaCount": 13,
+      "outputMediaCount": 13,
+      "sourceBodyCount": 23,
+      "outputBodyCount": 23,
+      "verbatimSourceRetained": true,
+      "missingMedia": [],
+      "bodyChecks": [
+        {
+          "messageId": "860547231722242048",
+          "sourceCharacters": 1370,
+          "renderedCharacters": 1294,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547234512633876",
+          "sourceCharacters": 399,
+          "renderedCharacters": 385,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547238006882304",
+          "sourceCharacters": 577,
+          "renderedCharacters": 535,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547239457062912",
+          "sourceCharacters": 1596,
+          "renderedCharacters": 1541,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547243807342602",
+          "sourceCharacters": 740,
+          "renderedCharacters": 675,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547246465482772",
+          "sourceCharacters": 1128,
+          "renderedCharacters": 1058,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547275243257917",
+          "sourceCharacters": 1173,
+          "renderedCharacters": 1073,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547276858458162",
+          "sourceCharacters": 952,
+          "renderedCharacters": 880,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547281102176256",
+          "sourceCharacters": 206,
+          "renderedCharacters": 196,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547284021149706",
+          "sourceCharacters": 293,
+          "renderedCharacters": 285,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547286525542410",
+          "sourceCharacters": 277,
+          "renderedCharacters": 262,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547316943552532",
+          "sourceCharacters": 293,
+          "renderedCharacters": 274,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547318923001906",
+          "sourceCharacters": 106,
+          "renderedCharacters": 96,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547325850812426",
+          "sourceCharacters": 98,
+          "renderedCharacters": 94,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547328061472768",
+          "sourceCharacters": 110,
+          "renderedCharacters": 106,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547330141585438",
+          "sourceCharacters": 1097,
+          "renderedCharacters": 1020,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547330893414411",
+          "sourceCharacters": 1376,
+          "renderedCharacters": 1310,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547360879149076",
+          "sourceCharacters": 753,
+          "renderedCharacters": 703,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547364297244684",
+          "sourceCharacters": 888,
+          "renderedCharacters": 837,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547365635227688",
+          "sourceCharacters": 630,
+          "renderedCharacters": 612,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547366607519784",
+          "sourceCharacters": 1450,
+          "renderedCharacters": 1422,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "860547368960131093",
+          "sourceCharacters": 672,
+          "renderedCharacters": 658,
+          "nonEmpty": true
+        },
+        {
+          "messageId": "950392588890943548",
+          "sourceCharacters": 227,
+          "renderedCharacters": 212,
+          "nonEmpty": true
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "translation": {
+    "complete": false,
+    "missing": [
+      {
+        "slug": "science-food",
+        "messageId": "859911160480661545"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911162397065227"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911164212412426"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911165294936066"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911166812618773"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911168357695538"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911169795817472"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911172215799848"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911204386766879"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911205332975687"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911207712849921"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911212510740499"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911215802875916"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911217438261268"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911246089945118"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911253518057513"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911254521151510"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911256450138132"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "859911258110033970"
+      },
+      {
+        "slug": "science-food",
+        "messageId": "950392629223374938"
+      },
+      {
+        "slug": "science-begin-pvp-science",
+        "messageId": "843293226781376542"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633167500771379"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633169363304478"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633170943377438"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633172054736946"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633173225472041"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633174647341087"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633176321130547"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633182352670761"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633188698390558"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633189814730782"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633190938804254"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633205434187796"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633208068341791"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633209997066241"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "861633211394162748"
+      },
+      {
+        "slug": "science-villagers",
+        "messageId": "950142652827963402"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882368980844595"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882371534520381"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882373429297212"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882374692438046"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882376371077150"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882377948266526"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882379063164949"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882380175048705"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882381688930344"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882397161455616"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882398172020736"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882399367266355"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882400437469194"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882401775452160"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882403058384896"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882409925378108"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882412534366219"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882413733675049"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882439990280222"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882441227337761"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "864882443826888714"
+      },
+      {
+        "slug": "science-data",
+        "messageId": "950142690874523669"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979535440191499"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979537914826793"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979539856785469"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979542406955078"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979544948690954"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979547066810399"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979549352689705"
+      },
+      {
+        "slug": "science-index",
+        "messageId": "898979551487619092"
+      },
+      {
+        "slug": "science-references",
+        "messageId": "853308297930997760"
+      },
+      {
+        "slug": "science-references",
+        "messageId": "853308299754602517"
+      },
+      {
+        "slug": "science-references",
+        "messageId": "853308302288355348"
+      },
+      {
+        "slug": "science-references",
+        "messageId": "853308303441657877"
+      }
+    ],
+    "translatedMessages": 206
+  }
+}

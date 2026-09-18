@@ -1,0 +1,37 @@
+[
+  {
+    "id": "859948521369370634",
+    "author": "iDexy",
+    "sourceText": "⚙️ ***__Settings__*** ⚙️\n\n**Author:** `LoCr`\n**Translator:** `Zivkovic`\n**Writer:** `iDexy`\n\nIn this channel we will speak about useful PvP settings\n\n***Category 1:*** ♻️ `FPS` ♻️ \n\nThe FPS means Frames per Second and it describes the number of individual images that are recorded or played back per second. This is important for a good and smooth feel of the game. Generally you can say that the more FPS you have, the better it is for PvP. There are several methods to increase it. The Framerate should be at least around `60 fps`. You can take a look at its current level with the f3 key\n\n`Graphic settings:`\n\nOne way to gain more FPS is to set your graphics to a lower level. This means lowering render distance, decreasing or turning off graphics clouds and particles, and setting the \"graphics\" option to fast\n\n`Changing some settings:`\n\nSet vSync and Smooth lighting to off. Set the maximum frame rate to unlimited\n."
+  },
+  {
+    "id": "859948522631856140",
+    "author": "iDexy",
+    "sourceText": "***Category 2:*** 💻 `F3 commands` 💻 \n\nThe `F3` commands can be used for some bonus settings/tools ingame. There are alot of commands and mainly 3 are used for PvP:\n\n`1.` With the key `F3` you can see alot of interesting game information like for example coordinates, biomes, and angles\n\n`2.` With the keys `F3 + b` you can see hitboxes so its easier to aim"
+  },
+  {
+    "id": "859948526356135947",
+    "author": "iDexy",
+    "sourceText": ".\n`3.` With the keys `F3 + h` you can activate tool tips to show things like the durability of tools and armour"
+  },
+  {
+    "id": "859948530420809738",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 3:*** 🔧 `Modifications` 🔧 \n\nWith Modifications like PvP clients and Optifine, you can get some extra helpful settings like showing armour durability on the screen, more fps, and other additions\n."
+  },
+  {
+    "id": "859948532679835669",
+    "author": "iDexy",
+    "sourceText": "***Category 4:*** 💡 `Settings Tips` 💡 \n\nHere you can see some tips about settings that can help you in some decisions and games:\n\n`-` To get a better aim always play in fullscreen. To enter full screen use the `F11` key\n\n`-` Disable autojump to have better control over your movement\n\n`-` You can enable toggle sprint/sneak in accessibility settings. That means you will Sprint all the time without holding your sprint key when you press it one time. You can change it to whatever you want, both settings work for PvP. Its just mentioned so you know about this setting.\n\n`-` Only use hotkeys and never scroll. To have perfect control over your hotbar you should be able to switch fast between the items. You can change parts of the hotkeys to your mouse and use x and c and r keys. Even if your think you're fast with scrolling, with hotkeys you're always faster!\n\n`-` Use a resource pack that has low fire and other PvP relevant parts \n\n`-` You can activate subtitles in the music and sounds settings to hear nearby players and quiet sounds pretty early and more easily\n\n`-` Use a sensitivity with which you can do around two rotations on your mouse pad with a full swipe\n\n`-` Use a fitting FOV. Pro players use FOV's between `65` and `110` so there is no clear answer. Personally I would use an FOV around `70-80`\n."
+  },
+  {
+    "id": "859948534223994901",
+    "author": "iDexy",
+    "sourceText": "`-` For PvP it helps to have a stable Field of View. Because sprinting and effects have an influence on the FOV, you can turn that off in the accessibility settings\n\n`-` Go to `%appdata%` and into the minecraft folder and change the brightness settings there in options in the text so you never need torches in caves again"
+  },
+  {
+    "id": "950142676953624626",
+    "author": "iDexy",
+    "sourceText": "If you wanna read a specific point of this channel, remember go to <#842456527922790400>  , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before, if you lost it"
+  }
+]

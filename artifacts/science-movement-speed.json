@@ -1,0 +1,37 @@
+[
+  {
+    "id": "852182357884272680",
+    "author": "iDexy",
+    "sourceText": "🥾 ***__Movement Speeds__*** 🥾\n\n**Author:** `LoCr`\n**Translator:** `Zivkovic`\n**Writer:** `iDexy`\n\nIn this channel will we will talk about movement and how fast different scenarios are in minecraft. We will mainly talk about PvP related stuff, things like highways, travel systems, and redstone mechanics useful for travel that aren't covered here\n\n***Category 1:*** 📊 `Movement Table` 📊 \n\nThe following table shows different movement speeds. Susceptibility to errors `+- 0.01 blocks/second` due to measurement inaccuracy\n\n**Movement speed:**\n\nSlowness 7 - `0.000 blocks/second`\n**Sneaking/crawling** - `1.295 blocks/second`\nSwimming on surface - `2.337 block/second`\nSprint swimming on surface - `2.508 blocks/second`\nSprint swimming - `3.912 blocks/second`\nWalking and jumping - `3.916 blocks/second`\n**Walking** - `4.317 blocks/second`\nSprinting, slowness 1 - `4.770 blocks/second`\nSprinting, poison - `5.347 blocks/second`\nSprint-jumping with poison 2 - `5.452 blocks/second`\n**Sprinting** - `5.612  blocks/second`\nSprint-jumping slowness 7 - `5.839 blocks/second`\nSprint-jumping while burning - `5.969 blocks/second`\nSprint-jumping with poison 1 - `6.205 blocks/second`\nSprint-jumping, slow falling - `6.744 blocks/second`\nSprinting with speed 1 - `6.741 blocks/second`\nSprint-jumping sideways - `6.787 block/second`\nSprint-jumping, slowness 1 - `6.928 blocks/second`\nSprint-jumping, jump boost 1 - `6.954 block/second`\n**Sprint-jumping** - `7.124 blocks/second`\nSprint-jumping, speed 1 - `7.39 blocks/second`\nSprint-jumping speed 2 - `7.633 blocks/second`\nSprinting, speed 2 - `7.857 blocks/second`\nBoat speed - `8.000 blocks/second`\nSprint-jumping,  placing blue ice - `8.412 blocks/second `\nAverage horse speed - `9.000 blocks/second`\nMaximum horse speed - `14.23 blocks/second`\n."
+  },
+  {
+    "id": "852182359629365259",
+    "author": "iDexy",
+    "sourceText": "**What interesting things can be learned from this table?**\n\n`-` Slowness `7` has over `-100%` movement speed, so you can't move while walking or sprinting. But you can still move with jump sprints because the effects don't work while in the air\n\n`-` Sprinting increases your speed by `30%` and sneaking reduces it by `70%`\n\n`-` Poison level 1 reduces the movement speed of a sprint jumping player more than slowness level 1 (Also, slow-falling works better as movement reduction compared to slowness 1)\n\n`-` Sprint jumping with speed 2 is around `3%` slower compared to just sprinting with it\n\n`-` Walking and jumping is around `10%` slower compared to just walking\n\n`-` Sprint-jumping while moving sideways (while holding w and d or w and a) is around `5%` slower compared to sprint-jumping. So if you run or chase players try to move sideways while changing the angle of your crosshair\n\n`-` If you carry blue ice you can quickly hunt players down with it because sprint jumping on it is even faster than speed 2\n\n📜 **__Special Rule__** 📜 \n\nWhile a player has air under their feet, the slowness and speed effects don't work. This also means that when you jump while having one of these effects, as long as you are in the air the effect doesn't work\n\nThe sprint bonus of `+30%` still works, even in the air"
+  },
+  {
+    "id": "852182363009974313",
+    "author": "iDexy",
+    "sourceText": ".\n**Blue ice (no speed) vs speed 2**\n\n***Category 2:***  ⚗️ `Formula To Calculate Movement Speed` ⚗️ \n\n**First of all the basic calculation for slowness, speed, and any effects:**\n\nThe base speed is the walking speed, all changes in speed are based on it\n\n**The formula is:**\n\n> Walking speed * (product of percentile movement changes) = new speed\n> \n> This means for sprinting which adds `+30%` and speed 2 which adds `+40%` :\n> \n> **Movement speed** = `walking speed * (1.3*1.4)`\n> **Movement speed** = `4.317 blocks/second * 1.82`\n> **Movement speed** = `7.85694 blocks/second`\n> \n> That means adding `30%` + `40%` to calculate it is wrong because the `40% `bonus gets multiplied with the `130%` speed\n> \n> An interesting example is in this case is slowness 2 combined with speed 2:\n> \n> **Movement speed** = `walking speed * (1.4*0.7)`\n> **Movement speed** = `4.317 blocks/second * 0.98`\n> **Movement speed** = `4.23066 blocks/second`\n> \n> What you can see is that speed 2 with its `+40%` is weaker than the `-30%` of slowness 2. So `+40%` and `-30%` is `-2%` and not `+10%`. This has to do with how the percentile works. \n> \n> Slowness 1 and speed 1 together give a bonus of `+2%` and not `+5%`"
+  },
+  {
+    "id": "852182365082222642",
+    "author": "iDexy",
+    "sourceText": "***Category 3:*** 💻 `Error In The Matrix` 💻 \n\nWhen moving sideways (while holding w and a or w and d) at a `45` degree angle, you can gain faster speeds. Here are the values:\n\n**Sneaking/crawling sideways** - `1.832 blocks/second`\n**Swimming surface sideways, sprinting** - `2.557 blocks/second`\n**Swimming sideways, sprinting** - `3.991 blocks/second`\n**Walking sideways** - `4.408 blocks/second`\n**Sprinting sideways** - `5.730 blocks/second`\n**Sprinting sideways speed 1** - `6.875 blocks/second`\n**Sprinting sideways speed 2** - `8.021 blocks/second`\n\nSneaking and crawling sideways increase your speed around `41%`. All other speeds are increased by around `2%`.  Jumping while doing this makes you slower, so this trick only works for situations where you don't jump. So you can do this while sneaking, crawling, swimming or using speed 2 to gain more speed"
+  },
+  {
+    "id": "852182371586801684",
+    "author": "iDexy",
+    "sourceText": ".\n***Category 4:*** 💡 `Movement Speed Tips` 💡\n\nHere you can see some tips about movement speed that can help you in some decisions and games:\n\n`-` When you use a boat on ice you can increase your speed to `57.1 blocks/second` and when using it on blue ice you move at `72.7 blocks/second`\n\n`-` If you run or chase players while sprint jumping don't move sideways, (hit w and a or w and d) you will be slower\n\n`-` Taking damage reduces the movement speed (poison, wither, burning)"
+  },
+  {
+    "id": "852182400729481226",
+    "author": "iDexy",
+    "sourceText": ".\n`-` You can move sideways while falling to control where you land but with a max speed of `5.612 blocks/second`\n\n`-` Moving sideways works for horses too, but the angle is this time at `-26 instead of -45`, it gives around `2%` more speed\n\n`-` With sprint jumping under a 2 block high roof you can gain speeds up to `8.6 blocks/second`\n\n`-` When falling there is an acceleration till a max fall speed of `78.4 blocks/second` is reached\n\n`-` Hold w and the sprint before you start eating or charging a bow to have faster movement when jumping. If you do it after you start eating or charging the bow, your movement will be slower\n\n`-` When you’re jumping while holding wd or wa you automatically change your moving direction with every jump and moving a bit forward, so you can't keep your angle"
+  },
+  {
+    "id": "950142661015248976",
+    "author": "iDexy",
+    "sourceText": "If you wanna read a specific point of this channel, remember go to <#842456527922790400>  , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before if you lost it"
+  }
+]

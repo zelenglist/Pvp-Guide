@@ -1,0 +1,389 @@
+<!DOCTYPE html><html lang=en><head><title>[1.9+] PvP Guide - ❇️┃armour-decisions</title><meta charset=utf-8><meta name=viewport content="width=device-width"><style>@font-face{src:url("assets/ggsans-normal-400-1456df5fd8a3372f.woff2");font-family:gg sans;font-weight:400;font-style:normal}@font-face{src:url("assets/ggsans-normal-500-89ce58cbe388d3f5.woff2");font-family:gg sans;font-weight:500;font-style:normal}@font-face{src:url("assets/ggsans-normal-600-c1ea83da37abfcb9.woff2");font-family:gg sans;font-weight:600;font-style:normal}@font-face{src:url("assets/ggsans-normal-700-1949a9489b28ae57.woff2");font-family:gg sans;font-weight:700;font-style:normal}@font-face{src:url("assets/ggsans-normal-800-58487ffb1afc539a.woff2");font-family:gg sans;font-weight:800;font-style:normal}@font-face{src:url("assets/ggsans-italic-400-e988be842e0752f2.woff2");font-family:gg sans;font-weight:400;font-style:italic}@font-face{src:url("assets/ggsans-italic-500-0777f2e76015ec7c.woff2");font-family:gg sans;font-weight:500;font-style:italic}@font-face{src:url("assets/ggsans-italic-600-cb411d58f5f0de09.woff2");font-family:gg sans;font-weight:600;font-style:italic}@font-face{src:url("assets/ggsans-italic-700-891acd90564bed54.woff2");font-family:gg sans;font-weight:700;font-style:italic}@font-face{src:url("assets/ggsans-italic-800-d36b02b92651d18d.woff2");font-family:gg sans;font-weight:800;font-style:italic}html,body{margin:0;padding:0;background-color:#36393e;color:#dcddde;font-family:"gg sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:17px;font-weight:400;scroll-behavior:smooth}a{color:#00aff4;text-decoration:none}a:hover{text-decoration:underline}img{object-fit:contain;image-rendering:high-quality;image-rendering:-webkit-optimize-contrast}.preamble{display:grid;grid-template-columns:auto 1fr;max-width:100%;padding:1rem}.preamble__guild-icon-container{grid-column:1}.preamble__guild-icon{max-width:88px;max-height:88px}.preamble__entries-container{grid-column:2;margin-left:1rem}.preamble__entry{margin-bottom:0.15rem;color:#ffffff;font-size:1.4rem}.preamble__entry--small{font-size:1rem}.chatlog{padding:1rem 0;width:100%;border-top:1px solid rgba(255,255,255,0.1);border-bottom:1px solid rgba(255,255,255,0.1)}.chatlog__message-group{margin-bottom:1rem}.chatlog__message-container{background-color:transparent;transition:background-color 1s ease}.chatlog__message-container--highlighted{background-color:rgba(114,137,218,0.2)}.chatlog__message-container--pinned{background-color:rgba(249,168,37,0.05)}.chatlog__message{display:grid;grid-template-columns:auto 1fr;padding:0.15rem 0;direction:ltr;unicode-bidi:bidi-override}.chatlog__message:hover{background-color:#32353b}.chatlog__message:hover .chatlog__short-timestamp{display:block}.chatlog__message-aside{grid-column:1;width:72px;padding:0.15rem 0.15rem 0 0.15rem;text-align:center}.chatlog__reply-symbol{height:10px;margin:6px 4px 4px 36px;border-left:2px solid #4f545c;border-top:2px solid #4f545c;border-radius:8px 0 0 0}.chatlog__avatar{width:40px;height:40px;border-radius:50%}.chatlog__short-timestamp{display:none;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__message-primary{grid-column:2;min-width:0}.chatlog__reply{display:flex;margin-bottom:0.15rem;align-items:center;color:#b5b6b8;font-size:0.875rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.chatlog__reply-avatar{width:16px;height:16px;margin-right:0.25rem;border-radius:50%}.chatlog__reply-author{margin-right:0.3rem;font-weight:600}.chatlog__reply-content{overflow:hidden;text-overflow:ellipsis}.chatlog__reply-link{cursor:pointer}.chatlog__reply-link *{display:inline;pointer-events:none}.chatlog__reply-link .chatlog__markdown-quote{display:inline}.chatlog__reply-link .chatlog__markdown-pre{display:inline}.chatlog__reply-link:hover{color:#ffffff}.chatlog__reply-link:hover *:not(.chatlog__markdown-spoiler){color:inherit}.chatlog__reply-edited-timestamp{margin-left:0.25rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__forwarded{display:flex;flex-direction:column;margin-bottom:0.15rem;padding:0.5rem;border-left:4px solid #4f545c;border-radius:4px;background-color:rgba(46,48,54,0.3)}.chatlog__forwarded-header{display:flex;align-items:center;margin-bottom:0.25rem;color:#b5b6b8;font-size:0.75rem;font-weight:600}.chatlog__forwarded-icon{width:16px;height:16px;margin-right:0.25rem}.chatlog__forwarded-content{color:#dcddde;font-size:0.95rem}.chatlog__forwarded-attachments{margin-top:0.3rem}.chatlog__forwarded-attachment{max-width:300px;max-height:200px;border-radius:3px}.chatlog__forwarded-timestamp{margin-top:0.25rem;color:#a3a6aa;font-size:0.75rem}.chatlog__system-notification-icon{width:18px;height:18px}.chatlog__system-notification-author{font-weight:500;color:#ffffff}.chatlog__system-notification-content{color:#96989d}.chatlog__system-notification-link{font-weight:500;color:#ffffff}.chatlog__system-notification-timestamp{margin-left:0.3rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__system-notification-timestamp a{color:inherit}.chatlog__header{margin-bottom:0.1rem}.chatlog__author{font-weight:500;color:#ffffff}.chatlog__author-tag{position:relative;top:-0.1rem;margin-left:0.3rem;padding:0.05rem 0.3rem;border-radius:3px;background-color:#5865F2;color:#ffffff;font-size:0.625rem;font-weight:500;line-height:1.3}.chatlog__timestamp{margin-left:0.3rem;color:#a3a6aa;font-size:0.75rem;font-weight:500;direction:ltr;unicode-bidi:bidi-override}.chatlog__timestamp a{color:inherit}.chatlog__content{padding-right:1rem;font-size:0.95rem;word-wrap:break-word}.chatlog__edited-timestamp{margin-left:0.15rem;color:#a3a6aa;font-size:0.75rem;font-weight:500}.chatlog__poll{box-sizing:border-box;width:100%;max-width:32rem;margin-top:0.35rem}.chatlog__poll-question{margin-bottom:0.6rem;color:#f2f3f5;font-size:1rem;font-weight:600;word-wrap:break-word}.chatlog__poll-answers{display:flex;flex-direction:column;gap:0.4rem}.chatlog__poll-answer{display:flex;position:relative;align-items:center;justify-content:space-between;min-height:2.25rem;padding:0.35rem 0.65rem;border:1px solid #4e5058;border-radius:0.5rem;background-color:#2b2d31;color:#dbdee1;overflow:hidden}.chatlog__poll-answer::before{position:absolute;inset:0 auto 0 0;width:var(--poll-answer-fill,0%);background-color:#3a3c42;content:""}.chatlog__poll-answer--winning{border-color:#23a559}.chatlog__poll-answer--winning::before{background-color:#2f5142}.chatlog__poll-answer--selected{border-color:#5865f2}.chatlog__poll-answer--selected::before{background-color:#3c4164}.chatlog__poll-answer-content{display:flex;position:relative;z-index:1;align-items:center;min-width:0}.chatlog__poll-answer-details{display:flex;position:relative;z-index:1;align-items:center;gap:0.5rem;margin-left:0.75rem}.chatlog__poll-answer-selected{display:inline-flex;align-items:center;justify-content:center;width:1.25rem;height:1.25rem;border-radius:50%;background-color:#f2f3f5;color:#313338;font-size:0.75rem;font-weight:700}.chatlog__poll-answer-emoji{width:1.25rem;height:1.25rem;margin-right:0.45rem;object-fit:contain}.chatlog__poll-answer-text{overflow-wrap:anywhere}.chatlog__poll-answer-count,.chatlog__poll-answer-percentage{color:#b5bac1;font-size:0.8rem;font-weight:600;white-space:nowrap}.chatlog__poll-answer-percentage{color:#f2f3f5;font-size:0.9rem}.chatlog__poll-footer{display:flex;flex-wrap:wrap;margin-top:0.45rem;color:#b5bac1;font-size:0.75rem}.chatlog__poll-footer-item + .chatlog__poll-footer-item::before{margin:0 0.35rem;content:"•"}.chatlog__poll-accessible-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;border:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.chatlog__poll-result{display:flex;box-sizing:border-box;align-items:center;justify-content:space-between;width:100%;max-width:25rem;min-height:3.5rem;margin-top:0.45rem;padding:0.45rem;border:1px solid #3f4147;border-radius:0.5rem;background-color:#2b2d31}.chatlog__poll-result-answer{display:flex;align-items:center;min-width:0}.chatlog__poll-result-emoji-container{display:flex;flex-shrink:0;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;margin-right:0.55rem;border-radius:0.4rem;background-color:#383a40}.chatlog__poll-result-emoji{width:1.65rem;height:1.65rem}.chatlog__poll-result-answer-info{min-width:0}.chatlog__poll-result-answer-text{color:#f2f3f5;font-size:0.9rem;font-weight:600;overflow-wrap:anywhere}.chatlog__poll-result-winner{display:inline-flex;align-items:center;justify-content:center;width:0.9rem;height:0.9rem;margin-left:0.15rem;border-radius:50%;background-color:#23a559;color:#ffffff;font-size:0.65rem;vertical-align:0.05rem}.chatlog__poll-result-answer-details{margin-top:0.1rem;color:#b5bac1;font-size:0.75rem}.chatlog__poll-result-button{flex-shrink:0;margin-left:0.75rem;padding:0.55rem 0.75rem;border-radius:0.25rem;background-color:#4e5058;color:#ffffff;font-size:0.8rem;font-weight:500}.chatlog__poll-result-button:hover{background-color:#6d6f78;text-decoration:none}.chatlog__attachment{position:relative;width:fit-content;margin-top:0.3rem;border-radius:3px;overflow:hidden}.chatlog__attachment--hidden{cursor:pointer;box-shadow:0 0 1px 1px rgba(0,0,0,0.1)}.chatlog__attachment--hidden *{pointer-events:none}.chatlog__attachment-spoiler-caption{display:none;position:absolute;left:50%;top:50%;z-index:999;padding:0.4rem 0.8rem;border-radius:20px;transform:translate(-50%,-50%);background-color:rgba(0,0,0,0.9);color:#dcddde;font-size:0.9rem;font-weight:600;letter-spacing:0.05rem}.chatlog__attachment--hidden .chatlog__attachment-spoiler-caption{display:block}.chatlog__attachment--hidden:hover .chatlog__attachment-spoiler-caption{color:#fff}.chatlog__attachment-media{max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__attachment--hidden .chatlog__attachment-media{filter:blur(44px)}.chatlog__attachment-generic{max-width:520px;width:100%;height:40px;padding:10px;border:1px solid #292b2f;border-radius:3px;background-color:#2f3136;overflow:hidden}.chatlog__attachment--hidden .chatlog__attachment-generic{filter:blur(44px)}.chatlog__attachment-generic-icon{float:left;width:30px;height:100%;margin-right:10px}.chatlog__attachment-generic-size{color:#72767d;font-size:12px}.chatlog__attachment-generic-name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.chatlog__embed{display:flex;margin-top:0.3rem;max-width:520px}.chatlog__embed-color-pill{flex-shrink:0;width:0.25rem;border-top-left-radius:3px;border-bottom-left-radius:3px}.chatlog__embed-color-pill--default{background-color:#202225}.chatlog__embed-content-container{display:flex;flex-direction:column;padding:0.5rem 0.6rem;border:1px solid rgba(46,48,54,0.6);border-top-right-radius:3px;border-bottom-right-radius:3px;background-color:rgba(46,48,54,0.3)}.chatlog__embed-content{display:flex;width:100%}.chatlog__embed-text{flex:1}.chatlog__embed-author-container{display:flex;margin-bottom:0.5rem;align-items:center}.chatlog__embed-author-icon{width:20px;height:20px;margin-right:0.5rem;border-radius:50%}.chatlog__embed-author{color:#ffffff;font-size:0.875rem;font-weight:600;direction:ltr;unicode-bidi:bidi-override}.chatlog__embed-author-link{color:#ffffff}.chatlog__embed-title{margin-bottom:0.5rem;color:#ffffff;font-size:0.875rem;font-weight:600}.chatlog__embed-description{color:#dcddde;font-weight:500;font-size:0.85rem}.chatlog__embed-fields{display:flex;flex-wrap:wrap;gap:0 0.5rem}.chatlog__embed-field{flex:0;min-width:100%;max-width:506px;padding-top:0.6rem;font-size:0.875rem}.chatlog__embed-field--inline{flex:1;flex-basis:auto;min-width:50px}.chatlog__embed-field-name{margin-bottom:0.2rem;color:#ffffff;font-weight:600}.chatlog__embed-field-value{color:#dcddde;font-weight:500}.chatlog__embed-thumbnail{flex:0;max-width:80px;max-height:80px;margin-left:1.2rem;border-radius:3px}.chatlog__embed-images{display:grid;margin-top:0.6rem;grid-template-columns:repeat(2,1fr);gap:0.25rem}.chatlog__embed-images--single{display:block}.chatlog__embed-image{object-fit:cover;object-position:center;max-width:500px;max-height:400px;width:100%;height:100%;border-radius:3px}.chatlog__embed-footer{margin-top:0.6rem;color:#dcddde}.chatlog__embed-footer-icon{width:20px;height:20px;margin-right:0.2rem;border-radius:50%;vertical-align:middle}.chatlog__embed-footer-text{vertical-align:middle;font-size:0.75rem;font-weight:500}.chatlog__embed-invite-container{min-width:320px;padding:0.6rem 0.7rem;border:1px solid rgba(46,48,54,0.6);border-radius:3px;background-color:rgba(46,48,54,0.3)}.chatlog__embed-invite-title{margin:0 0 0.8rem 0;color:#b9bbbe;font-size:0.75rem;font-weight:700;text-transform:uppercase}.chatlog__embed-invite{display:flex}.chatlog__embed-invite-guild-icon{width:50px;height:50px;border-radius:0.85rem}.chatlog__embed-invite-info{margin-left:1rem}.chatlog__embed-invite-guild-name{color:#ffffff;font-weight:600}.chatlog__embed-invite-guild-name a{color:inherit}.chatlog__embed-invite-channel-icon{width:18px;height:18px;vertical-align:bottom}.chatlog__embed-invite-channel-name{font-size:0.9rem;font-weight:600}.chatlog__embed-generic-image{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-generic-video{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-generic-gifv{object-fit:contain;object-position:left;max-width:45vw;max-height:500px;vertical-align:top;border-radius:3px}.chatlog__embed-spotify{border:0}.chatlog__embed-twitch{border:0}.chatlog__embed-youtube-container{margin-top:0.6rem}.chatlog__embed-youtube-thumbnail{max-width:400px;max-height:225px;border-radius:3px;cursor:pointer}.chatlog__sticker{width:180px;height:180px}.chatlog__sticker--media{max-width:100%;max-height:100%}.chatlog__reactions{display:flex}.chatlog__reaction{display:flex;margin:0.35rem 0.1rem 0.1rem 0;padding:0.125rem 0.375rem;border:1px solid transparent;border-radius:8px;background-color:#2f3136;align-items:center}.chatlog__reaction:hover{border:1px solid hsla(0,0%,100%,.2);background-color:transparent}.chatlog__reaction-count{min-width:9px;margin-left:0.35rem;color:#b9bbbe;font-size:0.875rem}.chatlog__reaction:hover .chatlog__reaction-count{color:#dcddde}.chatlog__markdown{max-width:100%;line-height:1.3;overflow-wrap:break-word}.chatlog__markdown h1{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1.5rem;line-height:1}.chatlog__markdown h2{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1.25rem;line-height:1}.chatlog__markdown h3{margin:1rem 0 0.5rem;color:#f2f3f5;font-size:1rem;line-height:1}.chatlog__markdown h1:first-child,h2:first-child,h3:first-child{margin-top:0.5rem}.chatlog__markdown ul,ol{margin:0 0 0 1rem;padding:0}.chatlog__markdown-preserve{white-space:pre-wrap}.chatlog__markdown-spoiler{background-color:rgba(255,255,255,0.1);padding:0 2px;border-radius:3px}.chatlog__markdown-spoiler--hidden{cursor:pointer;background-color:#202225;color:rgba(0,0,0,0)}.chatlog__markdown-spoiler--hidden:hover{background-color:rgba(32,34,37,0.8)}.chatlog__markdown-spoiler--hidden::selection{color:rgba(0,0,0,0)}.chatlog__markdown-quote{display:flex;margin:0.05rem 0}.chatlog__markdown-quote-border{margin-right:0.5rem;border:2px solid #4f545c;border-radius:3px}.chatlog__markdown-pre{background-color:#2f3136;font-family:"Consolas","Courier New",Courier,monospace;font-size:0.85rem;text-decoration:inherit}.chatlog__markdown-pre--multiline{display:block;margin-top:0.25rem;padding:0.5rem;border:2px solid #282b30;border-radius:5px;color:#b9bbbe}.chatlog__markdown-pre--multiline.hljs{background-color:#2f3136;color:#b9bbbe}.chatlog__markdown-pre--inline{display:inline-block;padding:2px;border-radius:3px}.chatlog__markdown-mention{border-radius:3px;padding:0 2px;background-color:rgba(88,101,242,.3);color:#dee0fc;font-weight:500}.chatlog__markdown-mention:hover{background-color:#5865f2;color:#ffffff}.chatlog__markdown-timestamp{background-color:rgba(255,255,255,0.1);padding:0 2px;border-radius:3px}.chatlog__emoji{width:1.325rem;height:1.325rem;margin:0 0.06rem;vertical-align:-0.4rem}.chatlog__emoji--small{width:1rem;height:1rem}.chatlog__emoji--large{width:2.8rem;height:2.8rem}.postamble{padding:1.25rem}.postamble__entry{color:#ffffff}</style><link rel=stylesheet href=assets/solarized-dark.min-ba98fae080003555.css><script src=assets/highlight.min-d8d2767d207e79d9.js></script><script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.chatlog__markdown-pre--multiline').forEach(e=>hljs.highlightBlock(e));});</script><script src=assets/lottie.min-996575f9aeee11ac.js></script><script>document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.chatlog__sticker--media[data-source]').forEach(e=>{const anim=lottie.loadAnimation({container:e,renderer:'svg',loop:true,autoplay:true,path:e.getAttribute('data-source')});anim.addEventListener('data_failed',()=>e.innerHTML='<strong>[Sticker cannot be rendered]</strong>');});});</script><script>function scrollToMessage(event,id){const element=document.getElementById('chatlog__message-container-'+id);if(!element)
+return;event.preventDefault();element.classList.add('chatlog__message-container--highlighted');window.scrollTo({top:element.getBoundingClientRect().top-document.body.getBoundingClientRect().top-(window.innerHeight/2),behavior:'smooth'});window.setTimeout(()=>element.classList.remove('chatlog__message-container--highlighted'),2000);}
+function showSpoiler(event,element){if(!element)
+return;if(element.classList.contains('chatlog__attachment--hidden')){event.preventDefault();element.classList.remove('chatlog__attachment--hidden');}
+if(element.classList.contains('chatlog__markdown-spoiler--hidden')){event.preventDefault();element.classList.remove('chatlog__markdown-spoiler--hidden');}}</script><svg style=display:none xmlns=http://www.w3.org/2000/svg><defs><symbol id=attachment-icon viewBox="0 0 720 960"><path fill=#f4f5fb d=M50,935a25,25,0,0,1-25-25V50A25,25,0,0,1,50,25H519.6L695,201.32V910a25,25,0,0,1-25,25Z /><path fill=#7789c4 d=M509.21,50,670,211.63V910H50V50H509.21M530,0H50A50,50,0,0,0,0,50V910a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50h0V191Z /><path fill=#f4f5fb d=M530,215a25,25,0,0,1-25-25V50a25,25,0,0,1,16.23-23.41L693.41,198.77A25,25,0,0,1,670,215Z /><path fill=#7789c4 d=M530,70.71,649.29,190H530V70.71M530,0a50,50,0,0,0-50,50V190a50,50,0,0,0,50,50H670a50,50,0,0,0,50-50Z /></symbol><symbol id=join-icon viewBox="0 0 18 18"><path fill=#3ba55c d="m0 8h14.2l-3.6-3.6 1.4-1.4 6 6-6 6-1.4-1.4 3.6-3.6h-14.2" /></symbol><symbol id=leave-icon viewBox="0 0 18 18"><path fill=#ed4245 d="m3.8 8 3.6-3.6-1.4-1.4-6 6 6 6 1.4-1.4-3.6-3.6h14.2v-2" /></symbol><symbol id=call-icon viewBox="0 0 18 18"><path fill=#3ba55c fill-rule=evenodd d="M17.7163041 15.36645368c-.0190957.02699568-1.9039523 2.6680735-2.9957762 2.63320406-3.0676659-.09785935-6.6733809-3.07188394-9.15694343-5.548738C3.08002193 9.9740657.09772497 6.3791404 0 3.3061316v-.024746C0 2.2060575 2.61386252.3152347 2.64082114.2972376c.7110335-.4971705 1.4917101-.3149497 1.80959713.1372281.19320342.2744561 2.19712724 3.2811005 2.42290565 3.6489167.09884826.1608492.14714912.3554431.14714912.5702838 0 .2744561-.07975258.5770327-.23701117.8751101-.1527655.2902036-.65262318 1.1664385-.89862055 1.594995.2673396.3768148.94804468 1.26429792 2.351016 2.66357424 1.39173858 1.39027775 2.28923588 2.07641807 2.67002628 2.34187563.4302146-.2452108 1.3086162-.74238132 1.5972981-.89423205.5447887-.28682915 1.0907006-.31944893 1.4568885-.08661115.3459689.2182151 3.3383754 2.21027167 3.6225641 2.41611376.2695862.19234426.4144887.5399137.4144887.91672846 0 .2969525-.089862.61190215-.2808189.88523346" /></symbol><symbol id=pencil-icon viewBox="0 0 18 18"><path fill=#99aab5 d="m0 14.25v3.75h3.75l11.06-11.06-3.75-3.75zm17.71-10.21c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75z" /></symbol><symbol id=pin-icon viewBox="0 0 18 18"><path fill=#b9bbbe d="m16.908 8.39684-8.29587-8.295827-1.18584 1.184157 1.18584 1.18584-4.14834 4.1475v.00167l-1.18583-1.18583-1.185 1.18583 3.55583 3.55502-4.740831 4.74 1.185001 1.185 4.74083-4.74 3.55581 3.555 1.185-1.185-1.185-1.185 4.1475-4.14836h.0009l1.185 1.185z" /></symbol><symbol id=poll-icon viewBox="0 0 18 18"><path fill=#b9bbbe d="M2 3h2v2H2V3Zm4 0h10v2H6V3ZM2 8h2v2H2V8Zm4 0h10v2H6V8ZM2 13h2v2H2v-2Zm4 0h10v2H6v-2Z" /></symbol><symbol id=channel-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511C2.28449 17 2.04905 16.7198 2.10259 16.4138L2.27759 15.4138C2.31946 15.1746 2.52722 15 2.77011 15H6.35001L7.41001 9H4.00511C3.69449 9 3.45905 8.71977 3.51259 8.41381L3.68759 7.41381C3.72946 7.17456 3.93722 7 4.18011 7H7.76001L8.39677 3.41262C8.43914 3.17391 8.64664 3 8.88907 3H9.87344C10.1845 3 10.4201 3.28107 10.3657 3.58738L9.76001 7H15.76L16.3968 3.41262C16.4391 3.17391 16.6466 3 16.8891 3H17.8734C18.1845 3 18.4201 3.28107 18.3657 3.58738L17.76 7H21.1649C21.4755 7 21.711 7.28023 21.6574 7.58619L21.4824 8.58619C21.4406 8.82544 21.2328 9 20.9899 9H17.41L16.35 15H19.7549C20.0655 15 20.301 15.2802 20.2474 15.5862L20.0724 16.5862C20.0306 16.8254 19.8228 17 19.5799 17H16L15.3632 20.5874C15.3209 20.8261 15.1134 21 14.8709 21H13.8866C13.5755 21 13.3399 20.7189 13.3943 20.4126L14 17H8.00001L7.36325 20.5874C7.32088 20.8261 7.11337 21 6.87094 21H5.88657ZM9.41045 9L8.35045 15H14.3504L15.4104 9H9.41045Z" /></symbol><symbol id=thread-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z" /><path fill=#b9bbbe d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z" /></symbol><symbol id=forward-icon viewBox="0 0 24 24"><path fill=#b9bbbe d="M13 4L21 12L13 20V15C8 15 4 17 1 22C2 16 6 10 13 9V4Z" /></symbol></defs></svg><body><div class=preamble><div class=preamble__guild-icon-container><img class=preamble__guild-icon src=assets/8a5d2d39e70e3ed3a4b63eecf427d486-fbbce6fc90d07960.png alt="Guild icon" loading=lazy></div><div class=preamble__entries-container><div class=preamble__entry>[1.9+] PvP Guide</div><div class=preamble__entry>📊 PvP Science Guide / ❇️┃armour-decisions</div></div></div>
+<div class="chatlog">
+
+<div class=chatlog__message-group><div id=chatlog__message-container-861265607403372555 class=chatlog__message-container data-message-id=861265607403372555><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src=assets/c733d8f9d93a061fe348970640379753-a7749646a9a651f7.png alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(255,159,104) title=__moi_ data-user-id=307877369337872387>iDexy</span> <span class=chatlog__timestamp title="2021년 7월 5일 월요일 오전 12:22"><a href=#chatlog__message-container-861265607403372555>2021-07-05 오전 12:22</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>🧠 ***__Armour Decisions__*** 🧠 
+
+**Author:** `LoCr`
+**Translator:** `Zivkovic`
+**Writer:** `iDexy`
+
+Which armour should you choose if you have an armour of a lower tier but enchanted and an armour of a higher tier but unenchanted?
+
+The answer isn&#x27;t easy, first off, here are some categories:
+
+***Category 1:*** 🔖 `Index For Comparing Armours` 🔖 
+
+To compare armours, we don&#x27;t look at the reduction they give, but instead how much damage you receive compared to without armour. Here is an example **(no armour penetration in this example so its easier to understand):**
+
+📝 **__Example__** 📝 
+
+&gt; First, we calculate the reduction:
+&gt; 
+&gt; Iron armour has `15 armour points`, each reduces the damage `4%` so a full set reduces `60%`
+&gt; 
+&gt; Next, we calculate the percentage of incoming damage:
+&gt; **We look at how much damage is taken:** `100%-60%=40%`
+&gt; 
+&gt; In the last step we compare the damage taken to the damage when unarmoured, what this means is: `100%/40%=2.5`
+&gt; 
+&gt; **2,5 is the index number for how strong the armour is **
+&gt; 
+&gt; Here&#x27;s some examples for a better understanding:
+&gt; 
+&gt; `90% reduction = 10`
+&gt; `80% reduction (full dia) = 5`
+&gt; `60% reduction (full iron) = 2.5`
+&gt; `50% reduction = 2`
+&gt; `33% reduction = 1.5`
+&gt; `25% reduction = 1.33333`
+&gt; `0% reduction = 1`
+
+You can figure out how strong your armour is compared to other ones with this index. For a better understanding, index value 1 is unarmoured, so when the index is 2 it means that you can tank 2 times as much damage compared to when unarmoured. When it&#x27;s 3 it means you can tank 3 times more damage compared to unarmoured, and so on. This shows that **full dia (5) is twice as strong as full iron (5 compared to 2.5) which means you can tank 2x more damage with full dia than with full iron** `(Keep in mind this is without armour penetration)`
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 7:22">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265610179608577 class=chatlog__message-container data-message-id=861265610179608577><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 2:*** 🤔 `What Can We Learn From The Index` 🤔 
+
+Because the armour reduction is a percentage, it starts off weak and gets stronger with each additional armour point. As you can see in the example above, full iron with its **15 armour points is only half as good as full diamond which only has 5 armour points more. So these last 5 points have the same protection value as the 15 points before.** This imbalance gives each new armour point a higher value
+
+**Here are some examples in the armour index:**
+
+`1 armour point = 4% reduction = index value 1.0417 --&gt; total index increase = 0.0417`
+`2 armour points = 8% reduction = index value 1.087 --&gt; total index increase = 0.0453`
+`3 armour points = 12% reduction = index value 1.1363 --&gt; total index increase = 0.0493`
+`4 armour points = 16% reduction = index value 1.19 --&gt; total index increase = 0.0537`
+`5 armour points = 20% reduction = index value  1.25 --&gt; total index increase = 0.06`
+`6 armour points = 24% reduction = index value  1.3158 --&gt;total index increase = 0.0658`
+`7 armour points = 28% reduction = index value  1.388 --&gt;total index increase = 0.0722`
+`8 armour points = 32% reduction = index value  1.471 --&gt;total index increase = 0.083`
+`9 armour points = 36% reduction = index value  1.5625 --&gt;total index increase = 0.0915`
+`10 armour points = 40% reduction = index value  1.666 --&gt;total index increase = 0.1041`</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:05">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265611602133003 class=chatlog__message-container data-message-id=861265611602133003><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>`11 armour points = 44% reduction = index value  1.7857 --&gt;total index increase = 0.1191`
+`12 armour points = 48% reduction = index value  1.923 --&gt;total index increase = 0.1373`
+`13 armour points = 52% reduction = index value  2.083 --&gt;total index increase = 0.16`
+`14 armour points = 56% reduction = index value  2.273 --&gt;total index increase = 0.19`
+`15 armour points = 60% reduction = index value  2.5 --&gt;total index increase = 0.227`
+`16 armour points = 64% reduction = index value  2.777 --&gt;total index increase = 0.277`
+`17 armour points = 68% reduction = index value  3.125 --&gt;total index increase = 0.348`
+`18 armour points = 72% reduction = index value  3.571 --&gt;total index increase = 0.446`
+`19 armour points = 76% reduction = index value  4.166 --&gt;total index increase = 0.595`
+`20 armour points = 80% reduction = index value  5 --&gt;total index increase = 0.834`
+
+In the table, you can see that each additional armour point gives a higher total index increase than the previous
+
+**And since the index increase is proportional to the armour strength, each new armour point is stronger compared to its predecessor**
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:06">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265612822020116 class=chatlog__message-container data-message-id=861265612822020116><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 3:*** 🛡️ `The Index With Protection Enchantments And Resistance Effect` 🛡️ 
+
+The index value for the basic protection enchantment works the same way, except its max is `16 points`, so an overall reduction of `64%`. The other armour enchants like blast, projectile and fire protection have their max at `20 points` which means they protect a maximum of `80%`
+
+❗ **__IMPORTANT__** ❗ 
+
+`-` Protection enchantments aren&#x27;t affected by armour penetration
+
+If you want to know the armour strength, put the value into the index to compare it with unarmoured damage. Now to get the overall Index value, multiply the index value of the armour points with the index value of the protection enchantment points
+
+**Here is an example (no armour penetration in this example):**
+
+📝 **__Example__** 📝 
+
+&gt; Full iron armour (`15 armour points`) full protection 4 (`16 protection points`):
+&gt; 
+&gt; Index value for `15 armour points: 100%/(1-(15x4%)) = 2.5`
+&gt; 
+&gt; Index value for `16 protection points: 100%/(1-(16x4%))= 2.777`
+&gt; 
+&gt; To get now the overall Index value we multiply them:
+&gt; 
+&gt; `2.5 x 2.777 = 6.94`
+&gt; 
+&gt; So __the Index value of full iron with protection 4 is `6.94` which means you can tank `6.94` times more damage compared to without armour__
+&gt; 
+&gt; The calculation for the Index value with resistance works the same way
+
+📜 **__Special Rule__** 📜 
+
+If you have a reduction over `100%` which can be obtained with resistance 5 or higher, the index will show negative values. In that case, it&#x27;s no longer representative because you can tank infinite damage
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:06">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265613548552193 class=chatlog__message-container data-message-id=861265613548552193><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 4:*** 🗡️ `Armour Penetration` 🗡️ 
+
+As you saw in **&lt;#860547038729732096&gt;  Category 4**, armour penetration reduces armour point reduction by `2%` for each incoming hp (half heart) damage. In **Category 2** we mentioned that each additional armour point is stronger than its predecessor. Armour penetration takes away the high value of additional armour points, which leads to a huge decrease in damage reduction through armour points
+
+**Here is an example with full iron armour:**
+
+📝 **__Example__** 📝 
+
+&gt; **Armour Points 15 --&gt;** `15x4% = 60%`
+&gt; **Incoming Damage --&gt;** `10 hp (5 hearts) --&gt; 10x2%= 20% armour penetration`
+&gt; **Total Armour Reduction --&gt;** `60%-20%= 40%`
+&gt; 
+&gt; **Armour index:** `100%/(100%-40%) = 1.6666`
+
+So, your armour gets weakened from a ` 2.5 index value to a 1.66666 index value`
+
+To get an understanding of how strong the armour penetration is, you can take a look at this example of a stone/iron/dia axe critical hit against full iron (this time no calculations just the results):
+
+&gt; 📝 **__Example__** 📝 
+&gt; 
+&gt; **Stone/Iron/Dia axe critical hit:** `13.5 hp (6.75 hearts) damage`
+&gt; **Overall reduction after Armour Penetration:** `33%`
+&gt; 
+&gt; **Damage Taken =** `9.045 hp (4.5225 full hearts)`
+&gt; **Armour Index:** `1.4925`
+&gt; 
+&gt; **Same example without Armour Penetration:**
+&gt; 
+&gt; **Taken damage =** `5.4 hp (2.7 full hearts)`
+&gt; Armour Index: `2.5`
+
+So the damage is` 67.5%` higher with armour penetration compared to without it
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 7:23">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265614709456896 class=chatlog__message-container data-message-id=861265614709456896><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>So as the damage gets higher, the smaller the reduction of the damage through the armour points get. **This has a huge impact to the game and its PvP:**
+
+`-` Critical hits are much stronger against players with armour than originally planned (`around 70% more damage compared to 50% more damage against unarmoured players`) because their extra damage creates extra armour penetration which leads to even more damage.
+
+`-` The high damage of crystals and respawn anchors (and creepers in hard game setting) brings the armour to its minimum reduction of `0.8%` for each armour point, which means full dia that normally reduces `80% (5 index value)` gets weakened to a max reduction of `16% (1.19 index value)` which makes the armour nearly useless
+
+`-` Armour enchantments and the resistance effect are more important compared to normal armour points, because they can&#x27;t be weakened by armour penetration
+
+`-` The power enchantment on bows deals insane damage to low enchantment armour because it has a huge amount of armour penetration
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:07">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265615624339526 class=chatlog__message-container data-message-id=861265615624339526><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 5:*** 💿 `Armour Toughness` 💿 
+
+Armour toughness is a special attribute for diamond and netherite armour. It is a counter to armour penetration and reduces the amount the armour gets weakened with each incoming point of damage. Normally it gets weakened by `2%` per hp damage (As we saw in **&lt;#860547038729732096&gt; Category 5**) **Here is an example of how armour toughness works:**
+
+📝 **__Example__** 📝 
+
+&gt; `0 armour toughness sets it to 2%`
+&gt; `2 armour toughness sets it to 1.6% `
+&gt; `4 armour toughness sets it to 1.33%`
+&gt; `6 armour toughness sets it to 1.14%`
+&gt; `8 armour toughness sets it to 1%`
+&gt; `10 armour toughness sets it to 0.88%`
+&gt; `12 armour toughness sets it to 0.8%`
+
+The formula for it can be found in the** &lt;#860547038729732096&gt; Category 5**
+
+**So, here&#x27;s an example of what this means:**
+
+📝 **__Example__** 📝 
+
+&gt; `Set 1:`
+&gt; 
+&gt; **Incoming Damage:** `10 hp (5 hearts)`
+&gt; **Armour:** `Full iron = 15 armour points; 0 points armour toughness`
+&gt; **Armour Penetration:** `20%`
+&gt; **Reduction after armour penetration:** `40%`
+&gt; **Index Value:** `1,66666`
+&gt; 
+&gt; `Set 2:`
+&gt; 
+&gt; **Incoming Damage:** `10 hp (5 hearts)`
+&gt; **Armour:** `Netherite helmet and trousers, dia shoes and leather chest = 15 armour points 8 points armour toughness`
+&gt; **Armour Penetration:** `10%`
+&gt; **Reduction after armour penetration:** `50%`
+&gt; **Index Value:** `2`
+&gt; 
+&gt; *Both sets have the same amount of armour points, but because of the armour toughness, set 2&#x27;s armour points are weakened less so the damage reduction is stronger*</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 7:24">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265616459399228 class=chatlog__message-container data-message-id=861265616459399228><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 6:*** 💿 💎 `Armour Toughness Efficiency` 💎 💿 
+
+This table shows how the armour toughness reduces armour penetration (like in **Category 5**):
+
+`0 armour toughness sets it to 2%`
+`2 armour toughness sets it to 1.6% --&gt; 0.4 less to 0`
+`4 armour toughness sets it to 1.33% --&gt; 0.266 less to 2`
+`6 armour toughness sets it to 1.14% --&gt;0.193 less to 4`
+`8 armour toughness sets it to 1% --&gt; 0.14 less to 6`
+
+Now let’s take a look at the efficiency of the armour toughness value but with the focus on the toughness points. You can see that armour penetration is decreased the most from the first step, a little less from the second step, and so on. This means the first piece with armour toughness is super efficient while extra pieces with it don’t do as much
+
+Understanding this can help evaluate the strength of the opponent’s armour in some gamemodes and kitpvp scenarios
+
+**Here is an example in the armour index to show the efficiency:**
+
+📝 **__Example__** 📝 
+
+&gt; **Armour:** The armour points will stay at 20 this time, and even though this example isn&#x27;t possible in vanilla, it’s a good way to show the efficiency.
+&gt; **Incoming Damage:** `10 hp (5 hearts)`
+&gt; 
+&gt; **0 Toughness:** `Index value= 2.5`
+&gt; **2 Toughness:** `Index value= 2.77 --&gt; increase 0.277`
+&gt; **4 Toughness:** `Index value= 3 --&gt; increase 0.223`
+&gt; **6 Toughness:** `Index value= 3.18 --&gt; increase 0.18`
+&gt; **8 Toughness:** `Index value= 3.33 --&gt; increase 0.15`
+&gt; 
+&gt; *The first increase in toughness had the most efficiency in raising the index number, and with each new increase it raises less*</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:08">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265617222631445 class=chatlog__message-container data-message-id=861265617222631445><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 7:*** ⭕ `Factors For Armour Decisions` ⭕ 
+
+The decision of which armour to use depends on `5 factors`. As we said before, there isn&#x27;t an overall solution. It depends on how high the influence from a specific factor is.
+
+**These are the 5 factors:**
+
+`1.` Each additional armour point is stronger compared to its predecessor (look at **Category 2**)
+
+`2.` Each additional protection point and resistance level is stronger compared to its predecessor
+
+`3.` The damage high, the higher the damage is the higher the armour penetration is, which decreases protection from armour points
+
+`4.` Armour toughness, which reduces armour penetration
+
+`5.` The Damage types, the protection enchantments and resistance effect protects from more types of damage than regular armour points **(&lt;#860547038729732096&gt; Category 3)**
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 1:38">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265618103697439 class=chatlog__message-container data-message-id=861265618103697439><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>`Factors 1 and 2:`
+
+As we learned in **Category 2**, each extra point of armour and protection is more worthy compared to its predecessor. That means it’s better to gain points (armour or protection) where you already have points. Like adding protection 1 to an piece of an unenchanted armour set doesn&#x27;t do much while getting an extra armour point is stronger. The same thing happens when you have a lot of protection points and less armour points but this time the protection 1 enchantment is the better option compared to an extra armour point
+
+`Factor 3:`
+
+This factor is influenced by the opponent’s attack strength. If they do little damage (fist or wood sword) it doesn&#x27;t matter much. But as the incoming damage gets higher, so does the influence. As described in **Category 4** and the **&lt;#860547038729732096&gt; Category 4**, each incoming health point (half heart) damage reduces the armour point protection by `2%`, with a minimum of `0.8% per armour point`
+
+This leads to armour points being less important than protection enchantments
+
+What this means is that as higher the damage is, the better enchantments and the resistance effect are compared to normal armour points.
+
+Especially lower tier armours like gold, leather, chain and iron are weak due to armour penetration
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:09">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265650018418699 class=chatlog__message-container data-message-id=861265650018418699><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>`Factor 4:`
+
+This factor is influenced by the armour toughness level of your armour since the more armour toughness you have, the less armour penetration weakens your armour
+
+This means that for low damage values the armour toughness isn’t that important, but as the damage gets higher, so does the importance of armour toughness
+
+`Factor 5:`
+
+There are some damage types armour points don’t reduce. For example, magical damage (poison or instant damage) doesn&#x27;t get reduced by armour points. So, when fighting against them be aware and try to get as many basic protection enchantments as possible to get a reduction for these damage types
+
+These damage types only get reduced by the basic protection enchantment and the resistance effect, not by armour points:
+
+`-` Magical damage
+`-` Fall damage --&gt; feather falling reduces this too 
+`-` Drowning
+`-` Colliding with a block while flying with an elytra
+`-` Suffocating inside a block or due to entity cramming (also includes the world border)
+
+The only damage types which cannot be reduced at all are:
+
+`-` Starvation
+`-` Void damage
+`-` `/kill` command
+
+For more information look here **&lt;#860547038729732096&gt; Category 3**
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 1:45">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265650826346527 class=chatlog__message-container data-message-id=861265650826346527><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 8:*** 🪙 `A Good Investment Of Resources` 🪙 
+
+First, because of what we learned from factors I and II, try to always to get upgrades to your armour when you already have a lot of armour or protection points.
+
+That means getting a leather cap while already having **`6 armour points (+1 armour point)` doesn&#x27;t increase your armour strength much**, so in this case making one is a waste of time
+
+However, a **leather cap added to `3 current dia pieces (17 armour points)` increases your armour strength a lot which makes it worth it even though it may take some time to craft and gather resources**
+
+**Some Examples:**
+
+📝 **__Example__** 📝 
+
+&gt; **3/4 leather (without helmet) --&gt;** `6 armour points`
+&gt; **Incoming Damage --&gt;** `6 hp (3 hearts)`
+&gt; **Armour Index --&gt;** `1.136`
+&gt; 
+&gt; **Full leather --&gt;** `7 armour points`
+&gt; **Incoming Damage --&gt;** `6 hp (3 hearts)`
+&gt; **Armour Index --&gt;** `1.19`
+&gt; 
+&gt; **Index increase due to helmet upgrade:** `0.054`
+
+📝 **__Example__** 📝 
+
+&gt; **3/4 dia (without helmet) --&gt;** `17 armour points`
+&gt; **Incoming Damage --&gt;** `6 hp (3 hearts)`
+&gt; **Armour index --&gt;** `2.573`
+&gt; 
+&gt; **3/4 dia with leather helmet --&gt;** `18 armour points`
+&gt; **Incoming Damage --&gt;** `6 hp (3 hearts)`
+&gt; **Armour Index --&gt;** `2.868`
+&gt; 
+&gt; **Index increase due to helmet upgrade:** `0.295`
+
+**So, in which situations is this decision necessary?**
+
+In general, it’s always better to have all the armour you can get. But when you have little time like in skywars, survival games, kit 1vs1, or any game mode where time plays a big role and you are under pressure, you need to quickly decide how to use your time most efficiently
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:09">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265652190806016 class=chatlog__message-container data-message-id=861265652190806016><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 9:*** 💀 `Amount Of Damage` 💀 
+
+So, in general, the higher the damage gets, the more important it is to get protection enchantments to have a counter against the armour penetration</span> <span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 2:04">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265653012758548 class=chatlog__message-container data-message-id=861265653012758548><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 2:05">(edited)</span></div><div class=chatlog__embed><video class=chatlog__embed-generic-gifv width=960 height=540 loop onmouseover=this.play() onmouseout=this.pause() data-canonical-url=https://i.imgur.com/2TRTZUv.mp4><source src=assets/2TRTZUv-5852c1827ae6c7f3.mp4 alt="Embedded gifv"></video></div></div></div></div><div id=chatlog__message-container-861265653939699732 class=chatlog__message-container data-message-id=861265653939699732><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 2:05">(edited)</span></div><div class=chatlog__embed><video class=chatlog__embed-generic-gifv width=960 height=540 loop onmouseover=this.play() onmouseout=this.pause() data-canonical-url=https://i.imgur.com/K2FsCT5.mp4><source src=assets/K2FsCT5-87f7eaab86b5201d.mp4 alt="Embedded gifv"></video></div></div></div></div><div id=chatlog__message-container-861265654970318868 class=chatlog__message-container data-message-id=861265654970318868><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+This gifs shows full netherite with `20 protection points` against blast damage and a full leather set with 20 protection points against blast damage. Both are impacted by a direct respawn anchor explosion
+
+Because of the high damage, the armour points get reduced to their minimum which is `16% for full netherite and 5.6% for full leather`. The protection of the armour points is so weak that most damage will be reduced by protection points which leads to both players being alive even though one has just leather and the other one has netherite
+
+In low armour point scenarios (full leather/gold) protection points play a big role too. This is because the armour penetration sets the armour points to their minimum reduction of `0.8%`, or numbers near this too. So, in this case, protection is more crucial compared to when you have a higher level of armour points
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:09">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265657760317450 class=chatlog__message-container data-message-id=861265657760317450><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 10:*** 🔨 `Damage Types` 🔨 
+
+Keep in mind that whenever opponents attack you with poison or harming potions or arrows, your armour points can&#x27;t protect you. That means you need to be aware of these things and try to bait your opponent to waste them. For example, an harming potion level 2 will deal `12 hp (6 hearts damage)` against every kind of unenchanted armour
+
+This means a user who know how to use harming arrows can kill a full netherite armour user in under a second because the magic damage doesn&#x27;t get reduced by unenchanted armour, keep it in mind</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 12:52">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265658842316832 class=chatlog__message-container data-message-id=861265658842316832><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 2:09">(edited)</span></div><div class=chatlog__embed><video class=chatlog__embed-generic-gifv width=480 height=270 loop onmouseover=this.play() onmouseout=this.pause() data-canonical-url=https://i.imgur.com/HjTIx8a.mp4><source src=assets/HjTIx8a-c797535863353c87.mp4 alt="Embedded gifv"></video></div></div></div></div><div id=chatlog__message-container-861265660574302229 class=chatlog__message-container data-message-id=861265660574302229><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>.
+❗ **__IMPORTANT__** ❗ 
+
+`-` You don&#x27;t lose any armour durability points from magic damage since armour doesn’t protect from it
+
+***Category 11:*** 🤼 `The Role Of The Opponent` 🤼 
+
+To show you how important considering the opponents weapon and playstyle is when choosing armour, **here’s an example:**
+
+Due to the influence of factors 1, 2 and 3, there could be scenarios where one armour is better against crits while the other armour is better against sprinthits/sweephits/normal hits/picks
+
+📝 **__Example__** 📝 
+
+&gt; `1.` **Full leather armour full protection 2 --&gt;** `7 armour points; 8 protection points`
+&gt; 
+&gt; **Incoming Damage:** `Normal hit iron axe (9 hp (4.5 hearts))`
+&gt; **Taken Damage:** `5.5 hp (2.25 hearts)`
+&gt; 
+&gt; **Incoming Damage:** `Critical hit iron axe (13.5 hp (6.75 hearts))`
+&gt; **Taken Damage:** `8.67 hp (4.335 hearts)`
+&gt; 
+&gt; 
+&gt; `2.` **Full iron armour --&gt;** `15 armour points`
+&gt; 
+&gt; **Incoming Damage:** `Normal hit iron axe (9 hp (4.5 hearts))`
+&gt; **Taken Damage:** `5.22 hp (2.61 hearts)`
+&gt; 
+&gt; **Incoming Damage:** `Crit hit iron axe (1.5 hp (6.75 hearts))`
+&gt; **Taken Damage:** `9.045 hp (4.5225 hearts)`
+
+So sometimes you need to choose armour based on the opponent’s playstyle, so if they crit a lot, choose armour with more protection points. If they attack you with normal or sprint hits, choose armour with more armour points
+
+❗ **__IMPORTANT__** ❗ 
+
+This example doesn’t mean that protection enchantments are always better protecting against critical hits. For example, doing this calculation with a diamond sword will lead to an advantage in using iron armour against all hits. Therefore there is no easy answer when deciding which armour is better
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 7:24">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265661316825099 class=chatlog__message-container data-message-id=861265661316825099><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 12:*** 🔢 `Protection Points` 🔢 
+
+As explained in **&lt;#860547038729732096&gt; Category 7**, there are 5 different enchantments which protect you from certain damage types
+
+The basic protection enchantment gives you `1 protection point (EPF)` for each level you wear
+
+Each point reduces the damage taken by `4%`
+
+This means one piece protection `4 armour gives 16 % reduction,` and a full set of protection `4 gives a reduction of 64%`
+
+The difference between the basic protection enchantment and the specific protection enchantments is that the specific ones give you 2 protection points but only against the specified damage type.
+So one piece with a specific protection enchantment at level `4 gives you 32% reduction` against the damage it works against
+
+An important thing to consider is that only a maximum of `20 protection points` will be counted in the reduction calculation. But when wearing a full set of level 4 against a specific damage you have `32 protection points` against that damage. To prevent that values over `100%` reduction are possible, **the game counts only `20 protection points` and ignores any extra ones**
+
+**This means that having a full level 4 set against a specific kind of damage is stupid, because you lose 12 protection points**
+
+So, in regular PvP, players use armour sets with 1 piece enchanted against a specific damage and 3 pieces with basic protection all at level 4. So they have the maximum protection against the specific kind of damage (`20 Points`) and also have `12 protection points` against all kinds of damage
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 18일 일요일 오전 10:19">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265693046865920 class=chatlog__message-container data-message-id=861265693046865920><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>📜 **__Special Rule__** 📜 
+
+Feather falling gives 3 protection points (EPF) against fall damage, which means when you have a full protection 4 set you don&#x27;t need feather falling 4 to get to the `20 EPF&#x27;s limit`. feather falling 2 is fine, a higher level isn&#x27;t needed in that case. If you wear a piece with protection 4 against a specific kind of damage, and 3 protection 4 pieces, you need feather falling 3 to get the maximum protection
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 19일 월요일 오전 1:11">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265694032920576 class=chatlog__message-container data-message-id=861265694032920576><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 13:*** 📖 `Quick Guide For Decisions` 📖 
+
+We have finally reached the last sub category, so here are some &quot;rules&quot; for how to react ingame when you have multiple armour types but with different enchantments or toughness levels
+
+❗ **__IMPORTANT__** ❗ 
+
+These &quot;rules&quot; work for most scenarios with a low amount ( 6 &lt;) of protection points, which you will likely have in most gamemodes, but not for extreme situations like extremely high damage or a big difference between armour and protection points
+
+**The quick rules:**
+
+`-` If a piece gives 2 protection points more but has 1 armour point less compared to the unenchanted piece, choose the piece with the 2 protection points
+
+`-` If a piece has armour toughness and is 1 armour point better compared to the enchanted piece, you need around 4 protection points on the enchanted piece for it to be a better choice
+
+`-` If you have a low amount of armour points  (10 &lt;), protection points are more important to have. If you have a lot of armour points, protection points are less important to have
+.</span> <span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 2:26">(edited)</span></div></div></div></div><div id=chatlog__message-container-861265694959075328 class=chatlog__message-container data-message-id=861265694959075328><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2021년 7월 5일 월요일 오전 12:22">오전 12:22</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>***Category 14:*** 📋 `Excel Table For an Exact Calculation` 📋 
+
+If you want an exact answer for specific situations, here is an excel where you can put in damage values, points for armour/resistance/protection and toughness and get the exact amount of taken damage:</span> <span class=chatlog__edited-timestamp title="2021년 7월 5일 월요일 오전 2:29">(edited)</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-973231249101561916 class=chatlog__message-container data-message-id=973231249101561916><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src=assets/c733d8f9d93a061fe348970640379753-a7749646a9a651f7.png alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author style=color:rgb(255,159,104) title=__moi_ data-user-id=307877369337872387>iDexy</span> <span class=chatlog__timestamp title="2022년 5월 9일 월요일 오후 11:33"><a href=#chatlog__message-container-973231249101561916>2022-05-09 오후 11:33</a></span></div><div class=chatlog__attachment><div class=chatlog__attachment-generic><svg class=chatlog__attachment-generic-icon><use href=#attachment-icon /></svg><div class=chatlog__attachment-generic-name><a href=assets/comprehensive_damage_calculator_1-de849560e7173f4c.xlsx> comprehensive_damage_calculator_1.xlsx </a></div><div class=chatlog__attachment-generic-size>16.67 KB</div></div></div></div></div></div><div id=chatlog__message-container-973231260342321173 class=chatlog__message-container data-message-id=973231260342321173><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__short-timestamp title="2022년 5월 9일 월요일 오후 11:33">오후 11:33</div></div><div class=chatlog__message-primary><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>If you wanna read a specific point of this channel, remember go to &lt;#811735313088118805&gt;  , there you will have all the points covered in each channel to do a fast research on the thing that you was reading before if you lost it</span></div></div></div></div></div>
+
+</div>
+<div class=postamble><div class=postamble__entry>Exported 25 message(s)</div><div class=postamble__entry>Timezone: UTC+9</div></div>

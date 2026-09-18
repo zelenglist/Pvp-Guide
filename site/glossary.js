@@ -1,0 +1,27 @@
+/* Definitions distilled from the supplied PvP guides. */
+window.PVP_GLOSSARY = [
+  {term:'치명타', en:'Critical hit / Crit', description:'낙하 중 조건을 만족해 넣는 추가 피해 공격입니다. 점프 상승 중의 일반 공격과 구분합니다.', slug:'sword-basic-knowledge'},
+  {term:'넉백', en:'Knockback / KB', aliases:['밀치기'], description:'공격을 맞았을 때 밀려나는 움직임입니다. 수평·수직 넉백과 이동 입력에 따른 차이를 함께 봅니다.', slug:'science-combat-science'},
+  {term:'스프린트 공격', en:'Sprint hit', description:'달리기 상태를 활용해 추가 넉백을 주는 공격입니다. 연속으로 쓰려면 공격 사이에 스프린트를 재설정합니다.', slug:'sword-core-techniques'},
+  {term:'W 탭', en:'W-Tap', description:'공격 사이에 W를 짧게 놓았다 다시 눌러 스프린트를 재설정하는 기술입니다.', slug:'sword-core-techniques'},
+  {term:'S 탭', en:'S-Tap', description:'S를 짧게 입력해 스프린트를 재설정하고 거리를 조절하는 기술입니다.', slug:'sword-core-techniques'},
+  {term:'스윕', en:'Sweep', aliases:['휩쓸기'], description:'스프린트 공격의 추가 넉백을 쓰지 않는 검의 휩쓸기 공격입니다. 근거리 이동과 여러 후속 기술에 활용합니다.', slug:'sword-advanced-sweeps'},
+  {term:'선타', en:'First hit', description:'교전에서 먼저 맞히는 공격입니다. 공격 우위를 얻고 콤보를 시작할 기회가 됩니다.', slug:'sword-basic-knowledge'},
+  {term:'스턴', en:'Stun / Stun hit', description:'이 가이드에서 넉백·거리·타이밍 때문에 상대가 바로 반격하지 못하는 상황을 부르는 용어입니다.', slug:'sword-basic-knowledge'},
+  {term:'히트 셀렉트', en:'Hit Select', description:'상대의 공격을 먼저 맞은 뒤 적절한 거리와 타이밍에 반격해 스턴을 노리는 기술입니다.', slug:'sword-intermediate-techniques'},
+  {term:'치명타 밀어내기', en:'Crit Deflection', description:'상대 치명타에 스프린트 공격으로 대응해 밀어내는 기술입니다. 상대의 착지 위치와 후속 공격에 따라 대응을 바꿉니다.', slug:'sword-core-techniques'},
+  {term:'넉백 억제 치명타', en:'NoKb Crit', description:'전진 입력과 공격 타이밍을 조절해 받는 넉백을 줄이면서 치명타를 넣는 기술입니다.', slug:'sword-core-techniques'},
+  {term:'이중 치명타', en:'Double Crit', description:'넉백 억제 치명타에 대응하는 연속 치명타 기술입니다. 상대가 일반 치명타를 쓰면 불리할 수 있습니다.', slug:'sword-core-techniques'},
+  {term:'점프 리셋', en:'Jump Reset', description:'피격 순간에 점프 타이밍을 맞춰 넉백을 줄이는 기술입니다. 상대가 공격 간격을 바꾸면 대응당할 수 있습니다.', slug:'sword-intermediate-techniques'},
+  {term:'S 크리트', en:'S-Crit', description:'뒤로 움직이는 입력을 치명타와 연결하여 거리를 조절하는 기술입니다.', slug:'sword-intermediate-techniques'},
+  {term:'어퍼컷', en:'Uppercut', description:'점프와 스프린트 공격으로 거리를 좁히거나 콤보를 이어 가는 기술입니다.', slug:'sword-intermediate-techniques'},
+  {term:'횡이동', en:'Strafe', description:'A·D로 좌우 이동해 조준을 피하거나 거리를 조절합니다. 넉백이 늘어 스턴당할 위험도 고려합니다.', slug:'sword-defensive-tactics'},
+  {term:'공격 충전', en:'Attack cooldown', description:'다음 공격까지 회복되는 무기의 충전 정도입니다. 공격 속도와 충전 비율이 피해량에 영향을 줍니다.', slug:'science-combat-science'},
+  {term:'방어 포인트', en:'Armor points', description:'갑옷 재질과 부위가 주는 기본 방어력입니다. 큰 피해를 받을수록 방어 관통으로 효과가 줄어듭니다.', slug:'science-armor'},
+  {term:'방어 강도', en:'Armor toughness', description:'들어오는 피해 때문에 방어력이 약해지는 정도를 줄이는 속성입니다. 방어 포인트와 별도로 계산합니다.', slug:'science-armour-decisions'},
+  {term:'보호 포인트', en:'Enchantment Protection Factor / EPF', description:'보호 마법의 피해 감소를 계산하는 값입니다. 일반 보호와 특화 보호가 적용되는 피해 종류를 구분하세요.', slug:'science-armor'},
+  {term:'포화도', en:'Saturation', description:'배고픔 표시와 별도로 저장되는 음식 에너지입니다. 체력 회복과 배고픔 소모에 영향을 줍니다.', slug:'science-food'},
+  {term:'소모도', en:'Exhaustion', description:'이동·공격·회복 같은 행동으로 쌓이는 값입니다. 누적되면 포화도나 배고픔을 소모합니다.', slug:'science-food'},
+  {term:'무적 시간', en:'Invulnerability frames / I-frames', description:'피격 직후 후속 피해 판정에 영향을 주는 시간입니다. 더 강한 공격과 넉백의 예외를 함께 확인해야 합니다.', slug:'science-combat-science'},
+  {term:'핑', en:'Ping / Latency', description:'클라이언트와 서버 사이의 지연 시간입니다. 상대가 보이는 위치와 공격 타이밍을 해석할 때 고려합니다.', slug:'sword-extras'}
+];
